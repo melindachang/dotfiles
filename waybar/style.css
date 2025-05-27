@@ -1,0 +1,358 @@
+@import "themes/tokyo_night.css";
+
+* {
+  border: none;
+  border-radius: 0px;
+  font-size: 11pt;
+  min-height: 0;
+  font-family:
+    "CommitMono Nerd Font Propo",
+    Liberation Sans,
+    Arial,
+    Helvetica,
+    sans-serif;
+  box-shadow: inherit;
+  text-shadow: inherit;
+}
+window#waybar {
+  background: transparent;
+}
+
+/********** WORKSPACES *********/
+
+#workspaces {
+  background: @bg;
+  border-radius: 10px;
+  padding: 5px 8px;
+  margin: 10px;
+  border: 1px solid @bg4;
+}
+
+#workspaces button {
+  color: @fg;
+  border-radius: 0;
+}
+
+#workspaces button.empty {
+  color: @bg4;
+}
+
+#workspaces button.active {
+  color: @green;
+}
+
+#workspaces button.urgent {
+  color: @red;
+}
+
+#workspaces button:hover {
+  background: transparent;
+  color: @green;
+}
+
+#custom-launcher {
+  /* color: @fg; */
+  color: @red;
+  font-size: 20px;
+  background: @bg;
+  border-radius: 10px;
+	padding: 8px 11px 8px 11px;
+  margin: 10px 0px 10px 10px;
+  border: 1px solid @bg4;
+}
+
+/********** TRAY *********/
+
+
+#tray {
+  padding: 5px 10px;
+  margin: 10px 5px;
+  background: @bg;
+  border-radius: 10px;
+  border: 1px solid @bg4;
+}
+
+#clock {
+  color: @green;
+  background: @bg;
+  border-radius: 10px;
+  padding: 5px 14px;
+  font-weight: bold;
+  margin: 10px 10px 10px 0;
+  border: 1px solid @bg4;
+}
+
+#mpris {
+  font-weight: bold;
+  background: @bg;
+  color: @fg;
+  padding: 5px 14px;
+  margin: 10px 5px;
+  border-radius: 10px;
+  border: 1px solid @bg4;
+}
+
+#bluetooth, #wireplumber, #network, #battery, #custom-notifications, #backlight, #custom-pacman {
+  color: @fg;
+  font-size: 10pt;
+  margin: 0;
+  padding: 0 10px;
+}
+
+#bluetooth.connected {
+  color: @green;
+}
+
+#bluetooth.off {
+  color: @bg4;
+}
+
+#wireplumber.muted {
+  color: @bg4;
+}
+
+#battery.charging {
+  color: @green;
+}
+
+#battery.warning:not(.charging) {
+  color: @red;
+}
+
+#group-applets {
+  background: @bg;
+  border-radius: 10px;
+  padding: 5px 8px;
+  margin: 10px 10px 10px 5px;
+  border: 1px solid @bg4;
+}
+
+
+/* #waybar > box { 
+   margin: 4px 8px 0 8px; 
+   padding: 2px; 
+ } 
+
+window#waybar.empty {
+   background: #353b49; 
+}
+
+#waybar > box {
+  background: @bg;
+  margin: 0.4em 6em;
+  border-radius: 0.5em;
+}
+
+#workspaces {
+  background: @bg;
+  border-radius: 10px;
+  padding: 5px 8px;
+
+}
+
+#workspaces,
+#tags {
+  padding: 0 0.5em;
+  margin-right: 0.5em;
+  border-radius: 0.5em;
+}
+#workspaces button,
+#tags button {
+  padding: 0.6em 0.8em;
+  background: transparent;
+  margin: 0;
+  color: @fg;
+}
+ #window { 
+ 	color: #d8dee9; 
+ 	border-radius: .6rem; 
+ } 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+ https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect 
+#workspaces button:hover,
+#tags button:hover {
+  border: none;
+  background: @fg;
+   color: #5e81ac; 
+  color: @bg;
+}
+#workspaces button.active,
+#tags button.focused {
+   color: #81a1c1; 
+  color: @bg;
+  background: @fg;
+}
+#tags button.focused {
+  font-weight: 600;
+}
+#workspaces button.urgent {
+  color: #bf616a;
+}
+#tags button {
+  color: #4c566a;
+  font-weight: 600;
+}
+ TASKBAR 
+#taskbar button {
+  color: @bg4;
+  border-radius: 0.4rem;
+  margin: 0 0.2em;
+  padding: 0 0.8em;
+}
+#taskbar button.active {
+  color: @bg;
+   background: #434c5e; 
+  background: @fg;
+}
+ #taskbar button.minimized { 
+ 	color: #ebcb8b; 
+ } 
+#taskbar button:hover {
+   color: #5e81ac; 
+   background: rgba(35,39,49,.4); 
+  background: @bg2;
+  color: @fg;
+}
+
+#taskbar button.active:hover {
+  background: @fg;
+  color: @bg;
+}
+
+ BROWSER BOOKMARKS 
+#custom-name,
+#custom-github,
+#custom-twitter,
+#custom-messages,
+#custom-gcal,
+#custom-mail,
+#custom-library {
+   background: #3B4252; 
+   background: @bg2; 
+  color: @fg;
+   font-size: 16px; 
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0 1rem;
+}
+#custom-github {
+  border-radius: 0.5rem 0 0 0.5rem;
+   color: #d08770; 
+}
+#custom-messages {
+   color: #a3be8c; 
+  border-radius: 0 0.4rem 0.4rem 0;
+}
+ WIDGETS 
+#cpu,
+#idle_inhibitor,
+#custom-pacman,
+#memory,
+#backlight,
+#disk,
+#network,
+#pulseaudio,
+#wireplumber,
+#custom-weather,
+#temperature,
+#battery {
+  color: @fg;
+   background: @bg2; 
+  padding: 0 1.2em;
+  margin: 2px 0 2px 0;
+}
+#mpris, #custom-media {
+  color: @fg;
+  margin: 0 .8rem;
+}
+#custom-pacman {
+   color: #ebcb8b; 
+  border-radius: 0 .4rem .4rem 0;
+  font-weight: 600;
+}
+#wireplumber,
+#pulseaudio {
+   color: #8fbcbb; 
+  font-family: 'icons-in-terminal';
+  font-size: 1.2em;
+  border-radius: .4rem 0 0 .4rem;
+}
+#wireplumber.muted,
+#pulseaudio.muted {
+  color: @bg4;
+}
+ #temperature { 
+   color: #88c0d0; 
+ } 
+ #temperature.critical { 
+   color: #eb4d4b;4
+ } 
+#battery {
+   color: #8fbcbb; 
+  padding: 0 0.5rem 0 0.5rem;
+}
+#battery.charging {
+   color  #ffffff; 
+}
+@keyframes blink {
+  to {
+    background: #ffffff;
+    color: #000000;
+  }
+}
+#battery.critical:not(.charging) {
+  background: #f53c3c;
+  color: #ffffff;
+  animation-name: blink;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+label:focus {
+  background: #000000;
+}
+#idle_inhibitor {
+   font-size: 20px; 
+  color: #6f7787;
+}
+#idle_inhibitor.activated {
+  color: #ffffff;
+}
+#clock,
+#custom-power,
+#custom-recorder,
+#tray {
+   background: #3b4252; 
+   background: @bg2; 
+  color: @fg;
+  padding: 0rem .6rem;
+  margin: 2px 0 2px 0;
+}
+#custom-recorder.recording {
+  color: #c57078;
+}
+#tray {
+  border-radius: 0.4rem 0 0 0.4rem;
+  margin-left: 0.5rem;
+}
+#custom-power {
+   font-size: 17px; 
+  border-radius: 0 0.4rem 0.4rem 0;
+}
+#mpd.disconnected {
+  background: #f53c3c;
+}
+#mpd.stopped {
+  background: #90b1b1;
+}
+#mpd.paused {
+  background: #51a37a;
+} */

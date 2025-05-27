@@ -1,0 +1,167 @@
+{
+  "position": "top",
+  "layer": "top",
+  "height": 16,
+  "margin-top": 0,
+  "margin-bottom": -10,
+  "margin-left": 0,
+  "margin-right": 0,
+  // Choose the order of the modules
+  "modules-left": ["custom/launcher", "hyprland/workspaces"],
+  "modules-center": ["mpris"],
+  // "modules-right": ["wireplumber", "custom/weather", "network", "battery", "backlight", "custom/pacman", "tray", "clock", "custom/power" ],
+  "modules-right": ["tray", "group/group-applets", "clock"],
+  // Modules configuration
+  "hyprland/workspaces": {
+    "disable-scroll": false,
+    "on-scroll-up": "hyprctl dispatch workspace -1",
+    "on-scroll-down": "hyprctl dispatch workspace +1",
+    "format": "{icon}",
+    "format-icons": {
+      "1": "一",
+      "2": "二",
+      "3": "三",
+      "4": "四",
+      "5": "五",
+      "6": "六",
+      "7": "七",
+      "8": "八",
+      "9": "九",
+      "10": "〇"
+      //		"active": "",
+      //		"default": "󰧞"
+    },
+    "persistent-workspaces": { "*": 10 }
+  },
+  "custom/launcher": {
+    "format": "",
+    "on-click": "rofi -i -modi powermenu:~/.config/rofi/powermenu.lua -show powermenu",
+    "tooltip": false
+  },
+  "tray": { "icon-size": 16, "spacing": 5 },
+  "clock": {
+    "format": "{:%H:%M}",
+    "format-alt": "{:%A, %B %d}",
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+  },
+  "cpu": { "format": "{usage}  ", "on-click": "foot ytop", "tooltip": false },
+  "memory": { "format": "{}  " },
+  "backlight": {
+    // "device": "acpi_video1",
+    "format": "{icon}",
+    "format-icons": ["󰃚", "󰃛", "󰃜", "󰃝", "󰃞", "󰃟", "󰃠"],
+    //	"on-scroll-up":,
+    //	"on-scroll-down":,
+    "tooltip-format": "{percent}%"
+  },
+  "battery": {
+    "bat": "BAT0",
+    "states": {
+      // "good": 95,
+      "warning": 30,
+      "critical": 15
+    },
+    "format": "{icon}",
+    "format-charging": "󰂄",
+    "format-plugged": "󱐋",
+    "format-alt": "{icon} {capacity}% | {time}",
+    "tooltip-format": "{capacity}% - {time}",
+    // "format-good": "", // An empty format will hide the module
+    // "format-full": "",
+    "format-icons": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+    "interval": 3
+  },
+  "battery#bat0": { "bat": "BAT0" },
+  "network": {
+    "format-wifi": "󰤨",
+    "format-ethernet": " {ifname}",
+    "format-linked": " {ifname} (No IP)",
+    "format-disconnected": "󰤭",
+    "format-alt": "{ifname}: {ipaddr}/{cidr}",
+    "tooltip-format": "{essid}"
+  },
+  "wireplumber": {
+    "format": "{icon}",
+    "format-bluetooth": "{icon}",
+    "format-bluetooth-muted": " {icon}",
+    "format-muted": "",
+    "format-icons": { "headphone": "󰋋", "default": ["󰕿", "󰖀", "󰕾"] },
+    "tooltip-format": "{volume}%"
+  },
+  "custom/weather": {
+    "exec": "~/.config/waybar/scripts/weather.sh Evanston",
+    "format": "{}",
+    "return-type": "json",
+    "interval": 600
+  },
+  "bluetooth": {
+    "format-on": "󰂯",
+    "format-off": "󰂲",
+    "format-connected": "󰂱",
+    "format-disabled": "󰂲",
+    "tooltip-format": "{controller_alias}\t{controller_address}\n\n{num_connections} connected",
+    "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{num_connections} connected\n\n{device_enumerate}",
+    "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
+    "tooltip-format-enumerate-connected-battery": "{device_alias}\t{device_address}\t{device_battery_percentage}%"
+  },
+  "custom/notifications": {
+    "tooltip": false,
+    "format": "{icon}",
+    "format-icons": {
+      "notification": "󰂚<span foreground='#DB4740'><sup></sup></span>",
+      "none": "󰂚",
+      "dnd-notification": "󰂛<span foreground='#DB4740'><sup></sup></span>",
+      "dnd-none": "󰂛",
+      "inhibited-notification": "󰂚<span foreground='#DB4740'><sup></sup></span>",
+      "inhibited-none": "󰂚",
+      "dnd-inhibited-notification": "󰂛<span foreground='#DB4740'><sup></sup></span>",
+      "dnd-inhibited-none": "󰂛"
+    },
+    "return-type": "json",
+    "exec-if": "which swaync-client",
+    "exec": "swaync-client -swb",
+    "on-click": "swaync-client -t -sw",
+    "on-click-right": "swaync-client -d -sw",
+    "escape": true
+  },
+  "mpris": {
+    "player": "spotify",
+    "format": "{player_icon} :: {title} - {artist}",
+    "format-paused": "{status_icon} :: <i>{title} - {artist}</i>",
+    "max-length": 55,
+    "player-icons": {
+      "default": "<span foreground='#B1B946'>󰎇</span>",
+      "spotify": "<span foreground='#B1B946'>󰓇</span>"
+    },
+    "status-icons": { "paused": "" }
+  },
+  "custom/pacman": {
+    "format": "󰏖",
+    "tooltip-format": "{text}",
+    "interval": 3600, // every hour
+    // "restart-interval": 3600,
+    "exec": "checkupdates | wc -l", // # of updates
+    "exec-if": "exit 0", // always run; consider advanced run conditions
+    "on-click": "foot paru; pkill -SIGRTMIN+8 waybar", // update system
+    "signal": 8
+  },
+  "disk": { "interval": 30, "format": "{free}", "path": "/run/media/bryan/" },
+  "custom/power": {
+    "format": "⏻",
+    "on-click": "rofi -i -modi powermenu:~/.config/rofi/powermenu.lua -show powermenu",
+    "tooltip": false
+  },
+  "group/group-applets": {
+    "orientation": "inherit",
+    "modules": [
+      "bluetooth",
+      "wireplumber",
+      // "custom/weather",
+      "network",
+      "battery",
+      "backlight",
+      "custom/pacman",
+      "custom/notifications"
+    ]
+  }
+}

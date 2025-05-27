@@ -1,0 +1,40 @@
+configuration {
+  modi: "drun,run,ssh,filebrowser,powermenu:~/.config/rofi/powermenu.lua,themer:~/.config/rofi/themer.lua";
+  
+  me-accept-entry: "MousePrimary";
+  me-select-entry: "";
+  show-icons: true;
+  icon-theme: "Papirus";
+  application-fallback-icon: "run-build";
+  
+  terminal: "foot";
+  // ssh-command: "kitty -- kitten ssh {host}";
+  drun-display-format: " {name} ";
+  sidebar-mode: true;
+  matching: "fuzzy";
+  scroll-method: 0;
+  disable-history: false;
+
+  display-drun: "󱓞 Apps";
+  display-run: " Run";
+  display-ssh: "󰀂 SSH";
+  display-filebrowser: " Files";
+  display-powermenu: " Power";
+  display-themer: " Theme";
+
+  combi-modi: "drun,run";
+  sort: true;
+  sorting-method: "fzf";
+
+  timeout {
+    action: "kb-cancel";
+    delay: 30;
+  }
+
+  filebrowser {
+    directories-first: true;
+    sorting-method: "name";
+  }
+}
+
+@theme "theme.rasi"
