@@ -1,5 +1,5 @@
 configuration {
-  modi: "drun,run,ssh,filebrowser,powermenu:~/.config/rofi/powermenu.lua,themer:~/.config/rofi/themer.lua";
+  modi: "drun,run,ssh,filebrowser,powermenu:~/.config/rofi/powermenu.lua,themer:~/.config/rofi/themer.lua,calendar:~/.config/rofi/calendar.lua";
   
   me-accept-entry: "MousePrimary";
   me-select-entry: "";
@@ -21,6 +21,7 @@ configuration {
   display-filebrowser: " Files";
   display-powermenu: " Power";
   display-themer: " Theme";
+  display-calendar: "󰃭 Calendar";
 
   combi-modi: "drun,run";
   sort: true;

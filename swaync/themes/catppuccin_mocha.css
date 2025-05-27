@@ -1,0 +1,13 @@
+@define-color fg #cdd6f4;
+@define-color fg2 #bac2de;
+
+@define-color bg rgba(17,17,27,1);
+@define-color bg2 rgb(24, 24, 37);
+@define-color bg3 rgb(30, 30, 46);
+@define-color bg4 rgb(49, 50, 68);
+@define-color bg5 rgb(69, 71, 90);
+@define-color bg6 rgb(88, 91, 112);
+
+@define-color green rgb(166, 227, 161);
+@define-color red rgb(243, 139, 168);
+

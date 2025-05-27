@@ -2,5 +2,10 @@
   bg: #282828;
   fg: #ebdbb2;
   bg2: #3c3836;
+  bg3: #45403d;
+  bg4: #5a524c;
+
+  green: #b8bb26;
+  red: #fb4934;
 }
 

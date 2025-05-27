@@ -42,7 +42,9 @@
   "clock": {
     "format": "{:%H:%M}",
     "format-alt": "{:%A, %B %d}",
-    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+    "tooltip": false,
+    "on-click-right": "rofi -i modi calendar:~/.config/rofi/calendar.lua -show calendar"
+    // "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
   },
   "cpu": { "format": "{usage}  ", "on-click": "foot ytop", "tooltip": false },
   "memory": { "format": "{}  " },

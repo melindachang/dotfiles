@@ -884,6 +884,8 @@ require('lazy').setup({
         rust = { 'rustfmt' },
         tex = { 'tex-fmt' },
         cpp = { 'clang-format' },
+        c = { 'clang-format' },
+        svelte = { 'prettier' },
       },
     },
   },
@@ -1125,7 +1127,7 @@ require('lazy').setup({
   },
 })
 
-vim.cmd.colorscheme 'tokyonight-night'
+vim.cmd.colorscheme 'gruvbox-material'
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et

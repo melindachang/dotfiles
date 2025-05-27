@@ -71,6 +71,15 @@ end
 #   sed -i -E "s/(\"workbench.colorTheme\": \")[a-zA-Z\s_-]+\"/\1$name\"/g" $config_path
 # end
 
+function _switch_swaync_theme -a theme
+  set config_path ~/.config/swaync/style.css
+
+  sed -i -E "s/(@import \"themes\\/)[a-z_]+(\\.css\";)/\1$theme\2/1" $config_path
+
+  swaync-client -rs
+end
+
+
 function _switch_zathura_theme -a theme
 end
 
@@ -101,6 +110,7 @@ function switch_system_theme -a theme
       _switch_zathura_theme $theme
       _switch_spotify_theme $theme
       _switch_btop_theme $theme
+      _switch_swaync_theme $theme
       switch_wallpaper $theme
     end &> /dev/null
   else
