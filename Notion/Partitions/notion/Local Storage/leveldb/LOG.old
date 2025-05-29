@@ -1,35 +1,18 @@
-2025/05/28-16:14:49.832 21fe Creating DB /home/melinda/.config/Notion/Partitions/notion/Local Storage/leveldb since it was missing.
-2025/05/28-16:14:49.838 21fe Reusing MANIFEST /home/melinda/.config/Notion/Partitions/notion/Local Storage/leveldb/MANIFEST-000001
-2025/05/28-16:15:50.116 21ff Level-0 table #5: started
-2025/05/28-16:15:50.122 21ff Level-0 table #5: 196729 bytes OK
-2025/05/28-16:15:50.123 21ff Delete type=0 #3
-2025/05/28-16:16:50.115 21ff Level-0 table #7: started
-2025/05/28-16:16:50.121 21ff Level-0 table #7: 196408 bytes OK
-2025/05/28-16:16:50.121 21ff Delete type=0 #4
-2025/05/28-16:17:50.116 21ff Level-0 table #9: started
-2025/05/28-16:17:50.121 21ff Level-0 table #9: 196143 bytes OK
-2025/05/28-16:17:50.122 21ff Delete type=0 #6
-2025/05/28-16:17:58.627 21ff Level-0 table #11: started
-2025/05/28-16:17:58.633 21ff Level-0 table #11: 399737 bytes OK
-2025/05/28-16:17:58.633 21ff Delete type=0 #8
-2025/05/28-16:18:50.119 21fe Level-0 table #13: started
-2025/05/28-16:18:50.128 21fe Level-0 table #13: 197791 bytes OK
-2025/05/28-16:18:50.129 21fe Delete type=0 #10
-2025/05/28-16:18:57.041 21ff Level-0 table #15: started
-2025/05/28-16:18:57.045 21ff Level-0 table #15: 196628 bytes OK
-2025/05/28-16:18:57.046 21ff Delete type=0 #12
-2025/05/28-16:18:57.047 21ff Compacting 4@0 + 1@1 files
-2025/05/28-16:18:57.055 21ff Generated table #16@0: 66 keys, 393336 bytes
-2025/05/28-16:18:57.055 21ff Compacted 4@0 + 1@1 files => 393336 bytes
-2025/05/28-16:18:57.056 21ff compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/05/28-16:18:57.056 21ff Delete type=2 #13
-2025/05/28-16:18:57.056 21ff Delete type=2 #15
-2025/05/28-16:18:57.056 21ff Delete type=2 #9
-2025/05/28-16:18:57.056 21ff Delete type=2 #11
-2025/05/28-16:18:57.056 21ff Delete type=2 #7
-2025/05/28-16:19:50.115 21ff Level-0 table #18: started
-2025/05/28-16:19:50.119 21ff Level-0 table #18: 206853 bytes OK
-2025/05/28-16:19:50.121 21ff Delete type=0 #14
-2025/05/28-16:47:48.810 21ff Level-0 table #20: started
-2025/05/28-16:47:48.811 21ff Level-0 table #20: 17855 bytes OK
-2025/05/28-16:47:48.812 21ff Delete type=0 #17
+2025/05/28-23:42:04.669 1d3a Reusing MANIFEST /home/melinda/.config/Notion/Partitions/notion/Local Storage/leveldb/MANIFEST-000001
+2025/05/28-23:42:04.675 1d3a Recovering log #19
+2025/05/28-23:42:04.676 1d3a Reusing old log /home/melinda/.config/Notion/Partitions/notion/Local Storage/leveldb/000019.log 
+2025/05/28-23:43:07.671 1d12 Level-0 table #23: started
+2025/05/28-23:43:07.677 1d12 Level-0 table #23: 401857 bytes OK
+2025/05/28-23:43:07.678 1d12 Delete type=0 #19
+2025/05/28-23:45:12.956 1d12 Level-0 table #25: started
+2025/05/28-23:45:12.962 1d12 Level-0 table #25: 204049 bytes OK
+2025/05/28-23:45:12.963 1d12 Delete type=0 #22
+2025/05/28-23:45:12.963 1d12 Compacting 4@0 + 1@1 files
+2025/05/28-23:45:12.971 1d12 Generated table #26@0: 142 keys, 605252 bytes
+2025/05/28-23:45:12.971 1d12 Compacted 4@0 + 1@1 files => 605252 bytes
+2025/05/28-23:45:12.972 1d12 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/05/28-23:45:12.972 1d12 Delete type=2 #23
+2025/05/28-23:45:12.972 1d12 Delete type=2 #20
+2025/05/28-23:45:12.972 1d12 Delete type=2 #25
+2025/05/28-23:45:12.972 1d12 Delete type=2 #18
+2025/05/28-23:45:12.972 1d12 Delete type=2 #16

@@ -4,8 +4,8 @@
 			"normalBounds": {
 				"x": 0,
 				"y": 0,
-				"width": 1920,
-				"height": 1080
+				"width": 1600,
+				"height": 1000
 			},
 			"displayBounds": [
 				{
@@ -13,12 +13,6 @@
 					"y": 0,
 					"width": 1600,
 					"height": 1000
-				},
-				{
-					"x": 0,
-					"y": 0,
-					"width": 1920,
-					"height": 1080
 				}
 			],
 			"isFullScreen": false,
@@ -29,13 +23,13 @@
 			"windows": [
 				{
 					"windowId": "e085164b-417d-450d-87dc-4d2af8c23001",
-					"focusOrder": 1,
+					"focusOrder": 2,
 					"displayState": {
 						"normalBounds": {
 							"x": 0,
 							"y": 0,
-							"width": 1920,
-							"height": 1080
+							"width": 1600,
+							"height": 1000
 						},
 						"displayBounds": [
 							{
@@ -43,12 +37,6 @@
 								"y": 0,
 								"width": 1600,
 								"height": 1000
-							},
-							{
-								"x": 0,
-								"y": 0,
-								"width": 1920,
-								"height": 1080
 							}
 						],
 						"isFullScreen": false,
@@ -76,20 +64,20 @@
 	"appState": {
 		"zoomFactor": 1,
 		"theme": {
-			"mode": "dark",
+			"mode": "light",
 			"usingSystemTheme": true,
 			"colors": {
 				"white": "white",
 				"blue": "#2383E2"
 			},
 			"borderRadius": 4,
-			"textColor": "rgba(255, 255, 255, 0.81)",
-			"popoverBackgroundColor": "rgba(37, 37, 37, 1)",
-			"popoverBoxShadow": "0px 14px 28px -6px rgba(0, 0, 0, 0.20), 0px 2px 4px -1px rgba(0, 0, 0, 0.12), 0 0 0 1px rgba(255, 255, 255, 0.095)",
-			"inputBoxShadow": "rgba(255, 255, 255, 0.075) 0 0 0 1px",
-			"inputBackgroundColor": "rgba(255, 255, 255, 0.055)",
-			"dividerColor": "rgba(255, 255, 255, 0.13)",
-			"shadowOpacity": 0.2
+			"textColor": "rgba(50, 48, 44, 1)",
+			"popoverBackgroundColor": "white",
+			"popoverBoxShadow": "0px 14px 28px -6px rgba(0, 0, 0, 0.10), 0px 2px 4px -1px rgba(0, 0, 0, 0.06), 0 0 0 1px rgba(84, 72, 49, 0.08)",
+			"inputBoxShadow": "\n\t\t\t\t\t 0 0 0 1px rgba(15,15,15,.1)\n\t\t\t\t",
+			"inputBackgroundColor": "rgba(242,241,238,0.6)",
+			"dividerColor": "rgba(55,53,47,.16)",
+			"shadowOpacity": 0.1
 		},
 		"preferences": {
 			"isAutoUpdaterDisabled": false,
