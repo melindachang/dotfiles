@@ -6,8 +6,8 @@
 
 ;; Some functionality uses this to identify you, e.g. GPG configuration, email
 ;; clients, file templates and snippets. It is optional.
-;; (setq user-full-name "John Doe"
-;;       user-mail-address "john@doe.com")
+(setq user-full-name "Melinda Chang"
+      user-mail-address "melindachang.hy@gmail.com")
 
 ;; Doom exposes five (optional) variables for controlling fonts in Doom:
 ;;
@@ -32,7 +32,7 @@
 ;; There are two ways to load a theme. Both assume the theme is installed and
 ;; available. You can either set `doom-theme' or manually load a theme with the
 ;; `load-theme' function. This is the default:
-(setq doom-theme 'doom-gruvbox)
+(setq doom-theme 'doom-tokyo-night)
 
 (setq doom-font (font-spec :family "CommitMono Nerd Font Mono" :size 16 :weight 'regular))
 
@@ -43,7 +43,23 @@
 ;; If you use `org' and don't want your org files in the default location below,
 ;; change `org-directory'. It must be set before org loads!
 (setq org-directory "~/org/")
+(setq org-agenda-files '("~/org/todos.org"))
 
+(add-to-list 'auto-mode-alist '("\\.org\\'" . org-mode))
+
+(after! org
+  (add-hook 'org-mode-hook 'org-indent-mode)
+  (add-hook 'org-mode-hook 'visual-line-mode)
+  (setq! org-todo-keywords `((sequence "TODO" "DOIN" "|" "DONE" "CNCL"))
+         org-capture-templates
+         '(("g" "General To-Do" entry
+            (file+headline "~/org/todos.org" "General Tasks")
+            "* TODO [#B] %?\n:Created: %T\n "
+            :empty-lines 0)
+           ("j" "Journal" entry
+            "* %<%Y-%m-%d> • ${title}\n:PROPERTIES:\n:ID: %(org-id-new nil)\n:END:%?"
+            :target (file ,+org-capture-journal-file)))
+         org-ellipsis " ▾"))
 
 ;; Whenever you reconfigure a package, make sure to wrap your config in an
 ;; `after!' block, otherwise Doom's defaults may override your settings. E.g.
@@ -80,7 +96,11 @@
 (setq-default vterm-shell "/usr/bin/fish")
 (setq-default explicit-shell-file-name "/usr/bin/fish")
 
+
 (use-package! ultra-scroll
-              :init (setq scroll-conservatively 101
-                          scroll-margin 0)
-              :config (ultra-scroll-mode 1))
+  :init (setq scroll-conservatively 101
+              scroll-margin 0)
+  :config (ultra-scroll-mode 1))
+
+(use-package! org-super-agenda
+              :config (org-super-agenda-mode 1))

@@ -6,12 +6,9 @@
   "margin-bottom": -10,
   "margin-left": 0,
   "margin-right": 0,
-  // Choose the order of the modules
   "modules-left": ["custom/launcher", "hyprland/workspaces"],
   "modules-center": ["mpris"],
-  // "modules-right": ["wireplumber", "custom/weather", "network", "battery", "backlight", "custom/pacman", "tray", "clock", "custom/power" ],
   "modules-right": ["tray", "group/group-applets", "clock"],
-  // Modules configuration
   "hyprland/workspaces": {
     "disable-scroll": false,
     "on-scroll-up": "hyprctl dispatch workspace -1",
@@ -27,7 +24,17 @@
       "7": "七",
       "8": "八",
       "9": "九",
-      "10": "〇"
+      "10": "〇",
+      "11": "一",
+      "12": "二",
+      "13": "三",
+      "14": "四",
+      "15": "五",
+      "16": "六",
+      "17": "七",
+      "18": "八",
+      "19": "九",
+      "20": "〇"
       //		"active": "",
       //		"default": "󰧞"
     },
@@ -42,34 +49,23 @@
   "clock": {
     "format": "{:%H:%M}",
     "format-alt": "{:%A, %B %d}",
-    "tooltip": false,
-    "on-click-right": "rofi -i modi calendar:~/.config/rofi/calendar.lua -show calendar"
-    // "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+    "tooltip": false
   },
   "cpu": { "format": "{usage}  ", "on-click": "foot ytop", "tooltip": false },
   "memory": { "format": "{}  " },
   "backlight": {
-    // "device": "acpi_video1",
     "format": "{icon}",
     "format-icons": ["󰃚", "󰃛", "󰃜", "󰃝", "󰃞", "󰃟", "󰃠"],
-    //	"on-scroll-up":,
-    //	"on-scroll-down":,
     "tooltip-format": "{percent}%"
   },
   "battery": {
     "bat": "BAT0",
-    "states": {
-      // "good": 95,
-      "warning": 30,
-      "critical": 15
-    },
+    "states": { "warning": 30, "critical": 15 },
     "format": "{icon}",
     "format-charging": "󰂄",
     "format-plugged": "󱐋",
     "format-alt": "{icon} {capacity}% | {time}",
     "tooltip-format": "{capacity}% - {time}",
-    // "format-good": "", // An empty format will hide the module
-    // "format-full": "",
     "format-icons": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
     "interval": 3
   },
@@ -141,7 +137,6 @@
     "format": "󰏖",
     "tooltip-format": "{text}",
     "interval": 3600, // every hour
-    // "restart-interval": 3600,
     "exec": "checkupdates | wc -l", // # of updates
     "exec-if": "exit 0", // always run; consider advanced run conditions
     "on-click": "foot paru; pkill -SIGRTMIN+8 waybar", // update system

@@ -1,0 +1,26 @@
+2025/05/28-23:42:05.102 1d11 Reusing MANIFEST /home/melinda/.config/Notion/Partitions/notion/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/MANIFEST-000001
+2025/05/28-23:42:05.103 1d11 Recovering log #32
+2025/05/28-23:42:05.104 1d11 Reusing old log /home/melinda/.config/Notion/Partitions/notion/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/000032.log 
+2025/05/28-23:42:05.104 1d11 Delete type=2 #31
+2025/05/28-23:42:05.392 1d12 Manual compaction at level-0 from '\x00\x0e\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0f\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/05/28-23:42:07.366 1d11 Level-0 table #37: started
+2025/05/28-23:42:07.367 1d11 Level-0 table #37: 31952 bytes OK
+2025/05/28-23:42:07.368 1d11 Delete type=0 #32
+2025/05/28-23:42:07.368 1d11 Manual compaction at level-0 from '\x00\x0f\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x10\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0f\x00\x00\x05' @ 2003 : 1
+2025/05/28-23:42:07.368 1d11 Compacting 1@0 + 1@1 files
+2025/05/28-23:42:07.368 1d11 Generated table #38@0: 789 keys, 9478 bytes
+2025/05/28-23:42:07.369 1d11 Compacted 1@0 + 1@1 files => 9478 bytes
+2025/05/28-23:42:07.369 1d11 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/05/28-23:42:07.369 1d11 Delete type=2 #37
+2025/05/28-23:42:07.369 1d11 Manual compaction at level-0 from '\x00\x0f\x00\x00\x05' @ 2003 : 1 .. '\x00\x10\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/05/28-23:42:16.080 1d11 Level-0 table #40: started
+2025/05/28-23:42:16.081 1d11 Level-0 table #40: 538 bytes OK
+2025/05/28-23:42:16.081 1d11 Delete type=2 #34
+2025/05/28-23:42:16.081 1d11 Delete type=0 #36
+2025/05/28-23:42:16.081 1d11 Manual compaction at level-0 from '\x00\x10\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x11\x00\x00\x00' @ 0 : 0; will stop at '\x00\x10\x00\x00\x05' @ 2024 : 1
+2025/05/28-23:42:16.081 1d11 Compacting 1@0 + 1@1 files
+2025/05/28-23:42:16.082 1d11 Generated table #41@0: 793 keys, 9529 bytes
+2025/05/28-23:42:16.082 1d11 Compacted 1@0 + 1@1 files => 9529 bytes
+2025/05/28-23:42:16.083 1d11 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/05/28-23:42:16.083 1d11 Delete type=2 #40
+2025/05/28-23:42:16.083 1d11 Manual compaction at level-0 from '\x00\x10\x00\x00\x05' @ 2024 : 1 .. '\x00\x11\x00\x00\x00' @ 0 : 0; will stop at (end)

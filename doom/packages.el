@@ -52,3 +52,6 @@
 	  :recipe (:host github :repo "jdtsmith/ultra-scroll"))
 
 (package! catppuccin-theme)
+
+(package! org-super-agenda)
+(package! format-all)

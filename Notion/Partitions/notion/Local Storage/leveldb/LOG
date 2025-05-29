@@ -1,0 +1,18 @@
+2025/05/28-23:42:04.669 1d3a Reusing MANIFEST /home/melinda/.config/Notion/Partitions/notion/Local Storage/leveldb/MANIFEST-000001
+2025/05/28-23:42:04.675 1d3a Recovering log #19
+2025/05/28-23:42:04.676 1d3a Reusing old log /home/melinda/.config/Notion/Partitions/notion/Local Storage/leveldb/000019.log 
+2025/05/28-23:43:07.671 1d12 Level-0 table #23: started
+2025/05/28-23:43:07.677 1d12 Level-0 table #23: 401857 bytes OK
+2025/05/28-23:43:07.678 1d12 Delete type=0 #19
+2025/05/28-23:45:12.956 1d12 Level-0 table #25: started
+2025/05/28-23:45:12.962 1d12 Level-0 table #25: 204049 bytes OK
+2025/05/28-23:45:12.963 1d12 Delete type=0 #22
+2025/05/28-23:45:12.963 1d12 Compacting 4@0 + 1@1 files
+2025/05/28-23:45:12.971 1d12 Generated table #26@0: 142 keys, 605252 bytes
+2025/05/28-23:45:12.971 1d12 Compacted 4@0 + 1@1 files => 605252 bytes
+2025/05/28-23:45:12.972 1d12 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/05/28-23:45:12.972 1d12 Delete type=2 #23
+2025/05/28-23:45:12.972 1d12 Delete type=2 #20
+2025/05/28-23:45:12.972 1d12 Delete type=2 #25
+2025/05/28-23:45:12.972 1d12 Delete type=2 #18
+2025/05/28-23:45:12.972 1d12 Delete type=2 #16

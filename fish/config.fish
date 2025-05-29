@@ -11,7 +11,8 @@ end
 
 ## ENVIRONMENT VARIABLES ##
 
-set -x BAT_THEME "gruvbox"
+set -x BAT_THEME "gruvbox-dark"
+set fzf_fd_opts "-u"
 
 # ALIASES - CONVENIENCE ##
 

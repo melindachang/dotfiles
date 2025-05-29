@@ -1,0 +1,32 @@
+[2025-05-28 16:14:49.882] [info]  (SqliteServer) Child process running on 45233
+[2025-05-28 16:14:50.421] [info]  (SqliteServer)         stdout: 16:14:50.418 › Listening to 1 MessagePort(s) for renderer 5 (https://www.notion.so/quick-search)
+
+[2025-05-28 16:14:52.187] [info]  (SqliteServer)         stdout: 16:14:52.185 › Listening to 1 MessagePort(s) for renderer 3 (https://www.notion.so/?loadOrigin=new_tab&tabCount=1)
+
+[2025-05-28 16:15:00.443] [info]  (SqliteServer)         stdout: 16:15:00.443 › Listening to 1 MessagePort(s) for renderer 7 (https://www.notion.so/blank)
+
+[2025-05-28 16:15:49.660] [info]  (SqliteServer)         stdout: 16:15:49.658 › Listening to 1 MessagePort(s) for renderer 5 (https://www.notion.so/quick-search)
+
+[2025-05-28 16:15:49.747] [info]  (SqliteServer)         stdout: 16:15:49.746 › Listening to 1 MessagePort(s) for renderer 7 (https://www.notion.so/blank)
+
+[2025-05-28 16:15:49.750] [info]  (SqliteServer)         stdout: 16:15:49.750 › Listening to 1 MessagePort(s) for renderer 3 (https://www.notion.so/login)
+
+[2025-05-28 16:17:45.866] [info]  (SqliteServer)         stdout: 16:17:45.865 › Listening to 1 MessagePort(s) for renderer 5 (https://www.notion.so/quick-search)
+
+[2025-05-28 16:17:53.277] [info]  (SqliteServer)         stdout: 16:17:53.276 › Listening to 1 MessagePort(s) for renderer 3 (https://www.notion.so/)
+
+[2025-05-28 16:17:53.440] [info]  (SqliteServer)         stdout: 16:17:53.439 › Listening to 1 MessagePort(s) for renderer 5 (https://www.notion.so/quick-search)
+
+[2025-05-28 16:18:50.180] [info]  (SqliteServer)         stdout: 16:18:50.179 › Listening to 1 MessagePort(s) for renderer 5 (https://www.notion.so/quick-search)
+
+[2025-05-28 17:04:25.348] [info]  (SqliteServer)         Killing child process
+[2025-05-28 17:04:25.356] [info]  (SqliteServer)         stdout: 17:04:25.348 › Responding to SIGTERM and shutting down...
+
+[2025-05-28 23:42:04.713] [info]  (SqliteServer) Child process running on 33275
+[2025-05-28 23:42:05.080] [info]  (SqliteServer)         stdout: 23:42:05.076 › Listening to 1 MessagePort(s) for renderer 5 (https://www.notion.so/quick-search)
+
+[2025-05-28 23:42:05.118] [info]  (SqliteServer)         stdout: 23:42:05.118 › Listening to 1 MessagePort(s) for renderer 3 (https://www.notion.so/4e4b46acd82a41698472be004eef76f2?v=0fbe65065bc74492aa79795b59f7ab62&p=200c82fea17b80529ae5e2e6e078f1ff&pm=s&pvs=31&loadOrigin=new_tab_on_restore&tabCount=1)
+
+[2025-05-28 23:42:15.186] [info]  (SqliteServer)         stdout: 23:42:15.186 › Listening to 1 MessagePort(s) for renderer 7 (https://www.notion.so/blank)
+
+[2025-05-28 23:45:34.129] [info]  (SqliteServer)         Killing child process

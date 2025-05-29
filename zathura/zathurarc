@@ -1,6 +1,6 @@
 set selection-clipboard clipboard
 
-set font "FiraCode Nerd Font 10"
+set font "CommitMono Nerd Font Mono 10"
 
 set default-bg "#282828"
 set default-fg "#ebdbb2"
@@ -27,7 +27,7 @@ set notification-warning-fg "#fabd2f"
 
 set highlight-color "#83a598"
 
-set recolor
-set recolor-keephue
-set recolor-lightcolor "#282828"
-set recolor-darkcolor "#ebdbb2" 
+# set recolor
+# set recolor-keephue
+# set recolor-lightcolor "#282828"
+# set recolor-darkcolor "#ebdbb2" 

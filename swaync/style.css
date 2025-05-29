@@ -43,7 +43,7 @@
 /* @define-color bg2       #504945; */
 /**/
 
-@import "themes/gruvbox_material.css";
+@import "themes/tokyo_night.css";
 
 * {
   font-family: CommitMono Nerd Font Mono;

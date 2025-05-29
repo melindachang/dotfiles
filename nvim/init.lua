@@ -878,14 +878,16 @@ require('lazy').setup({
         -- python = { "isort", "black" },
         --
         -- You can use 'stop_after_first' to run the first available formatter from the list
+        fish = { 'fish_indent' },
         javascript = { 'prettierd', 'prettier' },
         json = { 'prettierd', 'prettier' },
         jsonc = { 'prettierd', 'prettier' },
+        sh = { 'prettierd', 'prettier' },
         rust = { 'rustfmt' },
         tex = { 'tex-fmt' },
         cpp = { 'clang-format' },
         c = { 'clang-format' },
-        svelte = { 'prettier' },
+        svelte = { 'prettierd', 'prettier' },
       },
     },
   },
@@ -1127,7 +1129,7 @@ require('lazy').setup({
   },
 })
 
-vim.cmd.colorscheme 'gruvbox-material'
+vim.cmd.colorscheme 'tokyonight-night'
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
