@@ -1,17 +1,17 @@
-./spotify/
-./dconf/
-./discord/
-./Electron/
-./emacs/
-./espanso/
-./fontconfig/
-./libreoffice/
-./Notion/
-./Proton Pass/
-./pulse/
-./Slack/
-./spotify/
-./wireplumber/
+spotify/
+dconf/
+discord/
+Electron/
+emacs/
+espanso/
+fontconfig/
+libreoffice/
+Notion/
+Proton Pass/
+pulse/
+Slack/
+spotify/
+wireplumber/
 
-./*.conf
+/*.conf
 

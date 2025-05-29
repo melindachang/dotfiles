@@ -1,4 +1,0 @@
-[2025-05-29 02:24:18.349] [debug] [tls] skipping pinning for unknown hostname redirector.gvt1.com
-[2025-05-29 02:24:18.427] [debug] [tls] skipping pinning for unknown hostname r3---sn-vgqsrnsy.gvt1.com
-[2025-05-29 02:24:20.560] [info]  Electron's autoUpdater does not support the 'linux' platform. Ref: https://www.electronjs.org/docs/latest/api/auto-updater#platform-notices
-[2025-05-29 02:24:22.626] [debug] [will-navigate] allow (main frame): https://account.proton.me/authorize?app=proton-pass&state=0ouw2b4HkY0OxV0x1HPuGD41Qvg6luJ4nViwwWU_FNE&independent=0&prompt=login&promptBypass=sso&promptType=offline&pt=offline&t=1

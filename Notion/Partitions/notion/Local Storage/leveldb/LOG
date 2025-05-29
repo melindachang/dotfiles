@@ -1,9 +1,0 @@
-2025/05/29-02:17:56.170 1e53 Reusing MANIFEST /home/melinda/.config/Notion/Partitions/notion/Local Storage/leveldb/MANIFEST-000001
-2025/05/29-02:17:56.176 1e53 Recovering log #24
-2025/05/29-02:17:56.176 1e53 Reusing old log /home/melinda/.config/Notion/Partitions/notion/Local Storage/leveldb/000024.log 
-2025/05/29-02:18:59.473 1e54 Level-0 table #29: started
-2025/05/29-02:18:59.481 1e54 Level-0 table #29: 402665 bytes OK
-2025/05/29-02:18:59.483 1e54 Delete type=0 #24
-2025/05/29-02:19:56.389 1e54 Level-0 table #31: started
-2025/05/29-02:19:56.396 1e54 Level-0 table #31: 200664 bytes OK
-2025/05/29-02:19:56.397 1e54 Delete type=0 #28
