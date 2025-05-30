@@ -11,6 +11,7 @@ Proton*/
 pulse/
 Slack/
 spotify/
+shuttle/
 wireplumber/
 
 /*.conf
