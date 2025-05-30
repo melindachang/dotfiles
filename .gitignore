@@ -1,18 +1,22 @@
-spotify/
-dconf/
-discord/
-Electron/
-emacs/
-espanso/
-fontconfig/
-libreoffice/
-Notion/
-Proton*/
-pulse/
-Slack/
-spotify/
-shuttle/
-wireplumber/
+/berg-cli/
+/dconf/
+/discord/
+/Electron/
+/emacs/
+/espanso/
+/fontconfig/
+/gh/
+/gtk*/
+/libreoffice/
+/Notion/
+/okularrc
+/Proton*/
+/pulse/
+/Slack/
+/spotify/
+/shuttle/
+/systemd/
+/wireplumber/
 
 /*.conf
 

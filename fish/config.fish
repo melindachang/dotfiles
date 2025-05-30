@@ -1,18 +1,18 @@
 if status --is-login
-  if test (tty) = /dev/tty1
-    Hyprland
-  end
+    if test (tty) = /dev/tty1
+        Hyprland
+    end
 end
 
 if status is-interactive
-# Commands to run in interactive sessions can go here
-# krabby random | tail -n +2
+    # Commands to run in interactive sessions can go here
+    # krabby random | tail -n +2
 end
 
 ## ENVIRONMENT VARIABLES ##
 
-set -x BAT_THEME "gruvbox-dark"
-set fzf_fd_opts "-u"
+set -x BAT_THEME gruvbox-dark
+set fzf_fd_opts -u
 
 # ALIASES - CONVENIENCE ##
 
@@ -21,7 +21,6 @@ alias cd..="cd .."
 
 alias ussh="ssh hychang@lycus.usbx.me"
 alias ulftp="lftp sftp://hychang@lycus.usbx.me"
-
 alias editc="nvim $HOME/.config/fish/config.fish"
 alias sourcec="source $HOME/.config/fish/config.fish"
 alias pwr="cat /sys/class/power_supply/BAT0/capacity"
@@ -40,4 +39,5 @@ starship init fish | source
 
 source ~/.local/share/icons-in-terminal/icons.fish
 
-set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME ; set -gx PATH $HOME/.cabal/bin $PATH /home/melinda/.ghcup/bin # ghcup-env
+set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME
+set -gx PATH $HOME/.cabal/bin $PATH /home/melinda/.ghcup/bin # ghcup-env
