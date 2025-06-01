@@ -1,7 +1,0 @@
-file:///home/melinda/src/rustlings/exercises/01_variables/variables1.rs {"mtime":1748681960786,"ctime":1748681960786,"size":101,"etag":"3eao5h23438","orphaned":false,"typeId":""}
-fn main() {
-    // TODO: Add the missing keyword.
-    x = 5;
-
-    println!("x has the value {x}");
-}

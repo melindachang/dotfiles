@@ -1,3 +1,0 @@
-2025-05-30 18:49:16.784 [info] Log level: Info
-2025-05-30 18:49:30.307 [info] Log level: Info
-2025-05-30 19:10:25.588 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_loadAssignableUsers] Failed to load assignable user(s) for melindachang/site: Error: No GitHub authentication session available.
