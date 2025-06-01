@@ -1,0 +1,22 @@
+/// GENERAL PURPOSE
+
+$section-title-font-size: calc(
+  54px + ((114 - 54) * (100vw - 390px) / (1728 - 390))
+);
+$section-subtitle-font-size: calc(14.5px + 0.78125vw);
+
+
+// COLORS - SOLARIZED_DARK
+$background-color: #011627;
+$text-inverted-color: #011627;
+
+$major-text-color: #c0c7d1;
+$body-text-color: #5f7d97;
+$minor-text-color: #6e9cf1;
+$tag-text-color: #9372c9;
+
+$highlight-color: #aae87b;
+$button-color: #75d1c4;
+$button-demph-color: #0a2534;
+$graphic-color: #fec97d;
+// $body-text-color: #223e64;

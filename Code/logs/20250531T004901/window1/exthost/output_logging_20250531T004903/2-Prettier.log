@@ -1,0 +1,4747 @@
+["INFO" - 12:49:04 AM] Extension Name: esbenp.prettier-vscode.
+["INFO" - 12:49:04 AM] Extension Version: 11.0.0.
+["INFO" - 12:49:04 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 12:49:32 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 12:49:33 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 12:49:36 AM] Formatting file:///home/melinda/src/site.old/src/lib/components/Entry.svelte
+["INFO" - 12:49:36 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 12:49:36 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 12:49:36 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 12:49:36 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 12:49:36 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 12:49:36 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/components/Entry.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 12:49:36 AM] Formatting completed in 162ms.
+["INFO" - 12:49:37 AM] Formatting file:///home/melinda/src/site.old/src/lib/components/Entry.svelte
+["INFO" - 12:49:37 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 12:49:37 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 12:49:37 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 12:49:37 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 12:49:37 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 12:49:37 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/components/Entry.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 12:49:37 AM] Formatting completed in 25ms.
+["INFO" - 12:49:37 AM] Formatting file:///home/melinda/src/site.old/src/lib/components/Entry.svelte
+["INFO" - 12:49:37 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 12:49:37 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 12:49:37 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 12:49:37 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 12:49:37 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 12:49:37 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/components/Entry.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 12:49:37 AM] Formatting completed in 37ms.
+["INFO" - 12:51:01 AM] Formatting file:///home/melinda/src/site.old/src/lib/components/Entry.svelte
+["INFO" - 12:51:01 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 12:51:01 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 12:51:01 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 12:51:01 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 12:51:01 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 12:51:01 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/components/Entry.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 12:51:01 AM] Formatting completed in 27ms.
+["INFO" - 12:51:23 AM] Formatting file:///home/melinda/src/site.old/src/lib/components/Entry.svelte
+["INFO" - 12:51:23 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 12:51:23 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 12:51:23 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 12:51:23 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 12:51:23 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 12:51:23 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/components/Entry.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 12:51:23 AM] Formatting completed in 26ms.
+["INFO" - 12:51:44 AM] Formatting file:///home/melinda/src/site.old/src/lib/components/Entry.svelte
+["INFO" - 12:51:44 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 12:51:44 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 12:51:44 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 12:51:44 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 12:51:44 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 12:51:44 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/components/Entry.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 12:51:44 AM] Formatting completed in 21ms.
+["INFO" - 12:53:44 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:05:14 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:05:17 AM] Formatting file:///home/melinda/src/site.old/src/lib/scss/_utilities.scss
+["INFO" - 1:05:17 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:05:17 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:05:17 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:05:17 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "scss"
+}
+["INFO" - 1:05:17 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:05:17 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/scss/_utilities.scss",
+  "parser": "scss",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:05:17 AM] Formatting completed in 9ms.
+["INFO" - 1:08:45 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:08:46 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:10:59 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:10:59 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:11:00 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:11:00 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:12:48 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:12:53 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:12:56 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:13:29 AM] Formatting file:///home/melinda/src/site.old/src/lib/scss/app.scss
+["INFO" - 1:13:29 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:13:29 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:13:29 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:13:29 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "scss"
+}
+["INFO" - 1:13:29 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:13:29 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/scss/app.scss",
+  "parser": "scss",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:13:29 AM] Formatting completed in 14ms.
+["INFO" - 1:13:36 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:13:41 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:13:45 AM] Formatting file:///home/melinda/src/site.old/svelte.config.js
+["INFO" - 1:13:45 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:13:45 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:13:45 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:13:45 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:13:45 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:13:45 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/svelte.config.js",
+  "parser": "babel",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:13:45 AM] Formatting completed in 10ms.
+["INFO" - 1:13:46 AM] Formatting file:///home/melinda/src/site.old/svelte.config.js
+["INFO" - 1:13:46 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:13:46 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:13:46 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:13:46 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:13:46 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:13:46 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/svelte.config.js",
+  "parser": "babel",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:13:46 AM] Formatting completed in 6ms.
+["INFO" - 1:13:53 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:13:54 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:14:02 AM] Formatting file:///home/melinda/src/site.old/svelte.config.js
+["INFO" - 1:14:02 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:14:02 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:14:02 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:14:02 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:14:02 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:14:02 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/svelte.config.js",
+  "parser": "babel",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:14:02 AM] Formatting completed in 9ms.
+["INFO" - 1:14:07 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:14:08 AM] Formatting file:///home/melinda/src/site.old/src/routes/%2Bpage.svelte
+["INFO" - 1:14:08 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:14:08 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:14:08 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:14:08 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 1:14:08 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:14:08 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/routes/+page.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:14:08 AM] Formatting completed in 32ms.
+["INFO" - 1:14:11 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:15:54 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:16:07 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:16:23 AM] Formatting file:///home/melinda/src/site.old/src/lib/scss/_variables.scss
+["INFO" - 1:16:23 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:16:23 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:16:23 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:16:23 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "scss"
+}
+["INFO" - 1:16:23 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:16:23 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/scss/_variables.scss",
+  "parser": "scss",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:16:23 AM] Formatting completed in 8ms.
+["INFO" - 1:17:55 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:17:58 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:17:59 AM] Formatting file:///home/melinda/src/site.old/svelte.config.js
+["INFO" - 1:17:59 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:17:59 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:17:59 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:17:59 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:17:59 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:17:59 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/svelte.config.js",
+  "parser": "babel",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:17:59 AM] Formatting completed in 6ms.
+["INFO" - 1:18:40 AM] Formatting file:///home/melinda/src/site.old/svelte.config.js
+["INFO" - 1:18:40 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:18:40 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:18:40 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:18:40 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:18:40 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:18:40 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/svelte.config.js",
+  "parser": "babel",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["ERROR" - 1:18:40 AM] Error formatting document.
+["ERROR" - 1:18:40 AM] Unexpected token (13:11)
+  11 |       scss: {
+  12 |         additionalData: {
+> 13 |           `@import ${}`
+     |           ^
+  14 |         }
+  15 |       }
+  16 |     }),
+SyntaxError: Unexpected token (13:11)
+  11 |       scss: {
+  12 |         additionalData: {
+> 13 |           `@import ${}`
+     |           ^
+  14 |         }
+  15 |       }
+  16 |     }),
+    at wr (file:///home/melinda/src/site.old/node_modules/prettier/plugins/babel.mjs:14:15200)
+    at Cr (file:///home/melinda/src/site.old/node_modules/prettier/plugins/babel.mjs:14:15526)
+    at Object.parse (file:///home/melinda/src/site.old/node_modules/prettier/plugins/babel.mjs:15:2796)
+    at parse5 (file:///home/melinda/src/site.old/node_modules/prettier/index.mjs:19983:24)
+    at async coreFormat (file:///home/melinda/src/site.old/node_modules/prettier/index.mjs:20531:25)
+    at async formatWithCursor (file:///home/melinda/src/site.old/node_modules/prettier/index.mjs:20743:14)
+    at async Module.format2 (file:///home/melinda/src/site.old/node_modules/prettier/index.mjs:22182:25)
+["INFO" - 1:18:40 AM] Formatting completed in 9ms.
+["INFO" - 1:18:49 AM] Formatting file:///home/melinda/src/site.old/svelte.config.js
+["INFO" - 1:18:49 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:18:49 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:18:49 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:18:49 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:18:49 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:18:49 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/svelte.config.js",
+  "parser": "babel",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["ERROR" - 1:18:49 AM] Error formatting document.
+["ERROR" - 1:18:49 AM] Unexpected token (13:22)
+  11 |       scss: {
+  12 |         additionalData:
+> 13 |           `@import ${}`
+     |                      ^
+  14 |       }
+  15 |     }),
+  16 |     mdsvex({
+SyntaxError: Unexpected token (13:22)
+  11 |       scss: {
+  12 |         additionalData:
+> 13 |           `@import ${}`
+     |                      ^
+  14 |       }
+  15 |     }),
+  16 |     mdsvex({
+    at wr (file:///home/melinda/src/site.old/node_modules/prettier/plugins/babel.mjs:14:15200)
+    at Cr (file:///home/melinda/src/site.old/node_modules/prettier/plugins/babel.mjs:14:15526)
+    at Object.parse (file:///home/melinda/src/site.old/node_modules/prettier/plugins/babel.mjs:15:2796)
+    at parse5 (file:///home/melinda/src/site.old/node_modules/prettier/index.mjs:19983:24)
+    at async coreFormat (file:///home/melinda/src/site.old/node_modules/prettier/index.mjs:20531:25)
+    at async formatWithCursor (file:///home/melinda/src/site.old/node_modules/prettier/index.mjs:20743:14)
+    at async Module.format2 (file:///home/melinda/src/site.old/node_modules/prettier/index.mjs:22182:25)
+["INFO" - 1:18:49 AM] Formatting completed in 4ms.
+["INFO" - 1:18:50 AM] Formatting file:///home/melinda/src/site.old/svelte.config.js
+["INFO" - 1:18:50 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:18:50 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:18:50 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:18:50 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:18:50 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:18:50 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/svelte.config.js",
+  "parser": "babel",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["ERROR" - 1:18:50 AM] Error formatting document.
+["ERROR" - 1:18:50 AM] Unexpected token (13:22)
+  11 |       scss: {
+  12 |         additionalData:
+> 13 |           `@import ${}`
+     |                      ^
+  14 |       }
+  15 |     }),
+  16 |     mdsvex({
+SyntaxError: Unexpected token (13:22)
+  11 |       scss: {
+  12 |         additionalData:
+> 13 |           `@import ${}`
+     |                      ^
+  14 |       }
+  15 |     }),
+  16 |     mdsvex({
+    at wr (file:///home/melinda/src/site.old/node_modules/prettier/plugins/babel.mjs:14:15200)
+    at Cr (file:///home/melinda/src/site.old/node_modules/prettier/plugins/babel.mjs:14:15526)
+    at Object.parse (file:///home/melinda/src/site.old/node_modules/prettier/plugins/babel.mjs:15:2796)
+    at parse5 (file:///home/melinda/src/site.old/node_modules/prettier/index.mjs:19983:24)
+    at async coreFormat (file:///home/melinda/src/site.old/node_modules/prettier/index.mjs:20531:25)
+    at async formatWithCursor (file:///home/melinda/src/site.old/node_modules/prettier/index.mjs:20743:14)
+    at async Module.format2 (file:///home/melinda/src/site.old/node_modules/prettier/index.mjs:22182:25)
+["INFO" - 1:18:50 AM] Formatting completed in 11ms.
+["INFO" - 1:19:43 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:19:44 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:19:45 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:19:50 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:20:36 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:20:36 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:20:44 AM] Formatting file:///home/melinda/src/site.old/svelte.config.js
+["INFO" - 1:20:44 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:20:44 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:20:44 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:20:44 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:20:44 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:20:44 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/svelte.config.js",
+  "parser": "babel",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:20:44 AM] Formatting completed in 7ms.
+["INFO" - 1:21:03 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:21:04 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:21:30 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:21:33 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:21:37 AM] Formatting file:///home/melinda/src/site.old/src/routes/%2Bpage.svelte
+["INFO" - 1:21:37 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:21:37 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:21:37 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:21:37 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 1:21:37 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:21:37 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/routes/+page.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:21:37 AM] Formatting completed in 19ms.
+["INFO" - 1:21:51 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:22:04 AM] Formatting file:///home/melinda/src/site.old/src/lib/scss/_breakpoints.scss
+["INFO" - 1:22:04 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:22:04 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:22:04 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:22:04 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "scss"
+}
+["INFO" - 1:22:04 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:22:04 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/scss/_breakpoints.scss",
+  "parser": "scss",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:22:04 AM] Formatting completed in 12ms.
+["INFO" - 1:22:27 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:22:47 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:23:03 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:23:09 AM] Formatting file:///home/melinda/src/site.old/src/routes/%2Bpage.svelte
+["INFO" - 1:23:09 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:23:09 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:23:09 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:23:09 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 1:23:09 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:23:09 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/routes/+page.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:23:09 AM] Formatting completed in 16ms.
+["INFO" - 1:23:28 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:23:33 AM] Formatting file:///home/melinda/src/site.old/svelte.config.js
+["INFO" - 1:23:33 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:23:33 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:23:33 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:23:33 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:23:33 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:23:33 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/svelte.config.js",
+  "parser": "babel",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:23:33 AM] Formatting completed in 7ms.
+["INFO" - 1:23:35 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:23:35 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:23:37 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:24:04 AM] Formatting file:///home/melinda/src/site.old/vite.config.ts
+["INFO" - 1:24:04 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:24:04 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:24:04 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:24:04 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "typescript"
+}
+["INFO" - 1:24:04 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:24:04 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/vite.config.ts",
+  "parser": "typescript",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:24:04 AM] Formatting completed in 45ms.
+["INFO" - 1:24:36 AM] Formatting file:///home/melinda/src/site.old/vite.config.ts
+["INFO" - 1:24:36 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:24:36 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:24:36 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:24:36 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "typescript"
+}
+["INFO" - 1:24:36 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:24:36 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/vite.config.ts",
+  "parser": "typescript",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:24:36 AM] Formatting completed in 18ms.
+["INFO" - 1:24:38 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:24:39 AM] Formatting file:///home/melinda/src/site.old/src/routes/%2Bpage.svelte
+["INFO" - 1:24:39 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:24:39 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:24:39 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:24:39 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 1:24:39 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:24:39 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/routes/+page.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:24:39 AM] Formatting completed in 49ms.
+["INFO" - 1:24:43 AM] Formatting file:///home/melinda/src/site.old/src/routes/%2Bpage.svelte
+["INFO" - 1:24:43 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:24:43 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:24:43 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:24:43 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 1:24:43 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:24:43 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/routes/+page.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:24:43 AM] Formatting completed in 22ms.
+["INFO" - 1:25:38 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:25:39 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:25:42 AM] Formatting file:///home/melinda/src/site.old/vite.config.ts
+["INFO" - 1:25:42 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:25:42 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:25:42 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:25:42 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "typescript"
+}
+["INFO" - 1:25:42 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:25:42 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/vite.config.ts",
+  "parser": "typescript",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:25:42 AM] Formatting completed in 6ms.
+["INFO" - 1:25:44 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:25:49 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:25:57 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:25:58 AM] Formatting file:///home/melinda/src/site.old/src/lib/scss/app.scss
+["INFO" - 1:25:58 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:25:58 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:25:58 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:25:58 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "scss"
+}
+["INFO" - 1:25:58 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:25:58 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/scss/app.scss",
+  "parser": "scss",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:25:58 AM] Formatting completed in 10ms.
+["INFO" - 1:26:02 AM] Formatting file:///home/melinda/src/site.old/src/lib/scss/app.scss
+["INFO" - 1:26:02 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:26:02 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:26:02 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:26:02 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "scss"
+}
+["INFO" - 1:26:02 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:26:02 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/scss/app.scss",
+  "parser": "scss",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:26:02 AM] Formatting completed in 10ms.
+["INFO" - 1:26:07 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:26:08 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:26:10 AM] Formatting file:///home/melinda/src/site.old/svelte.config.js
+["INFO" - 1:26:10 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:26:10 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:26:10 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:26:10 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:26:10 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:26:10 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/svelte.config.js",
+  "parser": "babel",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:26:10 AM] Formatting completed in 6ms.
+["INFO" - 1:27:10 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:27:11 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:27:46 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:27:49 AM] Formatting file:///home/melinda/src/site.old/svelte.config.js
+["INFO" - 1:27:49 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:27:49 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:27:49 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:27:49 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:27:49 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:27:49 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/svelte.config.js",
+  "parser": "babel",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:27:49 AM] Formatting completed in 6ms.
+["INFO" - 1:28:03 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:28:06 AM] Formatting file:///home/melinda/src/site.old/vite.config.ts
+["INFO" - 1:28:06 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:28:06 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:28:06 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:28:06 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "typescript"
+}
+["INFO" - 1:28:06 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:28:06 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/vite.config.ts",
+  "parser": "typescript",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:28:06 AM] Formatting completed in 5ms.
+["INFO" - 1:28:28 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:28:35 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:28:37 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:28:51 AM] Formatting file:///home/melinda/src/site.old/vite.config.ts
+["INFO" - 1:28:51 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:28:51 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:28:51 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:28:51 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "typescript"
+}
+["INFO" - 1:28:51 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:28:51 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/vite.config.ts",
+  "parser": "typescript",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:28:51 AM] Formatting completed in 5ms.
+["INFO" - 1:28:58 AM] Formatting file:///home/melinda/src/site.old/vite.config.ts
+["INFO" - 1:28:58 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:28:58 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:28:58 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:28:58 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "typescript"
+}
+["INFO" - 1:28:58 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:28:58 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/vite.config.ts",
+  "parser": "typescript",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:28:58 AM] Formatting completed in 6ms.
+["INFO" - 1:29:11 AM] Formatting file:///home/melinda/src/site.old/vite.config.ts
+["INFO" - 1:29:11 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:29:11 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:29:11 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:29:11 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "typescript"
+}
+["INFO" - 1:29:11 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:29:11 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/vite.config.ts",
+  "parser": "typescript",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:29:11 AM] Formatting completed in 6ms.
+["INFO" - 1:29:21 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:29:33 AM] Formatting file:///home/melinda/src/site.old/src/lib/components/Entry.svelte
+["INFO" - 1:29:33 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:29:33 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:29:33 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:29:33 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 1:29:33 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:29:33 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/components/Entry.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:29:33 AM] Formatting completed in 32ms.
+["INFO" - 1:29:39 AM] Formatting file:///home/melinda/src/site.old/src/lib/components/Entry.svelte
+["INFO" - 1:29:39 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:29:39 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:29:39 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:29:39 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 1:29:39 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:29:39 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/components/Entry.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:29:39 AM] Formatting completed in 31ms.
+["INFO" - 1:30:05 AM] Formatting file:///home/melinda/src/site.old/src/lib/components/Entry.svelte
+["INFO" - 1:30:05 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:30:05 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:30:05 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:30:05 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 1:30:05 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:30:05 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/components/Entry.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:30:05 AM] Formatting completed in 48ms.
+["INFO" - 1:30:09 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:30:17 AM] Formatting file:///home/melinda/src/site.old/src/routes/writing/%2Bpage.svelte
+["INFO" - 1:30:17 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:30:17 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:30:17 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:30:17 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 1:30:17 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:30:17 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/routes/writing/+page.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:30:17 AM] Formatting completed in 18ms.
+["INFO" - 1:30:21 AM] Formatting file:///home/melinda/src/site.old/src/routes/writing/%2Bpage.svelte
+["INFO" - 1:30:21 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:30:21 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:30:21 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:30:21 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 1:30:21 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:30:21 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/routes/writing/+page.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:30:21 AM] Formatting completed in 19ms.
+["INFO" - 1:30:24 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:30:29 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:30:35 AM] Formatting file:///home/melinda/src/site.old/src/routes/%2Bpage.svelte
+["INFO" - 1:30:35 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:30:35 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:30:35 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:30:35 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 1:30:35 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:30:35 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/routes/+page.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:30:35 AM] Formatting completed in 16ms.
+["INFO" - 1:31:19 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:31:27 AM] Formatting file:///home/melinda/src/site.old/vite.config.ts
+["INFO" - 1:31:27 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:31:27 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:31:27 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:31:27 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "typescript"
+}
+["INFO" - 1:31:27 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:31:27 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/vite.config.ts",
+  "parser": "typescript",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:31:27 AM] Formatting completed in 7ms.
+["INFO" - 1:32:04 AM] Formatting file:///home/melinda/src/site.old/vite.config.ts
+["INFO" - 1:32:04 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:32:04 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:32:04 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:32:04 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "typescript"
+}
+["INFO" - 1:32:04 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:32:04 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/vite.config.ts",
+  "parser": "typescript",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:32:04 AM] Formatting completed in 8ms.
+["INFO" - 1:32:17 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:32:19 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:32:19 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:32:49 AM] Formatting file:///home/melinda/src/site.old/src/lib/scss/_utilities.scss
+["INFO" - 1:32:49 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:32:49 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:32:49 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:32:49 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "scss"
+}
+["INFO" - 1:32:49 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:32:49 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/scss/_utilities.scss",
+  "parser": "scss",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:32:49 AM] Formatting completed in 8ms.
+["INFO" - 1:32:58 AM] Formatting file:///home/melinda/src/site.old/src/lib/scss/_utilities.scss
+["INFO" - 1:32:58 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:32:58 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:32:58 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:32:58 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "scss"
+}
+["INFO" - 1:32:58 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:32:58 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/scss/_utilities.scss",
+  "parser": "scss",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:32:58 AM] Formatting completed in 7ms.
+["INFO" - 1:33:08 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:33:10 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:33:11 AM] Formatting file:///home/melinda/src/site.old/src/lib/scss/app.scss
+["INFO" - 1:33:11 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:33:11 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:33:11 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:33:11 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "scss"
+}
+["INFO" - 1:33:11 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:33:11 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/scss/app.scss",
+  "parser": "scss",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:33:11 AM] Formatting completed in 15ms.
+["INFO" - 1:33:41 AM] Formatting file:///home/melinda/src/site.old/src/lib/scss/app.scss
+["INFO" - 1:33:41 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:33:41 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:33:41 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:33:41 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "scss"
+}
+["INFO" - 1:33:41 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:33:41 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/scss/app.scss",
+  "parser": "scss",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:33:41 AM] Formatting completed in 9ms.
+["INFO" - 1:34:12 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:34:37 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:34:37 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:34:38 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:34:39 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:34:40 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:34:45 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:34:52 AM] Formatting file:///home/melinda/src/site.old/src/lib/scss/_utilities.scss
+["INFO" - 1:34:52 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:34:52 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:34:52 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:34:52 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "scss"
+}
+["INFO" - 1:34:52 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:34:52 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/scss/_utilities.scss",
+  "parser": "scss",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:34:52 AM] Formatting completed in 6ms.
+["INFO" - 1:35:05 AM] Formatting file:///home/melinda/src/site.old/src/lib/scss/_utilities.scss
+["INFO" - 1:35:05 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:35:05 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:35:05 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:35:05 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "scss"
+}
+["INFO" - 1:35:05 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:35:05 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/scss/_utilities.scss",
+  "parser": "scss",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:35:05 AM] Formatting completed in 18ms.
+["INFO" - 1:35:09 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:35:09 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:36:33 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:36:40 AM] Formatting file:///home/melinda/src/site.old/src/routes/writing/%5Bslug%5D/%2Bpage.svelte
+["INFO" - 1:36:40 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:36:40 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:36:40 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:36:40 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 1:36:40 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:36:40 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/routes/writing/[slug]/+page.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:36:40 AM] Formatting completed in 22ms.
+["INFO" - 1:37:14 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:44:49 AM] Formatting file:///home/melinda/src/site.old/src/lib/components/Entry.svelte
+["INFO" - 1:44:49 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:44:49 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:44:49 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:44:49 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 1:44:49 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:44:49 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/components/Entry.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:44:49 AM] Formatting completed in 43ms.
+["INFO" - 1:44:58 AM] Formatting file:///home/melinda/src/site.old/src/lib/components/Entry.svelte
+["INFO" - 1:44:58 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:44:58 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:44:58 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:44:58 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 1:44:58 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:44:58 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/components/Entry.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:44:58 AM] Formatting completed in 29ms.
+["INFO" - 1:45:08 AM] Formatting file:///home/melinda/src/site.old/src/lib/components/Entry.svelte
+["INFO" - 1:45:08 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:45:08 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:45:08 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:45:08 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 1:45:08 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:45:08 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/components/Entry.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:45:08 AM] Formatting completed in 21ms.
+["INFO" - 1:47:18 AM] Formatting file:///home/melinda/src/site.old/src/lib/components/Entry.svelte
+["INFO" - 1:47:18 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:47:18 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:47:18 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:47:18 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 1:47:18 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:47:18 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/components/Entry.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:47:18 AM] Formatting completed in 21ms.
+["INFO" - 1:47:27 AM] Formatting file:///home/melinda/src/site.old/src/lib/components/Entry.svelte
+["INFO" - 1:47:27 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:47:27 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:47:27 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:47:27 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 1:47:27 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:47:27 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/components/Entry.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:47:27 AM] Formatting completed in 23ms.
+["INFO" - 1:47:34 AM] Formatting file:///home/melinda/src/site.old/src/lib/components/Entry.svelte
+["INFO" - 1:47:34 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:47:34 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:47:34 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:47:34 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 1:47:34 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:47:34 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/components/Entry.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:47:34 AM] Formatting completed in 19ms.
+["INFO" - 1:47:46 AM] Formatting file:///home/melinda/src/site.old/src/lib/components/Entry.svelte
+["INFO" - 1:47:46 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:47:46 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:47:46 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:47:46 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 1:47:46 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:47:46 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/components/Entry.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:47:46 AM] Formatting completed in 22ms.
+["INFO" - 1:48:12 AM] Formatting file:///home/melinda/src/site.old/src/lib/components/Entry.svelte
+["INFO" - 1:48:12 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:48:12 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:48:12 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:48:12 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 1:48:12 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:48:12 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/components/Entry.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:48:12 AM] Formatting completed in 19ms.
+["INFO" - 1:48:24 AM] Formatting file:///home/melinda/src/site.old/src/lib/components/Entry.svelte
+["INFO" - 1:48:24 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:48:24 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:48:24 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:48:24 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 1:48:24 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:48:24 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/components/Entry.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:48:24 AM] Formatting completed in 19ms.
+["INFO" - 1:48:29 AM] Formatting file:///home/melinda/src/site.old/src/lib/components/Entry.svelte
+["INFO" - 1:48:29 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:48:29 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:48:29 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:48:29 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 1:48:29 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:48:29 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/components/Entry.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:48:29 AM] Formatting completed in 21ms.
+["INFO" - 1:48:33 AM] Formatting file:///home/melinda/src/site.old/src/lib/components/Entry.svelte
+["INFO" - 1:48:33 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:48:33 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:48:33 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:48:33 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 1:48:33 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:48:33 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/components/Entry.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:48:34 AM] Formatting completed in 19ms.
+["INFO" - 1:48:48 AM] Formatting file:///home/melinda/src/site.old/src/lib/components/Entry.svelte
+["INFO" - 1:48:48 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:48:48 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:48:48 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:48:48 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 1:48:48 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:48:48 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/components/Entry.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:48:48 AM] Formatting completed in 19ms.
+["INFO" - 1:49:19 AM] Formatting file:///home/melinda/src/site.old/src/lib/components/Entry.svelte
+["INFO" - 1:49:19 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:49:19 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:49:19 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:49:19 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 1:49:19 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:49:19 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/components/Entry.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:49:19 AM] Formatting completed in 20ms.
+["INFO" - 1:49:23 AM] Formatting file:///home/melinda/src/site.old/src/lib/components/Entry.svelte
+["INFO" - 1:49:23 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:49:23 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:49:23 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:49:23 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 1:49:23 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:49:23 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/components/Entry.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:49:23 AM] Formatting completed in 17ms.
+["INFO" - 1:51:16 AM] Formatting file:///home/melinda/src/site.old/src/lib/components/Entry.svelte
+["INFO" - 1:51:16 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:51:16 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:51:16 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:51:16 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 1:51:16 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:51:16 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/components/Entry.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:51:16 AM] Formatting completed in 35ms.
+["INFO" - 1:51:52 AM] Formatting file:///home/melinda/src/site.old/src/lib/components/Entry.svelte
+["INFO" - 1:51:52 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:51:52 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:51:52 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:51:52 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 1:51:52 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:51:52 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/components/Entry.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:51:52 AM] Formatting completed in 26ms.
+["INFO" - 1:52:59 AM] Formatting file:///home/melinda/src/site.old/src/lib/components/Entry.svelte
+["INFO" - 1:52:59 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:52:59 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:52:59 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:52:59 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 1:52:59 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:52:59 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/components/Entry.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:52:59 AM] Formatting completed in 28ms.
+["INFO" - 1:54:19 AM] Formatting file:///home/melinda/src/site.old/src/lib/components/Entry.svelte
+["INFO" - 1:54:19 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:54:19 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:54:19 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:54:19 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 1:54:19 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:54:19 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/components/Entry.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:54:19 AM] Formatting completed in 19ms.
+["INFO" - 1:54:33 AM] Formatting file:///home/melinda/src/site.old/src/lib/components/Entry.svelte
+["INFO" - 1:54:33 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:54:33 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:54:33 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:54:33 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 1:54:33 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:54:33 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/components/Entry.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:54:33 AM] Formatting completed in 18ms.
+["INFO" - 1:56:54 AM] Formatting file:///home/melinda/src/site.old/src/lib/components/Entry.svelte
+["INFO" - 1:56:54 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:56:54 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:56:54 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:56:54 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 1:56:54 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:56:54 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/components/Entry.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:56:54 AM] Formatting completed in 18ms.
+["INFO" - 1:57:02 AM] Formatting file:///home/melinda/src/site.old/src/lib/components/Entry.svelte
+["INFO" - 1:57:02 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:57:02 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:57:02 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:57:02 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 1:57:02 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:57:02 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/components/Entry.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:57:02 AM] Formatting completed in 26ms.
+["INFO" - 1:57:19 AM] Formatting file:///home/melinda/src/site.old/src/lib/components/Entry.svelte
+["INFO" - 1:57:19 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:57:19 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:57:19 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:57:19 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 1:57:19 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:57:19 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/components/Entry.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:57:19 AM] Formatting completed in 18ms.
+["INFO" - 1:57:26 AM] Formatting file:///home/melinda/src/site.old/src/lib/components/Entry.svelte
+["INFO" - 1:57:26 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:57:26 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:57:26 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:57:26 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 1:57:26 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:57:26 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/components/Entry.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:57:26 AM] Formatting completed in 29ms.
+["INFO" - 1:58:07 AM] Formatting file:///home/melinda/src/site.old/src/lib/components/Entry.svelte
+["INFO" - 1:58:07 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:58:07 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:58:07 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:58:07 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 1:58:07 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:58:07 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/components/Entry.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:58:07 AM] Formatting completed in 24ms.
+["INFO" - 1:58:17 AM] Formatting file:///home/melinda/src/site.old/src/lib/components/Entry.svelte
+["INFO" - 1:58:17 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:58:17 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:58:17 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:58:17 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 1:58:17 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:58:17 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/components/Entry.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:58:17 AM] Formatting completed in 18ms.
+["INFO" - 1:58:28 AM] Formatting file:///home/melinda/src/site.old/src/lib/components/Entry.svelte
+["INFO" - 1:58:28 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 1:58:28 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 1:58:28 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 1:58:28 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 1:58:28 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:58:28 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/components/Entry.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 1:58:28 AM] Formatting completed in 23ms.
+["INFO" - 2:02:24 AM] Formatting file:///home/melinda/src/site.old/src/lib/components/Entry.svelte
+["INFO" - 2:02:24 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:02:24 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 2:02:24 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 2:02:24 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 2:02:24 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 2:02:24 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/components/Entry.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 2:02:24 AM] Formatting completed in 22ms.
+["INFO" - 2:02:34 AM] Formatting file:///home/melinda/src/site.old/src/lib/components/Entry.svelte
+["INFO" - 2:02:34 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:02:34 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 2:02:34 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 2:02:34 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 2:02:34 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 2:02:34 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/components/Entry.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 2:02:34 AM] Formatting completed in 18ms.
+["INFO" - 2:02:52 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:03:04 AM] Formatting file:///home/melinda/src/site.old/src/lib/scss/app.scss
+["INFO" - 2:03:04 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:03:04 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 2:03:04 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 2:03:04 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "scss"
+}
+["INFO" - 2:03:04 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 2:03:04 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/scss/app.scss",
+  "parser": "scss",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 2:03:04 AM] Formatting completed in 12ms.
+["INFO" - 2:03:16 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:03:17 AM] Formatting file:///home/melinda/src/site.old/src/lib/components/Entry.svelte
+["INFO" - 2:03:17 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:03:17 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 2:03:17 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 2:03:17 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 2:03:17 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 2:03:17 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/components/Entry.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 2:03:17 AM] Formatting completed in 39ms.
+["INFO" - 2:04:21 AM] Formatting file:///home/melinda/src/site.old/src/lib/components/Entry.svelte
+["INFO" - 2:04:21 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:04:21 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 2:04:21 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 2:04:21 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 2:04:21 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 2:04:21 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/components/Entry.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 2:04:21 AM] Formatting completed in 18ms.
+["INFO" - 2:04:36 AM] Formatting file:///home/melinda/src/site.old/src/lib/components/Entry.svelte
+["INFO" - 2:04:36 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:04:36 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 2:04:36 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 2:04:36 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 2:04:36 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 2:04:36 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/components/Entry.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 2:04:36 AM] Formatting completed in 28ms.
+["INFO" - 2:04:43 AM] Formatting file:///home/melinda/src/site.old/src/lib/components/Entry.svelte
+["INFO" - 2:04:43 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:04:43 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 2:04:43 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 2:04:43 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 2:04:43 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 2:04:43 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/components/Entry.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 2:04:43 AM] Formatting completed in 23ms.
+["INFO" - 2:05:20 AM] Formatting file:///home/melinda/src/site.old/src/lib/components/Entry.svelte
+["INFO" - 2:05:20 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:05:20 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 2:05:20 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 2:05:20 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 2:05:20 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 2:05:20 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/components/Entry.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 2:05:20 AM] Formatting completed in 25ms.
+["INFO" - 2:05:29 AM] Formatting file:///home/melinda/src/site.old/src/lib/components/Entry.svelte
+["INFO" - 2:05:29 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:05:29 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 2:05:29 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 2:05:29 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 2:05:29 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 2:05:29 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/components/Entry.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 2:05:29 AM] Formatting completed in 23ms.
+["INFO" - 2:06:06 AM] Formatting file:///home/melinda/src/site.old/src/lib/components/Entry.svelte
+["INFO" - 2:06:06 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:06:06 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 2:06:06 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 2:06:06 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 2:06:06 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 2:06:06 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/components/Entry.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 2:06:06 AM] Formatting completed in 17ms.
+["INFO" - 2:06:28 AM] Formatting file:///home/melinda/src/site.old/src/lib/components/Entry.svelte
+["INFO" - 2:06:28 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:06:28 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 2:06:28 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 2:06:28 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 2:06:28 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 2:06:28 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/components/Entry.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 2:06:28 AM] Formatting completed in 23ms.
+["INFO" - 2:06:40 AM] Formatting file:///home/melinda/src/site.old/src/lib/components/Entry.svelte
+["INFO" - 2:06:40 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:06:40 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 2:06:40 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 2:06:40 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 2:06:40 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 2:06:40 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/components/Entry.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 2:06:40 AM] Formatting completed in 18ms.
+["INFO" - 2:06:49 AM] Formatting file:///home/melinda/src/site.old/src/lib/components/Entry.svelte
+["INFO" - 2:06:49 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:06:49 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 2:06:49 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 2:06:49 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 2:06:49 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 2:06:49 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/components/Entry.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 2:06:49 AM] Formatting completed in 25ms.
+["INFO" - 2:08:26 AM] Formatting file:///home/melinda/src/site.old/src/lib/components/Entry.svelte
+["INFO" - 2:08:26 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:08:26 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 2:08:26 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 2:08:26 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 2:08:26 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 2:08:26 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/components/Entry.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 2:08:26 AM] Formatting completed in 20ms.
+["INFO" - 2:08:52 AM] Formatting file:///home/melinda/src/site.old/src/lib/components/Entry.svelte
+["INFO" - 2:08:52 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:08:52 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 2:08:52 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 2:08:52 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 2:08:52 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 2:08:52 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/components/Entry.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 2:08:52 AM] Formatting completed in 17ms.
+["INFO" - 2:08:57 AM] Formatting file:///home/melinda/src/site.old/src/lib/components/Entry.svelte
+["INFO" - 2:08:57 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:08:57 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 2:08:57 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 2:08:57 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 2:08:57 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 2:08:57 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/components/Entry.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 2:08:57 AM] Formatting completed in 20ms.
+["INFO" - 2:09:35 AM] Formatting file:///home/melinda/src/site.old/src/lib/components/Entry.svelte
+["INFO" - 2:09:35 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:09:35 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 2:09:35 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 2:09:35 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 2:09:35 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 2:09:35 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/components/Entry.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 2:09:35 AM] Formatting completed in 17ms.
+["INFO" - 2:09:36 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:09:38 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:11:05 AM] Formatting file:///home/melinda/src/site.old/src/routes/%2Bpage.svelte
+["INFO" - 2:11:05 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:11:05 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 2:11:05 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 2:11:05 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 2:11:05 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 2:11:05 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/routes/+page.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 2:11:05 AM] Formatting completed in 17ms.
+["INFO" - 2:11:06 AM] Formatting file:///home/melinda/src/site.old/src/routes/%2Bpage.svelte
+["INFO" - 2:11:06 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:11:06 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 2:11:06 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 2:11:06 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 2:11:06 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 2:11:06 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/routes/+page.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 2:11:06 AM] Formatting completed in 16ms.
+["INFO" - 2:11:25 AM] Formatting file:///home/melinda/src/site.old/src/routes/%2Bpage.svelte
+["INFO" - 2:11:25 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:11:25 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 2:11:25 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 2:11:25 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 2:11:25 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 2:11:25 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/routes/+page.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 2:11:25 AM] Formatting completed in 15ms.
+["INFO" - 2:18:12 AM] Formatting file:///home/melinda/src/site.old/src/routes/%2Bpage.svelte
+["INFO" - 2:18:12 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:18:12 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 2:18:12 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 2:18:12 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 2:18:12 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 2:18:12 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/routes/+page.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 2:18:12 AM] Formatting completed in 33ms.
+["INFO" - 2:18:19 AM] Formatting file:///home/melinda/src/site.old/src/routes/%2Bpage.svelte
+["INFO" - 2:18:19 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:18:19 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 2:18:19 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 2:18:19 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 2:18:19 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 2:18:19 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/routes/+page.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 2:18:19 AM] Formatting completed in 19ms.
+["INFO" - 2:18:43 AM] Formatting file:///home/melinda/src/site.old/src/routes/%2Bpage.svelte
+["INFO" - 2:18:43 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:18:43 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 2:18:43 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 2:18:43 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 2:18:43 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 2:18:43 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/routes/+page.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 2:18:43 AM] Formatting completed in 21ms.
+["INFO" - 2:20:26 AM] Formatting file:///home/melinda/src/site.old/src/routes/%2Bpage.svelte
+["INFO" - 2:20:26 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:20:26 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 2:20:26 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 2:20:26 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 2:20:26 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 2:20:26 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/routes/+page.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 2:20:26 AM] Formatting completed in 16ms.
+["INFO" - 2:20:39 AM] Formatting file:///home/melinda/src/site.old/src/routes/%2Bpage.svelte
+["INFO" - 2:20:39 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:20:39 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 2:20:39 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 2:20:39 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 2:20:39 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 2:20:39 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/routes/+page.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 2:20:39 AM] Formatting completed in 15ms.
+["INFO" - 2:21:47 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:21:48 AM] Formatting file:///home/melinda/src/site.old/src/routes/%2Bpage.server.ts
+["INFO" - 2:21:48 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:21:48 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 2:21:48 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 2:21:48 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "typescript"
+}
+["INFO" - 2:21:48 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 2:21:48 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/routes/+page.server.ts",
+  "parser": "typescript",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 2:21:48 AM] Formatting completed in 11ms.
+["INFO" - 2:21:50 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:22:13 AM] Formatting file:///home/melinda/src/site.old/src/routes/%2Blayout.svelte
+["INFO" - 2:22:13 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:22:13 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 2:22:13 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 2:22:13 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 2:22:13 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 2:22:13 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/routes/+layout.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 2:22:13 AM] Formatting completed in 12ms.
+["INFO" - 2:22:18 AM] Formatting file:///home/melinda/src/site.old/src/routes/%2Blayout.svelte
+["INFO" - 2:22:18 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:22:18 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 2:22:18 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 2:22:18 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 2:22:18 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 2:22:18 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/routes/+layout.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 2:22:18 AM] Formatting completed in 12ms.
+["INFO" - 2:22:44 AM] Formatting file:///home/melinda/src/site.old/src/routes/%2Blayout.svelte
+["INFO" - 2:22:44 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:22:44 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 2:22:44 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 2:22:44 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 2:22:44 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 2:22:44 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/routes/+layout.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 2:22:44 AM] Formatting completed in 12ms.
+["INFO" - 2:22:51 AM] Formatting file:///home/melinda/src/site.old/src/routes/%2Blayout.svelte
+["INFO" - 2:22:51 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:22:51 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 2:22:51 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 2:22:51 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 2:22:51 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 2:22:51 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/routes/+layout.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 2:22:51 AM] Formatting completed in 9ms.
+["INFO" - 2:23:05 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:23:57 AM] Formatting file:///home/melinda/src/site.old/src/routes/writing/%2Bpage.svelte
+["INFO" - 2:23:57 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:23:57 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 2:23:57 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 2:23:57 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 2:23:57 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 2:23:57 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/routes/writing/+page.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 2:23:57 AM] Formatting completed in 24ms.
+["INFO" - 2:24:09 AM] Formatting file:///home/melinda/src/site.old/src/routes/writing/%2Bpage.svelte
+["INFO" - 2:24:09 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:24:09 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 2:24:09 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 2:24:09 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 2:24:09 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 2:24:09 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/routes/writing/+page.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 2:24:09 AM] Formatting completed in 14ms.
+["INFO" - 2:24:24 AM] Formatting file:///home/melinda/src/site.old/src/routes/writing/%2Bpage.svelte
+["INFO" - 2:24:24 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:24:24 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 2:24:24 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 2:24:24 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 2:24:24 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 2:24:24 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/routes/writing/+page.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 2:24:24 AM] Formatting completed in 22ms.
+["INFO" - 2:24:30 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:25:21 AM] Formatting file:///home/melinda/src/site.old/src/routes/%2Bpage.svelte
+["INFO" - 2:25:21 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:25:21 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 2:25:21 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 2:25:21 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 2:25:21 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 2:25:21 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/routes/+page.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 2:25:21 AM] Formatting completed in 18ms.
+["INFO" - 2:25:28 AM] Formatting file:///home/melinda/src/site.old/src/routes/%2Bpage.svelte
+["INFO" - 2:25:28 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:25:28 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 2:25:28 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 2:25:28 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 2:25:28 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 2:25:28 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/routes/+page.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 2:25:28 AM] Formatting completed in 13ms.
+["INFO" - 2:25:47 AM] Formatting file:///home/melinda/src/site.old/src/routes/%2Bpage.svelte
+["INFO" - 2:25:47 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:25:47 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 2:25:47 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 2:25:47 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 2:25:47 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 2:25:47 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/routes/+page.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 2:25:47 AM] Formatting completed in 18ms.
+["INFO" - 2:25:55 AM] Formatting file:///home/melinda/src/site.old/src/routes/%2Bpage.svelte
+["INFO" - 2:25:55 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:25:55 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 2:25:55 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 2:25:55 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 2:25:55 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 2:25:55 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/routes/+page.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 2:25:55 AM] Formatting completed in 17ms.
+["INFO" - 2:25:59 AM] Formatting file:///home/melinda/src/site.old/src/routes/%2Bpage.svelte
+["INFO" - 2:25:59 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:25:59 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 2:25:59 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 2:25:59 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 2:25:59 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 2:25:59 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/routes/+page.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 2:25:59 AM] Formatting completed in 17ms.
+["INFO" - 2:26:36 AM] Formatting file:///home/melinda/src/site.old/src/routes/%2Bpage.svelte
+["INFO" - 2:26:37 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:26:37 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 2:26:37 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 2:26:37 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 2:26:37 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 2:26:37 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/routes/+page.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 2:26:37 AM] Formatting completed in 19ms.
+["INFO" - 2:26:50 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:26:51 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:26:52 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:27:22 AM] Formatting file:///home/melinda/src/site.old/src/routes/writing/%2Bpage.svelte
+["INFO" - 2:27:22 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:27:22 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 2:27:22 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 2:27:22 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 2:27:22 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 2:27:22 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/routes/writing/+page.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 2:27:22 AM] Formatting completed in 19ms.
+["INFO" - 2:27:30 AM] Formatting file:///home/melinda/src/site.old/src/routes/writing/%2Bpage.svelte
+["INFO" - 2:27:30 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:27:30 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 2:27:30 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 2:27:30 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 2:27:30 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 2:27:30 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/routes/writing/+page.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 2:27:30 AM] Formatting completed in 22ms.
+["INFO" - 2:27:38 AM] Formatting file:///home/melinda/src/site.old/src/routes/writing/%2Bpage.svelte
+["INFO" - 2:27:38 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:27:38 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 2:27:38 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 2:27:38 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 2:27:38 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 2:27:38 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/routes/writing/+page.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 2:27:38 AM] Formatting completed in 18ms.
+["INFO" - 2:28:43 AM] Formatting file:///home/melinda/src/site.old/src/routes/writing/%2Bpage.svelte
+["INFO" - 2:28:43 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:28:43 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 2:28:43 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 2:28:43 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 2:28:43 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 2:28:43 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/routes/writing/+page.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 2:28:43 AM] Formatting completed in 22ms.
+["INFO" - 2:29:29 AM] Formatting file:///home/melinda/src/site.old/src/routes/writing/%2Bpage.svelte
+["INFO" - 2:29:29 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:29:29 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 2:29:29 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 2:29:29 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 2:29:29 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 2:29:29 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/routes/writing/+page.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 2:29:29 AM] Formatting completed in 34ms.
+["INFO" - 2:29:30 AM] Formatting file:///home/melinda/src/site.old/src/routes/writing/%2Bpage.svelte
+["INFO" - 2:29:30 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:29:30 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 2:29:30 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 2:29:30 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 2:29:30 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 2:29:30 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/routes/writing/+page.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 2:29:30 AM] Formatting completed in 18ms.
+["INFO" - 2:30:06 AM] Formatting file:///home/melinda/src/site.old/src/routes/writing/%2Bpage.svelte
+["INFO" - 2:30:06 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:30:06 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 2:30:06 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 2:30:06 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 2:30:06 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 2:30:06 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/routes/writing/+page.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 2:30:06 AM] Formatting completed in 25ms.
+["INFO" - 2:30:18 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:30:24 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:30:24 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:30:35 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:30:36 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:30:43 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:30:44 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:30:45 AM] Formatting file:///home/melinda/src/site.old/src/routes/writing/%2Bpage.svelte
+["INFO" - 2:30:45 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:30:45 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 2:30:45 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 2:30:45 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 2:30:45 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 2:30:45 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/routes/writing/+page.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 2:30:45 AM] Formatting completed in 13ms.
+["INFO" - 2:31:39 AM] Formatting file:///home/melinda/src/site.old/src/routes/writing/%2Bpage.svelte
+["INFO" - 2:31:39 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:31:39 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 2:31:39 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 2:31:39 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 2:31:39 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 2:31:39 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/routes/writing/+page.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 2:31:39 AM] Formatting completed in 21ms.
+["INFO" - 2:31:57 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:31:58 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:32:02 AM] Formatting file:///home/melinda/src/site.old/src/lib/components/Entry.svelte
+["INFO" - 2:32:02 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:32:02 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 2:32:02 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 2:32:02 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 2:32:02 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 2:32:02 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/components/Entry.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 2:32:02 AM] Formatting completed in 18ms.
+["INFO" - 2:32:14 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:33:19 AM] Formatting file:///home/melinda/src/site.old/src/lib/components/SpotifyWidget.svelte
+["INFO" - 2:33:19 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:33:19 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 2:33:19 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 2:33:19 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 2:33:19 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 2:33:19 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/components/SpotifyWidget.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 2:33:19 AM] Formatting completed in 30ms.
+["INFO" - 2:34:43 AM] Formatting file:///home/melinda/src/site.old/src/lib/components/SpotifyWidget.svelte
+["INFO" - 2:34:43 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:34:43 AM] PrettierInstance:
+{
+  "modulePath": "/home/melinda/src/site.old/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.5.3"
+}
+["INFO" - 2:34:43 AM] Using ignore file (if present) at /home/melinda/src/site.old/.prettierignore
+["INFO" - 2:34:43 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "svelte"
+}
+["INFO" - 2:34:43 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 2:34:43 AM] Prettier Options:
+{
+  "filepath": "/home/melinda/src/site.old/src/lib/components/SpotifyWidget.svelte",
+  "parser": "svelte",
+  "plugins": [
+    "/home/melinda/src/site.old/node_modules/prettier-plugin-svelte/plugin.js"
+  ],
+  "tabWidth": 2,
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "collapse",
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
+}
+["INFO" - 2:34:43 AM] Formatting completed in 25ms.
+["INFO" - 2:35:46 AM] Using config file at /home/melinda/src/site.old/.prettierrc
+["INFO" - 2:35:54 AM] Using config file at /home/melinda/src/site.old/.prettierrc

@@ -1,0 +1,18 @@
+@use '$lib/scss/_variables';
+
+@mixin minor-text {
+  font-family: variables.$font-monospace;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  line-height: 100%;
+}
+
+.minor-text {
+  @include minor-text();
+}
+
+.tag {
+  @include minor-text();
+  color: variables.$tag-text-color;
+  border: 0.5px dotted $tag-text-color;
+}

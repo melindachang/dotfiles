@@ -104,3 +104,20 @@
 
 (use-package! org-super-agenda
               :config (org-super-agenda-mode 1))
+
+(use-package! treesit
+              :init
+              (setq treesit-language-source-alist
+                    '((c . ("https://github.com/tree-sitter/tree-sitter-c"))
+                      (cpp . ("https://github.com/tree-sitter/tree-sitter-cpp"))
+                      (css . ("https://github.com/tree-sitter/tree-sitter-css"))
+                      (fish . ("https://github.com/ram02z/tree-sitter-fish"))
+                      (haskell . ("https://github.com/Himujjal/tree-sitter-haskell"))
+                      (html . ("https://github.com/tree-sitter/tree-sitter-html"))
+                      (json . ("https://github.com/tree-sitter/tree-sitter-json"))
+                      (javascript . ("https://github.com/tree-sitter/tree-sitter-javascript"))
+                      (latex . ("https://github.com/latex-lsp/tree-sitter-latex"))
+                      (python . ("https://github.com/tree-sitter/tree-sitter-python"))
+                      (rust . ("https://github.com/tree-sitter/tree-sitter-rust"))
+                      (svelte . ("https://github.com/Himujjal/tree-sitter-svelte"))
+                      (typescript . ("https://github.com/tree-sitter/tree-sitter-typescript" "master" "typescript/src")))))

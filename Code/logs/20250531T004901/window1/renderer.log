@@ -1,0 +1,479 @@
+2025-05-31 00:49:02.969 [info] Started local extension host with pid 11715.
+2025-05-31 00:49:03.054 [info] ComputeTargetPlatform: linux-x64
+2025-05-31 00:49:05.396 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-05-31 00:49:05.798 [info] [perf] Render performance baseline is 13ms
+2025-05-31 00:53:53.359 [error] An unknown error occurred. Please consult the log for more details.
+2025-05-31 00:54:36.494 [error] An unknown error occurred. Please consult the log for more details.
+2025-05-31 00:54:56.613 [error] An unknown error occurred. Please consult the log for more details.
+2025-05-31 00:55:14.516 [error] An unknown error occurred. Please consult the log for more details.
+2025-05-31 00:55:30.404 [error] An unknown error occurred. Please consult the log for more details.
+2025-05-31 00:55:35.160 [error] An unknown error occurred. Please consult the log for more details.
+2025-05-31 00:55:48.818 [error] An unknown error occurred. Please consult the log for more details.
+2025-05-31 00:56:55.405 [error] An unknown error occurred. Please consult the log for more details.
+2025-05-31 00:56:59.684 [error] An unknown error occurred. Please consult the log for more details.
+2025-05-31 00:57:18.267 [error] An unknown error occurred. Please consult the log for more details.
+2025-05-31 00:57:25.421 [error] An unknown error occurred. Please consult the log for more details.
+2025-05-31 00:57:38.870 [error] An unknown error occurred. Please consult the log for more details.
+2025-05-31 00:58:01.953 [error] An unknown error occurred. Please consult the log for more details.
+2025-05-31 00:58:27.713 [error] An unknown error occurred. Please consult the log for more details.
+2025-05-31 00:59:52.122 [error] An unknown error occurred. Please consult the log for more details.
+2025-05-31 01:00:09.427 [error] An unknown error occurred. Please consult the log for more details.
+2025-05-31 01:00:21.388 [error] An unknown error occurred. Please consult the log for more details.
+2025-05-31 01:02:38.264 [error] An unknown error occurred. Please consult the log for more details.
+2025-05-31 01:13:48.584 [error] An unknown error occurred. Please consult the log for more details.
+2025-05-31 01:14:04.494 [error] An unknown error occurred. Please consult the log for more details.
+2025-05-31 01:17:31.451 [error] TreeError [DebugRepl] Tree input not set: Error: TreeError [DebugRepl] Tree input not set
+    at Gf.C (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:417:29043)
+    at Gf.updateChildren (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:417:28950)
+    at Wne.value (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2092:33670)
+    at E.B (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:2392)
+    at E.C (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:2462)
+    at E.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:2680)
+    at x1e.setVisible (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:680:2727)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1308:11769
+    at Array.map (<anonymous>)
+    at ju.setVisible (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1308:11760)
+2025-05-31 01:18:07.186 [error] An unknown error occurred. Please consult the log for more details.
+2025-05-31 01:20:45.043 [error] An unknown error occurred. Please consult the log for more details.
+2025-05-31 01:23:34.901 [error] An unknown error occurred. Please consult the log for more details.
+2025-05-31 01:28:04.318 [error] An unknown error occurred. Please consult the log for more details.
+2025-05-31 02:05:29.771 [error] [Extension Host] SyntaxError: CssSyntaxError: Unclosed block (2:3)
+  1 |
+> 2 |   .entry {
+    |   ^
+  3 |     display: grid;
+  4 |     border-bottom: 0.5px solid $body-text-color;
+  5 |     overflow-y: hidden;
+    at sp (file:///home/melinda/src/site.old/node_modules/prettier/plugins/postcss.mjs:54:11473)
+    at Ks (file:///home/melinda/src/site.old/node_modules/prettier/plugins/postcss.mjs:54:18744)
+    at Object.pl [as parse] (file:///home/melinda/src/site.old/node_modules/prettier/plugins/postcss.mjs:54:19067)
+    at parse5 (file:///home/melinda/src/site.old/node_modules/prettier/index.mjs:19983:24)
+    at async textToDoc (file:///home/melinda/src/site.old/node_modules/prettier/index.mjs:20090:19) {
+  loc: { start: { line: 2, column: 3 } },
+  cause: t [CssSyntaxError]: <css input>:2:3: Unclosed block
+      at Ie.error (file:///home/melinda/src/site.old/node_modules/prettier/plugins/postcss.mjs:20:9676)
+      at Cs.unclosedBlock (file:///home/melinda/src/site.old/node_modules/prettier/plugins/postcss.mjs:22:9745)
+      at Cs.endFile (file:///home/melinda/src/site.old/node_modules/prettier/plugins/postcss.mjs:22:6946)
+      at Cs.parse (file:///home/melinda/src/site.old/node_modules/prettier/plugins/postcss.mjs:22:8742)
+      at ia.exports (file:///home/melinda/src/site.old/node_modules/prettier/plugins/postcss.mjs:26:1635)
+      at Ks (file:///home/melinda/src/site.old/node_modules/prettier/plugins/postcss.mjs:54:18655)
+      at Object.pl [as parse] (file:///home/melinda/src/site.old/node_modules/prettier/plugins/postcss.mjs:54:19067)
+      at parse5 (file:///home/melinda/src/site.old/node_modules/prettier/index.mjs:19983:24)
+      at async textToDoc (file:///home/melinda/src/site.old/node_modules/prettier/index.mjs:20090:19) {
+    reason: 'Unclosed block',
+    source: '\n' +
+      '  .entry {\n' +
+      '    display: grid;\n' +
+      '    border-bottom: 0.5px solid $body-text-color;\n' +
+      '    overflow-y: hidden;\n' +
+      '    @include breakpoint-lg {\n' +
+      '      column-gap: 4px;\n' +
+      '      grid-template-columns: 2fr 11fr;\n' +
+      '    }\n' +
+      '\n' +
+      '    p,\n' +
+      '    a {\n' +
+      '      text-decoration: none;\n' +
+      '      margin: 0;\n' +
+      '      padding: 0;\n' +
+      '      color: inherit;\n' +
+      '      letter-spacing: -0.04em;\n' +
+      '    }\n' +
+      '\n' +
+      '    &.entry--failure {\n' +
+      '      .title {\n' +
+      '        &__date-text-icon {\n' +
+      '          background: $graphic-color;\n' +
+      '        }\n' +
+      '        &__text {\n' +
+      '          color: $graphic-color;\n' +
+      '        }\n' +
+      '      }\n' +
+      '    }\n' +
+      '    .title {\n' +
+      '      text-decoration: none;\n' +
+      '      grid-column: 1 / -1;\n' +
+      '      display: grid;\n' +
+      '      grid-auto-rows: min-content;\n' +
+      '      align-items: center;\n' +
+      '      grid-template-columns: 10fr 1fr;\n' +
+      '\n' +
+      '      @include breakpoint-lg {\n' +
+      '        gap: 1rem;\n' +
+      '        grid-template-columns: 2fr 10fr 1fr;\n' +
+      '      }\n' +
+      '      &:hover {\n' +
+      '        background: $highlight-color;\n' +
+      '\n' +
+      '        & > * {\n' +
+      '          color: $text-inverted-color;\n' +
+      '        }\n' +
+      '\n' +
+      '        .title__date-text-icon {\n' +
+      '          background: $text-inverted-color;\n' +
+      '        }\n' +
+      '      }\n' +
+      '\n' +
+      '      &__date {\n' +
+      '        color: $minor-text-color;\n' +
+      '        padding-top: 1.3rem;\n' +
+      '        @include breakpoint-lg {\n' +
+      '          padding: 0;\n' +
+      '        }\n' +
+      '        &-text {\n' +
+      '          display: inline-flex;\n' +
+      '          gap: 1rem;\n' +
+      '          align-items: center;\n' +
+      '          &-icon {\n' +
+      '            background: $minor-text-color;\n' +
+      '            height: 0.6rem;\n' +
+      '            width: 0.6rem;\n' +
+      '          }\n' +
+      '        }\n' +
+      '      }\n' +
+      '\n' +
+      '      &__text {\n' +
+      '        color: $major-text-color;\n' +
+      '        padding: 1.3rem 0;\n' +
+      '        font-size: 2.2rem;\n' +
+      '        line-height: 100%;\n' +
+      '        @include breakpoint-md {\n' +
+      '          font-size: 2.5rem;\n' +
+      '        }\n' +
+      '      }\n' +
+      '      &__icon {\n' +
+      '        cursor: pointer;\n' +
+      '        background: none;\n' +
+      '        color: $major-text-color;\n' +
+      '        border: none;\n' +
+      '      }\n' +
+      '    }\n' +
+      '\n' +
+      '    .body {\n' +
+      '      grid-column: 1 / -1;\n' +
+      '      padding: 2.4rem 0;\n' +
+      '      display: grid;\n' +
+      '      grid-template-columns: subgrid;\n' +
+      '      font-size: 2rem;\n' +
+      '      &__item {\n' +
+      '        &:not(:last-child) {\n' +
+      '          margin-bottom: 1em;\n' +
+      '        }\n' +
+      '        grid-column: 1 / -1;\n' +
+      '        display: grid;\n' +
+      '        grid-template-columns: subgrid;\n' +
+      '        row-gap: 1rem;\n' +
+      '        line-height: 1.3;\n' +
+      '        -caption {\n' +
+      '        display: flex;\n' +
+      '        align-items: flex-start;\n' +
+      '        grid-column: 1 / -1;\n' +
+      '        @include breakpoint-lg {\n' +
+      '          grid-column: 1;\n' +
+      '        }\n' +
+      '        &-text {\n' +
+      '          display: flex;\n' +
+      '          align-items: center;\n' +
+      '          justify-content: center;\n' +
+      '          &::after {\n' +
+      "            content: 'A';\n" +
+      '            visibility: hidden;\n' +
+      '            font-size: 2rem;\n' +
+      '          }\n' +
+      '        }\n' +
+      '\n' +
+      '        &--text {\n' +
+      '          font-size: 2rem;\n' +
+      '        }\n' +
+      '        &--tags {\n' +
+      '          display: flex;\n' +
+      '          align-items: flex-start;\n' +
+      '          flex-wrap: wrap;\n' +
+      '          gap: 2px;\n' +
+      '        }\n' +
+      '      }\n' +
+      '    }\n' +
+      '  }\n',
+    line: 2,
+    column: 3,
+    input: {
+      column: 3,
+      endColumn: undefined,
+      endLine: undefined,
+      line: 2,
+      source: '\n' +
+        '  .entry {\n' +
+        '    display: grid;\n' +
+        '    border-bottom: 0.5px solid $body-text-color;\n' +
+        '    overflow-y: hidden;\n' +
+        '    @include breakpoint-lg {\n' +
+        '      column-gap: 4px;\n' +
+        '      grid-template-columns: 2fr 11fr;\n' +
+        '    }\n' +
+        '\n' +
+        '    p,\n' +
+        '    a {\n' +
+        '      text-decoration: none;\n' +
+        '      margin: 0;\n' +
+        '      padding: 0;\n' +
+        '      color: inherit;\n' +
+        '      letter-spacing: -0.04em;\n' +
+        '    }\n' +
+        '\n' +
+        '    &.entry--failure {\n' +
+        '      .title {\n' +
+        '        &__date-text-icon {\n' +
+        '          background: $graphic-color;\n' +
+        '        }\n' +
+        '        &__text {\n' +
+        '          color: $graphic-color;\n' +
+        '        }\n' +
+        '      }\n' +
+        '    }\n' +
+        '    .title {\n' +
+        '      text-decoration: none;\n' +
+        '      grid-column: 1 / -1;\n' +
+        '      display: grid;\n' +
+        '      grid-auto-rows: min-content;\n' +
+        '      align-items: center;\n' +
+        '      grid-template-columns: 10fr 1fr;\n' +
+        '\n' +
+        '      @include breakpoint-lg {\n' +
+        '        gap: 1rem;\n' +
+        '        grid-template-columns: 2fr 10fr 1fr;\n' +
+        '      }\n' +
+        '      &:hover {\n' +
+        '        background: $highlight-color;\n' +
+        '\n' +
+        '        & > * {\n' +
+        '          color: $text-inverted-color;\n' +
+        '        }\n' +
+        '\n' +
+        '        .title__date-text-icon {\n' +
+        '          background: $text-inverted-color;\n' +
+        '        }\n' +
+        '      }\n' +
+        '\n' +
+        '      &__date {\n' +
+        '        color: $minor-text-color;\n' +
+        '        padding-top: 1.3rem;\n' +
+        '        @include breakpoint-lg {\n' +
+        '          padding: 0;\n' +
+        '        }\n' +
+        '        &-text {\n' +
+        '          display: inline-flex;\n' +
+        '          gap: 1rem;\n' +
+        '          align-items: center;\n' +
+        '          &-icon {\n' +
+        '            background: $minor-text-color;\n' +
+        '            height: 0.6rem;\n' +
+        '            width: 0.6rem;\n' +
+        '          }\n' +
+        '        }\n' +
+        '      }\n' +
+        '\n' +
+        '      &__text {\n' +
+        '        color: $major-text-color;\n' +
+        '        padding: 1.3rem 0;\n' +
+        '        font-size: 2.2rem;\n' +
+        '        line-height: 100%;\n' +
+        '        @include breakpoint-md {\n' +
+        '          font-size: 2.5rem;\n' +
+        '        }\n' +
+        '      }\n' +
+        '      &__icon {\n' +
+        '        cursor: pointer;\n' +
+        '        background: none;\n' +
+        '        color: $major-text-color;\n' +
+        '        border: none;\n' +
+        '      }\n' +
+        '    }\n' +
+        '\n' +
+        '    .body {\n' +
+        '      grid-column: 1 / -1;\n' +
+        '      padding: 2.4rem 0;\n' +
+        '      display: grid;\n' +
+        '      grid-template-columns: subgrid;\n' +
+        '      font-size: 2rem;\n' +
+        '      &__item {\n' +
+        '        &:not(:last-child) {\n' +
+        '          margin-bottom: 1em;\n' +
+        '        }\n' +
+        '        grid-column: 1 / -1;\n' +
+        '        display: grid;\n' +
+        '        grid-template-columns: subgrid;\n' +
+        '        row-gap: 1rem;\n' +
+        '        line-height: 1.3;\n' +
+        '        -caption {\n' +
+        '        display: flex;\n' +
+        '        align-items: flex-start;\n' +
+        '        grid-column: 1 / -1;\n' +
+        '        @include breakpoint-lg {\n' +
+        '          grid-column: 1;\n' +
+        '        }\n' +
+        '        &-text {\n' +
+        '          display: flex;\n' +
+        '          align-items: center;\n' +
+        '          justify-content: center;\n' +
+        '          &::after {\n' +
+        "            content: 'A';\n" +
+        '            visibility: hidden;\n' +
+        '            font-size: 2rem;\n' +
+        '          }\n' +
+        '        }\n' +
+        '\n' +
+        '        &--text {\n' +
+        '          font-size: 2rem;\n' +
+        '        }\n' +
+        '        &--tags {\n' +
+        '          display: flex;\n' +
+        '          align-items: flex-start;\n' +
+        '          flex-wrap: wrap;\n' +
+        '          gap: 2px;\n' +
+        '        }\n' +
+        '      }\n' +
+        '    }\n' +
+        '  }\n'
+    }
+  },
+  codeFrame: '  1 |\n' +
+    '> 2 |   .entry {\n' +
+    '    |   ^\n' +
+    '  3 |     display: grid;\n' +
+    '  4 |     border-bottom: 0.5px solid $body-text-color;\n' +
+    '  5 |     overflow-y: hidden;'
+}
+2025-05-31 02:11:05.157 [error] [Extension Host] SyntaxError: CssSyntaxError: Unclosed block (2:3)
+  1 |
+> 2 |   .grid {
+    |   ^
+  3 |     display: grid;
+  4 |     @include breakpoint-lg {
+  5 |       grid-template-columns: 1fr 3fr;
+    at sp (file:///home/melinda/src/site.old/node_modules/prettier/plugins/postcss.mjs:54:11473)
+    at Ks (file:///home/melinda/src/site.old/node_modules/prettier/plugins/postcss.mjs:54:18744)
+    at Object.pl [as parse] (file:///home/melinda/src/site.old/node_modules/prettier/plugins/postcss.mjs:54:19067)
+    at parse5 (file:///home/melinda/src/site.old/node_modules/prettier/index.mjs:19983:24)
+    at async textToDoc (file:///home/melinda/src/site.old/node_modules/prettier/index.mjs:20090:19) {
+  loc: { start: { line: 2, column: 3 } },
+  cause: t [CssSyntaxError]: <css input>:2:3: Unclosed block
+      at Ie.error (file:///home/melinda/src/site.old/node_modules/prettier/plugins/postcss.mjs:20:9676)
+      at Cs.unclosedBlock (file:///home/melinda/src/site.old/node_modules/prettier/plugins/postcss.mjs:22:9745)
+      at Cs.endFile (file:///home/melinda/src/site.old/node_modules/prettier/plugins/postcss.mjs:22:6946)
+      at Cs.parse (file:///home/melinda/src/site.old/node_modules/prettier/plugins/postcss.mjs:22:8742)
+      at ia.exports (file:///home/melinda/src/site.old/node_modules/prettier/plugins/postcss.mjs:26:1635)
+      at Ks (file:///home/melinda/src/site.old/node_modules/prettier/plugins/postcss.mjs:54:18655)
+      at Object.pl [as parse] (file:///home/melinda/src/site.old/node_modules/prettier/plugins/postcss.mjs:54:19067)
+      at parse5 (file:///home/melinda/src/site.old/node_modules/prettier/index.mjs:19983:24)
+      at async textToDoc (file:///home/melinda/src/site.old/node_modules/prettier/index.mjs:20090:19) {
+    reason: 'Unclosed block',
+    source: '\n' +
+      '  .grid {\n' +
+      '    display: grid;\n' +
+      '    @include breakpoint-lg {\n' +
+      '      grid-template-columns: 1fr 3fr;\n' +
+      '      column-gap: 5.6rem;\n' +
+      '    }\n' +
+      '    &__column {\n' +
+      '      &--left {\n' +
+      '        {\n' +
+      '      height: fit-content;\n' +
+      '      will-change: auto;\n' +
+      '      @include breakpoint-lg {\n' +
+      '        top: 4em;\n' +
+      '        position: sticky;\n' +
+      '      }\n' +
+      '      p {\n' +
+      '        color: $major-text-color;\n' +
+      '      }\n' +
+      '      }\n' +
+      '    }\n' +
+      '    .subgrid {\n' +
+      '      display: grid;\n' +
+      '      .subgrid__content {\n' +
+      '        display: grid;\n' +
+      '        line-height: 1.5;\n' +
+      '        row-gap: 5.6rem;\n' +
+      '        .subgrid__item__socials {\n' +
+      '          .subgrid__item__socials__link {\n' +
+      '            text-decoration: none;\n' +
+      '            font-size: 1.2rem;\n' +
+      '            text-transform: uppercase;\n' +
+      '            font-family: $font-monospace;\n' +
+      '            color: $tag-text-color;\n' +
+      '            border: 0.5px dotted $tag-text-color;\n' +
+      '            padding: 1px 4px 3px 4px;\n' +
+      '            border-radius: 4px;\n' +
+      '\n' +
+      '            &:hover {\n' +
+      '              color: $text-inverted-color;\n' +
+      '              background: $tag-text-color;\n' +
+      '            }\n' +
+      '          }\n' +
+      '        }\n' +
+      '      }\n' +
+      '    }\n' +
+      '  }\n',
+    line: 2,
+    column: 3,
+    input: {
+      column: 3,
+      endColumn: undefined,
+      endLine: undefined,
+      line: 2,
+      source: '\n' +
+        '  .grid {\n' +
+        '    display: grid;\n' +
+        '    @include breakpoint-lg {\n' +
+        '      grid-template-columns: 1fr 3fr;\n' +
+        '      column-gap: 5.6rem;\n' +
+        '    }\n' +
+        '    &__column {\n' +
+        '      &--left {\n' +
+        '        {\n' +
+        '      height: fit-content;\n' +
+        '      will-change: auto;\n' +
+        '      @include breakpoint-lg {\n' +
+        '        top: 4em;\n' +
+        '        position: sticky;\n' +
+        '      }\n' +
+        '      p {\n' +
+        '        color: $major-text-color;\n' +
+        '      }\n' +
+        '      }\n' +
+        '    }\n' +
+        '    .subgrid {\n' +
+        '      display: grid;\n' +
+        '      .subgrid__content {\n' +
+        '        display: grid;\n' +
+        '        line-height: 1.5;\n' +
+        '        row-gap: 5.6rem;\n' +
+        '        .subgrid__item__socials {\n' +
+        '          .subgrid__item__socials__link {\n' +
+        '            text-decoration: none;\n' +
+        '            font-size: 1.2rem;\n' +
+        '            text-transform: uppercase;\n' +
+        '            font-family: $font-monospace;\n' +
+        '            color: $tag-text-color;\n' +
+        '            border: 0.5px dotted $tag-text-color;\n' +
+        '            padding: 1px 4px 3px 4px;\n' +
+        '            border-radius: 4px;\n' +
+        '\n' +
+        '            &:hover {\n' +
+        '              color: $text-inverted-color;\n' +
+        '              background: $tag-text-color;\n' +
+        '            }\n' +
+        '          }\n' +
+        '        }\n' +
+        '      }\n' +
+        '    }\n' +
+        '  }\n'
+    }
+  },
+  codeFrame: '  1 |\n' +
+    '> 2 |   .grid {\n' +
+    '    |   ^\n' +
+    '  3 |     display: grid;\n' +
+    '  4 |     @include breakpoint-lg {\n' +
+    '  5 |       grid-template-columns: 1fr 3fr;'
+}

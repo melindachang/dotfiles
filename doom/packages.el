@@ -54,4 +54,4 @@
 (package! catppuccin-theme)
 
 (package! org-super-agenda)
-(package! format-all)
+(package! apheleia)

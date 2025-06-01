@@ -1,0 +1,6 @@
+{
+    "workbench.colorTheme": "Tokyo Night",
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}

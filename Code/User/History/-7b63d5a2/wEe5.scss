@@ -1,0 +1,27 @@
+@use '$lib/scss/_variables';
+
+@mixin minor-text {
+  font-family: $font-monospace;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  line-height: 100%;
+}
+
+.minor-text {
+  @include minor-text();
+}
+
+.tag {
+  @include minor-text();
+  white-space: nowrap;
+  cursor: pointer;
+  text-decoration: none;
+  color: $tag-text-color;
+  border: 0.5px dotted $tag-text-color;
+  padding: 1px 4px 3px 4px;
+  border-radius: 4px;
+  &:hover {
+    color: $text-inverted-color;
+    background: $tag-text-color;
+  }
+}

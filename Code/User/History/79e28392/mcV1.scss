@@ -1,0 +1,151 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scrollbar-gutter: stable;
+}
+
+body {
+  width: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-size: 1.6rem;
+  color: $body-text-color;
+  background-color: $background-color;
+  font-family: $font-sans-serif;
+}
+
+::selection {
+  background: $highlight-color;
+  color: $text-inverted-color;
+}
+
+a {
+  color: $body-text-color;
+}
+
+p {
+  font-size: 1.8rem;
+  margin: 0;
+  a {
+    color: $button-color;
+    &:hover {
+      color: $text-inverted-color;
+      background: $highlight-color;
+    }
+  }
+
+  span.highlight {
+    color: $major-text-color;
+  }
+
+  // strong {
+  //   color: $major-text-color;
+  // }
+}
+
+code {
+  font-size: 0.85em;
+  font-family: $font-monospace;
+  &:not(pre code) {
+    background: $button-demph-color;
+    padding: 0 4px;
+    margin: 0 2px;
+    border: 0.5px solid $body-text-color;
+    border-radius: 4px;
+  }
+}
+
+:is(h1, h2, h3, h4, h5, h6) {
+  color: $major-text-color;
+  font-weight: 400;
+  letter-spacing: -0.06em;
+  line-height: 92%;
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar {
+  &-track {
+    background: $background-color;
+  }
+  &-thumb {
+    background: $body-text-color;
+    &:hover {
+      background: $major-text-color;
+    }
+  }
+}
+
+//////// ARTICLE ////////
+
+.prose {
+  display: grid;
+  position: relative;
+  grid-template-columns: minmax(0, 1fr);
+  @include breakpoint-lg {
+    grid-template-columns: 2fr 1fr;
+  }
+
+  %heading {
+    margin-top: 4rem;
+    line-height: 100%;
+  }
+
+  h1 {
+    @extend %heading;
+    font-size: 4.8rem;
+  }
+
+  h2 {
+    @extend %heading;
+    font-size: 3.6rem;
+  }
+
+  h3 {
+    @extend %heading;
+    font-size: 2.8rem;
+  }
+
+  p {
+    margin: 2.4rem 0 0;
+    line-height: 130%;
+    &:first-child {
+      margin: 0;
+    }
+  }
+
+  ul {
+    margin: 2.4rem 0 0;
+    li {
+      margin: 1.6rem 0 0;
+      font-size: 1.8rem;
+      line-height: 130%;
+    }
+  }
+  pre {
+    font-size: 1.8rem;
+    overflow-x: auto;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 0.5px solid $body-text-color;
+    font-family: $font-monospace;
+    tab-size: 2;
+  }
+}
+
+button {
+  background: none;
+  cursor: pointer;
+  border: none;
+  font-family: $font-sans-serif;
+}

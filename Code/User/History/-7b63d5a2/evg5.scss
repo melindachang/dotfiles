@@ -1,0 +1,8 @@
+@use '$lib/scss/_variables';
+
+.minor-text {
+  font-family: variables.$font-monospace;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  line-height: 100%;
+}
