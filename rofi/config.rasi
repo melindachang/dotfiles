@@ -20,7 +20,7 @@ configuration {
   display-ssh: "󰀂 SSH";
   display-filebrowser: " Files";
   display-powermenu: " Power";
-  display-themer: " Theme";
+  display-themer: " Theme";
   display-calendar: "󰃭 Calendar";
 
   combi-modi: "drun,run";

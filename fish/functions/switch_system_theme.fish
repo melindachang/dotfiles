@@ -3,7 +3,7 @@ set VALID_THEMES gruvbox_material catppuccin_mocha tokyo_night
 function _switch_waybar_theme -a theme
     set config_path ~/.config/waybar/style.css
 
-    sed -i -E "s/(@import \"themes\/)[a-z_]+(\.css\")/\1$theme\2/g" $config_path
+    sed -i -E "s/(@import \"themes\/)[a-z_]+(\.css\")/\1$theme\2/1" $config_path
 
     hyprctl reload
     pkill waybar
@@ -96,6 +96,17 @@ function _switch_btop_theme -a theme
     sed -i -E "s/^(color_theme = \")[a-z_]+\"/\1$theme\"/1" $config_path
 end
 
+function _switch_yazi_theme -a theme
+    set config_path ~/.config/yazi/theme.toml
+
+    if test $theme = gruvbox_material
+        set format gruvbox-dark
+    else
+        set format (string replace _ - $theme)
+    end
+    sed -i -E "s/^(dark = \")[a-z-]+\"/\1$format\"/1" $config_path
+end
+
 function switch_system_theme -a theme
     if contains $theme $VALID_THEMES
         begin
@@ -107,6 +118,7 @@ function switch_system_theme -a theme
             # _switch_code_theme $theme
             _switch_zathura_theme $theme
             _switch_spotify_theme $theme
+            _switch_yazi_theme $theme
             _switch_btop_theme $theme
             _switch_swaync_theme $theme
             switch_wallpaper $theme

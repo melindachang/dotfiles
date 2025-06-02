@@ -1,6 +1,7 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR DOOMDIR:/home/melinda/\x2econfig/doom/
+SETUVAR --export EDITOR:nvim
 SETUVAR GDK_DPI_SCALE:0\x2e75
 SETUVAR GDK_SCALE:2
 SETUVAR --path GOPATH:/home/melinda/\x2ego
