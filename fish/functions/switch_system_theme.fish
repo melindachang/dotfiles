@@ -74,6 +74,8 @@ function _switch_swaync_theme -a theme
 end
 
 function _switch_zathura_theme -a theme
+    set config_path ~/.config/zathura/zathurarc
+    sed -i -E "s/^(include themes\/)[a-z_]+\$/\1$theme/1" $config_path
 end
 
 function _switch_spotify_theme -a theme
