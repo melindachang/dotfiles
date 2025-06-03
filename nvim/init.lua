@@ -255,11 +255,6 @@ rtp:prepend(lazypath)
 require('lazy').setup({
   -- NOTE: Plugins can be added with a link (or for a github repo: 'owner/repo' link).
   'NMAC427/guess-indent.nvim', -- Detect tabstop and shiftwidth automatically
-  opts = {
-    on_tab_options = {
-      ['expandtab'] = false,
-    },
-  },
 
   -- NOTE: Plugins can also be added by using a table,
   -- with the first argument being the link and the following
@@ -294,15 +289,15 @@ require('lazy').setup({
         changedelete = { text = '~' },
       },
     },
-    {
-      'lervag/vimtex',
-      lazy = false, -- we don't want to lazy load VimTeX
-      -- tag = "v2.15", -- uncomment to pin to a specific release
-      init = function()
-        -- VimTeX configuration goes here, e.g.
-        vim.g.vimtex_view_method = 'zathura'
-      end,
-    },
+  },
+  {
+    'lervag/vimtex',
+    lazy = false, -- we don't want to lazy load VimTeX
+    -- tag = "v2.15", -- uncomment to pin to a specific release
+    init = function()
+      -- VimTeX configuration goes here, e.g.
+      vim.g.vimtex_view_method = 'zathura'
+    end,
   },
   {
     'mikavilpas/yazi.nvim',
@@ -380,17 +375,6 @@ require('lazy').setup({
       leader_key = ';', -- Recommended to be a single key
       buffer_leader_key = 'm', -- Per Buffer Mappings
     },
-  },
-
-  {
-    'sainnhe/gruvbox-material',
-    lazy = false,
-    priority = 1000,
-    config = function()
-      -- Optionally configure and load the colorscheme
-      -- directly inside the plugin declaration.
-      vim.g.gruvbox_material_enable_italic = true
-    end,
   },
 
   { 'nvim-treesitter/nvim-treesitter', build = ':TSUpdate' },
@@ -593,7 +577,11 @@ require('lazy').setup({
       -- Automatically install LSPs and related tools to stdpath for Neovim
       -- Mason must be loaded before its dependents so we need to set it up here.
       -- NOTE: `opts = {}` is the same as calling `require('mason').setup({})`
-      { 'mason-org/mason.nvim', opts = {} },
+      { 'mason-org/mason.nvim', opts = {
+        ensure_installed = {
+          'tinymist',
+        },
+      } },
       'mason-org/mason-lspconfig.nvim',
       'WhoIsSethDaniel/mason-tool-installer.nvim',
 
@@ -766,6 +754,14 @@ require('lazy').setup({
         -- ts_ls = {},
         --
 
+        tinymist = {
+          cmd = { 'tinymist' },
+          filetypes = { 'typst' },
+          settings = {
+            formatterMode = 'typstyle',
+          },
+        },
+
         lua_ls = {
           -- cmd = { ... },
           -- filetypes = { ... },
@@ -817,6 +813,12 @@ require('lazy').setup({
         },
       }
     end,
+  },
+  {
+    'chomosuke/typst-preview.nvim',
+    lazy = false, -- or ft = 'typst'
+    version = '1.*',
+    opts = {}, -- lazy.nvim will implicitly calls `setup {}`
   },
 
   { -- Autoformat
@@ -968,6 +970,19 @@ require('lazy').setup({
     },
   },
 
+  {
+    'sainnhe/gruvbox-material',
+    lazy = false,
+    priority = 1000,
+    config = function()
+      -- Optionally configure and load the colorscheme
+      -- directly inside the plugin declaration.
+      vim.g.gruvbox_material_enable_italic = true
+    end,
+  },
+
+  { 'catppuccin/nvim', name = 'catppuccin', priority = 1000 },
+
   { -- You can easily change to a different colorscheme.
     -- Change the name of the colorscheme plugin below, and then
     -- change the command in the config to whatever the name of that colorscheme is.
@@ -985,12 +1000,11 @@ require('lazy').setup({
 
       -- Load the colorscheme here.
       -- Like many other themes, this one has different styles, and you could load
-      -- any other, such as 'tokyonight-storm', 'tokyonight-moon', or 'tokyonight-day'.
+      -- any other, such as 'tokyonight-storm', 'tokyonight-moon', or 'jj-day'.
       -- vim.cmd.colorscheme gruvbox-material
+      --
     end,
   },
-
-  { 'catppuccin/nvim', name = 'catppuccin', priority = 1000 },
 
   -- Highlight todo, notes, etc in comments
   { 'folke/todo-comments.nvim', event = 'VimEnter', dependencies = { 'nvim-lua/plenary.nvim' }, opts = { signs = false } },
