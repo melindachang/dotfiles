@@ -43,392 +43,390 @@
 /* @define-color bg2       #504945; */
 /**/
 
-@import "themes/gruvbox_material.css";
+@import "themes/catppuccin_mocha.css";
 
 * {
-  font-family: CommitMono Nerd Font Mono;
-  /* font-weight: bolder; */
+        font-family: CommitMono Nerd Font Mono;
+        /* font-weight: bolder; */
 }
 
 
 
 .control-center .notification-row:focus,
 .control-center .notification-row:hover {
-    opacity: 1;
-    background: alpha(@red, 0.25);
-    border-radius: 0px;
-    margin: 0px;
+        opacity: 1;
+        background: alpha(@red, 0.25);
+        border-radius: 0px;
+        margin: 0px;
 }
 
 .notification {
-    border-radius: 10px;
-    padding: 0;
-    border: 1px solid @bg4;
-    background: @bg;
-    /* box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.75); */
+        border-radius: 10px;
+        padding: 0;
+        border: 1px solid @bg4;
+        background: @bg;
+        /* box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.75); */
 }
 
 .notification-content {
-    background: transparent;
-    padding: 10px;
+        background: transparent;
+        padding: 10px;
 }
 
 .close-button {
-    background: @bg2;
-    color: @red;
-    text-shadow: none;
-    padding: 0;
-    border-radius: 100%;
-    margin-top: 20px;
-    margin-right: 13px;
-    box-shadow: none;
-    border: none;
-    min-width: 24px;
-    min-height: 24px
+        background: @bg2;
+        color: @red;
+        text-shadow: none;
+        padding: 0;
+        border-radius: 100%;
+        margin-top: 20px;
+        margin-right: 13px;
+        box-shadow: none;
+        border: none;
+        min-width: 24px;
+        min-height: 24px
 }
 
 .close-button:hover {
-    box-shadow: none;
-    background: @bg4;
-    transition: all .15s ease-in-out;
-    border: none
+        box-shadow: none;
+        background: @bg4;
+        transition: all .15s ease-in-out;
+        border: none
 }
 
 .notification-default-action,
 .notification-action {
-    padding: 4px;
-    margin: 0;
-    box-shadow: none;
-    background: @bg;
-    border: none;
-    color: @fg;
-    transition: all .15s ease-in-out;
-    font-size: 11pt;
+        padding: 4px;
+        margin: 0;
+        box-shadow: none;
+        background: @bg;
+        border: none;
+        color: @fg;
+        transition: all .15s ease-in-out;
+        font-size: 11pt;
 }
 
 .notification-default-action:hover,
 .notification-action:hover {
-    -gtk-icon-effect: none;
-    background: @bg2;
-    /* text-shadow: 0 0 3px @text-color; */
+        -gtk-icon-effect: none;
+        background: @bg2;
+        /* text-shadow: 0 0 3px @text-color; */
 }
 
 .notification-default-action {
-    border-radius: 8px
+        border-radius: 8px
 }
 
 .notification-default-action:not(:only-child) {
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0
 }
 
 .notification-action {
-    border-radius: 0;
-    border-top: none;
-    border-right: none
+        border-radius: 0;
+        border-top: none;
+        border-right: none
 }
 
 .notification-action:first-child {
-    border-bottom-left-radius: 10px;
-    background: @bg;
+        border-bottom-left-radius: 10px;
+        background: @bg;
 }
 
 .notification-action:last-child {
-    border-bottom-right-radius: 10px;
-    background: @bg;
+        border-bottom-right-radius: 10px;
+        background: @bg;
 }
 
 .notification-group-headers {
-  font-weight: bold;
-  font-size: 11pt;
-  color: @fg;
+        font-weight: bold;
+        font-size: 11pt;
+        color: @fg;
 }
 
 .notification-group-icon {
-  color: @red;
-  margin-right: 8px;
+        color: @red;
+        margin-right: 8px;
 }
 
 .notification-group-collapse-button {
-  background: @bg2;
-  border: none;
-  min-width: 24px;
-  min-height: 24px;
+        background: @bg2;
+        border: none;
+        min-width: 24px;
+        min-height: 24px;
 }
 
 .notification-group-collapse-button:hover {
-  background: @bg4;
-  color: @red;
+        background: @bg4;
+        color: @red;
 }
 
 .notification-group-close-all-button {
-  background: @bg2;
-  border: none;
-  min-width: 24px;
-  min-height: 24px;
+        background: @bg2;
+        border: none;
+        min-width: 24px;
+        min-height: 24px;
 }
 
 .notification-group-close-all-button:hover {
-  background: @bg4;
-  color: @red
+        background: @bg4;
+        color: @red
 }
 
 .inline-reply {
-    margin-top: 8px
+        margin-top: 8px
 }
 
 .inline-reply-entry {
-    background: @bg;
-    color: @fg;
-    caret-color: @fg;
-    border: 1px solid @bg4;
-    border-radius: 10px
+        background: @bg;
+        color: @fg;
+        caret-color: @fg;
+        border: 1px solid @bg4;
+        border-radius: 10px
 }
 
 .inline-reply-button {
-    margin-left: 4px;
-    background: @bg;
-    border: 1px solid @bg4;
-    border-radius: 10px;
-    color: @text-color
+        margin-left: 4px;
+        background: @bg;
+        border: 1px solid @bg4;
+        border-radius: 10px;
+        color: @text-color
 }
 
 .inline-reply-button:disabled {
-    background: initial;
-    color: @fg2;
-    border: 1px solid transparent
+        background: initial;
+        color: @fg2;
+        border: 1px solid transparent
 }
 
 .inline-reply-button:hover {
-    background: @bg2;
+        background: @bg2;
 }
 
 .body-image {
-    margin-top: 0px;
-    background-color: transparent;
-    border-radius: 10px
+        margin-top: 0px;
+        background-color: transparent;
+        border-radius: 10px
 }
 
 .summary {
-    font-size: 11pt;
-    font-weight: bold;
-    font-style: italic;
-    background: transparent;
-    color: @red;
-    margin-left: 10px;
-    /* text-shadow: 0 0 3px @red; */
+        font-size: 11pt;
+        font-weight: bold;
+        font-style: italic;
+        background: transparent;
+        color: @red;
+        margin-left: 10px;
+        /* text-shadow: 0 0 3px @red; */
 }
 
 .time {
-    font-size: 11pt;
-    font-weight: bold;
-    font-style: italic;
-    background: transparent;
-    color: @green;
-    text-shadow: none;
-    margin-right: 10px
+        font-size: 11pt;
+        font-weight: bold;
+        font-style: italic;
+        background: transparent;
+        color: @green;
+        text-shadow: none;
+        margin-right: 10px
 }
 
 .body {
-    font-size: 11pt;
-    font-weight: normal;
-    background: transparent;
-    color: @fg;
-    text-shadow: none;
-    font-weight: bold;
-    margin-left: 10px;
+        font-size: 11pt;
+        font-weight: normal;
+        background: transparent;
+        color: @fg;
+        text-shadow: none;
+        font-weight: bold;
+        margin-left: 10px;
 }
 
 .image {
-    background: transparent;
-    border-radius: 8px;
+        background: transparent;
+        border-radius: 8px;
 }
 
 .control-center {
-    background: alpha(@bg, 0.9);
-    border: 1px solid @bg4;
-    border-radius: 10px;
-    margin: 10px;
-    /* box-shadow: 0 0 10px 0 rgba(0, 0, 0, 1); */
+        background: alpha(@bg, 0.9);
+        border: 1px solid @bg4;
+        border-radius: 10px;
+        margin: 10px;
+        /* box-shadow: 0 0 10px 0 rgba(0, 0, 0, 1); */
 }
 
 .control-center-list {
-    background: transparent;
+        background: transparent;
 }
 
 .control-center-list-placeholder {
-    opacity: .5
+        opacity: .5
 }
 
 .floating-notifications .notification-row {
-    background: transparent;
-    margin: 15px 10px 0 0;
+        background: transparent;
+        margin: 15px 10px 0 0;
 }
 
 .blank-window {
-    background: alpha(black, 0.0)
+        background: alpha(black, 0.0)
 }
 
 .widget-title {
-    color: @red;
-    margin: 20px 20px 5px 20px;
-    font-size: 11pt;
-    font-weight: bold;
-    font-style: italic;
-    /* text-shadow: 0 0 3px @red; */
+        color: @red;
+        margin: 20px 20px 5px 20px;
+        font-size: 11pt;
+        font-weight: bold;
+        font-style: italic;
+        /* text-shadow: 0 0 3px @red; */
 }
 
 .widget-title>button {
-    font-size: initial;
-    font-weight: bold;
-    font-family: 'Symbols Nerd Font';
-    color: @green;
-    text-shadow: none;
-    background: @bg;
-    border: 1px solid @bg4;
-    box-shadow: none;
-    border-radius: 10px;
+        font-size: initial;
+        font-weight: bold;
+        font-family: 'Symbols Nerd Font';
+        color: @green;
+        text-shadow: none;
+        background: @bg;
+        border: 1px solid @bg4;
+        box-shadow: none;
+        border-radius: 10px;
 }
 
 .widget-title>button:hover {
-    background: @bg2;
-    /* text-shadow: 0 0 3px @brgreen; */
+        background: @bg2;
+        /* text-shadow: 0 0 3px @brgreen; */
 }
 
 .widget-dnd {
-    color: @fg;
-    margin: 5px 20px 5px 20px;
-    font-size: 11pt;
-    font-weight: bold;
+        color: @fg;
+        margin: 5px 20px 5px 20px;
+        font-size: 11pt;
+        font-weight: bold;
 }
 
 .widget-dnd>switch {
-    font-size: initial;
-    border-radius: 999px;
-    background: @bg;
-    /* border: 1px solid @bgblack; */
-    box-shadow: none;
-    padding: 1px;
-    transition: all .1s ease-in-out;
+        font-size: initial;
+        border-radius: 999px;
+        background: @bg;
+        /* border: 1px solid @bgblack; */
+        box-shadow: none;
+        padding: 1px;
+        transition: all .1s ease-in-out;
 }
 
 .widget-dnd>switch:checked {
-    background: @fg;
+        background: @fg;
 }
 
 .widget-dnd>switch slider {
-    background: @bg2;
-    border-radius: 999px
+        background: @bg2;
+        border-radius: 999px
 }
 
 .widget-label {
-    margin: 10px;
+        margin: 10px;
 }
 
 .widget-label>label {
-    font-size: 1.5rem;
-    color: @fg;
+        font-size: 1.5rem;
+        color: @fg;
 }
 
 .widget-mpris {
-    color: @fg;
-    background: @bg;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 10px;
+        color: @fg;
+        background: @bg;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
 }
 
 .widget-mpris-player {
-    padding: 8px;
-    margin: 8px
+        padding: 8px;
+        margin: 8px
 }
 
 .widget-mpris-title {
-    font-weight: 700;
-    font-size: 1.25rem
+        font-weight: 700;
+        font-size: 1.25rem
 }
 
 .widget-mpris-subtitle {
-    font-size: 1.1rem
+        font-size: 1.1rem
 }
 
 .widget-buttons-grid {
-    font-size: x-large;
-    padding: 8px;
-    margin: 20px 10px 10px;
-    border-radius: 10px;
-    background: @bg;
+        font-size: x-large;
+        padding: 8px;
+        margin: 20px 10px 10px;
+        border-radius: 10px;
+        background: @bg;
 }
 
 .widget-buttons-grid>flowbox>flowboxchild>button {
-    margin: 3px;
-    background: @bg2;
-    border-radius: 10px;
-    color: @text-color
+        margin: 3px;
+        background: @bg2;
+        border-radius: 10px;
+        color: @text-color;
 }
 
 .widget-buttons-grid>flowbox>flowboxchild>button:hover {
-    /* background: @noti-bg-hover; */
-    color: @green;
-    /* text-shadow: 0 0 3px @white; */
+        /* background: @noti-bg-hover; */
+        color: @green;
 }
 
 .widget-menubar>box>.menu-button-bar>button {
-    border: none;
-    background: transparent
+        border: none;
+        background: transparent
 }
 
 .topbar-buttons>button {
-    border: none;
-    background: transparent
+        border: none;
+        background: transparent
 }
 
 .widget-volume {
-    background: @bg;
-    padding: 8px;
-    margin: 10px;
-    border-radius: 10px;
-    font-size: x-large;
-    color: @text-color
+        background: @bg;
+        padding: 8px;
+        margin: 10px;
+        border-radius: 10px;
+        font-size: x-large;
+        color: @text-color
 }
 
 .widget-volume>box>button {
-    background: transparent;
-    border: none
+        background: transparent;
+        border: none
 }
 
 .per-app-volume {
-    background-color: @bg;
-    padding: 4px 8px 8px;
-    margin: 0 8px 8px;
-    border-radius: 10px
+        background-color: @bg;
+        padding: 4px 8px 8px;
+        margin: 0 8px 8px;
+        border-radius: 10px
 }
 
 .widget-backlight {
-    background: @bg;
-    padding: 8px;
-    margin: 10px;
-    border-radius: 10px;
-    font-size: x-large;
-    color: @fg;
+        background: @bg;
+        padding: 8px;
+        margin: 10px;
+        border-radius: 10px;
+        font-size: x-large;
+        color: @fg;
 }
 
 .widget-inhibitors {
-    margin: 8px;
-    font-size: 1.5rem
+        margin: 8px;
+        font-size: 1.5rem
 }
 
 .widget-inhibitors>button {
-    font-size: initial;
-    color: @fg;
-    text-shadow: none;
-    background: @bg;
-    border: 1px solid @bg4;
-    box-shadow: none;
-    border-radius: 10px
+        font-size: initial;
+        color: @fg;
+        text-shadow: none;
+        background: @bg;
+        border: 1px solid @bg4;
+        box-shadow: none;
+        border-radius: 10px
 }
 
 .widget-inhibitors>button:hover {
-    background: @bg2
+        background: @bg2
 }
-

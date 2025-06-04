@@ -49,9 +49,14 @@
 ;; (unpin! t)
 
 (package! ultra-scroll
-	  :recipe (:host github :repo "jdtsmith/ultra-scroll"))
+  :recipe (:host github :repo "jdtsmith/ultra-scroll"))
 
 (package! catppuccin-theme)
 
 (package! org-super-agenda)
 (package! apheleia)
+
+(package! typst-preview
+  :recipe (:host github :repo "havarddj/typst-preview.el"))
+
+(package! typst-ts-mode :recipe (:host codeberg :repo "meow_king/typst-ts-mode"))

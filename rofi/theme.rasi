@@ -1,4 +1,4 @@
-@import "themes/gruvbox_material"
+@import "themes/catppuccin_mocha"
 
 * {
   border-color: @bg4;

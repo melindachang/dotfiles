@@ -21,7 +21,7 @@
   "hide-on-clear": false,
   "hide-on-action": true,
   "script-fail-notify": true,
-  "widgets": ["title", "dnd", "notifications"],
+  "widgets": ["title", "dnd", "notifications", "buttons-grid"],
   "widget-config": {
     "title": {
       "text": "󰂚  :: Notifications",
@@ -33,6 +33,13 @@
     "mpris": { "image-size": 96, "image-radius": 12 },
     "volume": { "label": "󰕾 " },
     "backlight": { "label": "󰃟 " },
+    "buttons-grid": {
+      "actions": [
+        { "label": "󰔏", "command": "hyprshade toggle blue-light-filter" },
+        { "label": "󰌵", "command": "hyprshade toggle dim" },
+        { "label": "󰊠", "command": "hyprshade toggle grayscale" },
+        { "label": "󰏘", "command": "hyprshade toggle vibrance" }
+      ]
     }
   }
 }
