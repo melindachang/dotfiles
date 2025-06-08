@@ -32,7 +32,7 @@
 ;; There are two ways to load a theme. Both assume the theme is installed and
 ;; available. You can either set `doom-theme' or manually load a theme with the
 ;; `load-theme' function. This is the default:
-(setq doom-theme 'catppuccin)
+(setq doom-theme 'doom-tokyo-night)
 
 (setq doom-font (font-spec :family "CommitMono Nerd Font Mono" :size 16 :weight 'regular))
 
@@ -119,5 +119,5 @@
           (latex . ("https://github.com/latex-lsp/tree-sitter-latex"))
           (python . ("https://github.com/tree-sitter/tree-sitter-python"))
           (rust . ("https://github.com/tree-sitter/tree-sitter-rust"))
-          (svelte . ("https://github.com/Himujjal/tree-sitter-svelte"))
+          (svelte . ("https://github.com/tree-sitter-grammars/tree-sitter-svelte"))
           (typescript . ("https://github.com/tree-sitter/tree-sitter-typescript" "master" "typescript/src")))))
