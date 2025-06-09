@@ -3,7 +3,6 @@
 ;; Place your private configuration here! Remember, you do not need to run 'doom
 ;; sync' after modifying this file!
 
-
 ;; Some functionality uses this to identify you, e.g. GPG configuration, email
 ;; clients, file templates and snippets. It is optional.
 (setq user-full-name "Melinda Chang"
@@ -20,9 +19,6 @@
 ;;
 ;; See 'C-h v doom-font' for documentation and more examples of what they
 ;; accept. For example:
-;;
-;;(setq doom-font (font-spec :family "Fira Code" :size 12 :weight 'semi-light)
-;;      doom-variable-pitch-font (font-spec :family "Fira Sans" :size 13))
 ;;
 ;; If you or Emacs can't find your font, use 'M-x describe-font' to look them
 ;; up, `M-x eval-region' to execute elisp code, and 'M-x doom/reload-font' to
@@ -46,6 +42,9 @@
 (setq org-agenda-files '("~/org/todos.org"))
 
 (add-to-list 'auto-mode-alist '("\\.org\\'" . org-mode))
+;; (add-to-list 'auto-mode-alist '("\\.svelte\\'" . web-mode))
+
+;; (setq web-mode-engines-alist '(("svelte" . "\\.svelte\\'")))
 
 (after! org
   (add-hook 'org-mode-hook 'org-indent-mode)
@@ -67,7 +66,7 @@
 ;;   (after! PACKAGE
 ;;     (setq x y))
 ;;
-;; The exceptions to this rule:
+;; The exceptions to this rule
 ;;
 ;;   - Setting file/directory variables (like `org-directory')
 ;;   - Setting variables which explicitly tell you to set them before their
@@ -92,10 +91,11 @@
 ;;
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
+
 (setq shell-file-name (executable-find "bash"))
+
 (setq-default vterm-shell "/usr/bin/fish")
 (setq-default explicit-shell-file-name "/usr/bin/fish")
-
 
 (use-package! ultra-scroll
   :init (setq scroll-conservatively 101
@@ -105,19 +105,27 @@
 (use-package! org-super-agenda
   :config (org-super-agenda-mode 1))
 
-(use-package! treesit
-  :init
-  (setq treesit-language-source-alist
-        '((c . ("https://github.com/tree-sitter/tree-sitter-c"))
-          (cpp . ("https://github.com/tree-sitter/tree-sitter-cpp"))
-          (css . ("https://github.com/tree-sitter/tree-sitter-css"))
-          (fish . ("https://github.com/ram02z/tree-sitter-fish"))
-          (haskell . ("https://github.com/Himujjal/tree-sitter-haskell"))
-          (html . ("https://github.com/tree-sitter/tree-sitter-html"))
-          (json . ("https://github.com/tree-sitter/tree-sitter-json"))
-          (javascript . ("https://github.com/tree-sitter/tree-sitter-javascript"))
-          (latex . ("https://github.com/latex-lsp/tree-sitter-latex"))
-          (python . ("https://github.com/tree-sitter/tree-sitter-python"))
-          (rust . ("https://github.com/tree-sitter/tree-sitter-rust"))
-          (svelte . ("https://github.com/tree-sitter-grammars/tree-sitter-svelte"))
-          (typescript . ("https://github.com/tree-sitter/tree-sitter-typescript" "master" "typescript/src")))))
+(use-package! tree-sitter
+  :config (global-tree-sitter-mode 1))
+
+(use-package! apheleia
+  :config (apheleia-global-mode +1))
+
+(map! :leader
+      :desc "Format buffer (Apheleia)"
+      "c f" #'apheleia-format-buffer)
+
+(add-hook 'doom-load-theme-hook
+          (lambda ()
+            (when (eq doom-theme 'doom-tokyo-night)
+              (custom-set-faces!
+                `(default :foreground ,(doom-color 'fg-alt))
+                `(font-lock-type-face :foreground ,(doom-color 'teal))
+                `(font-lock-keyword-face :slant italic)
+                `(font-lock-constant-face :foreground ,(doom-color 'green))
+                `(font-lock-operator-face :foreground ,(doom-color 'dark-cyan))
+                `(tree-sitter-hl-face:number :foreground ,(doom-color 'orange))
+                `(tree-sitter-hl-face:property :slant normal)
+                `(tree-sitter-hl-face:property.definition :foreground ,(doom-color 'green))
+                `(tree-sitter-hl-face:variable.parameter :foreground ,(doom-color 'yellow))
+                `(tree-sitter-hl-face:function.call :foreground ,(doom-color 'blue))))))

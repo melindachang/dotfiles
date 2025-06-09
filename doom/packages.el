@@ -1,13 +1,6 @@
 ;; -*- no-byte-compile: t; -*-
 ;;; $DOOMDIR/packages.el
 
-;; To install a package with Doom you must declare them here and run 'doom sync'
-;; on the command line, then restart Emacs for the changes to take effect -- or
-
-
-;; To install SOME-PACKAGE from MELPA, ELPA or emacsmirror:
-;; (package! some-package)
-
 ;; To install a package directly from a remote git repo, you must specify a
 ;; `:recipe'. You'll find documentation on what `:recipe' accepts here:
 ;; https://github.com/radian-software/straight.el#the-recipe-format
@@ -39,7 +32,6 @@
 ;; Use `:pin' to specify a particular commit to install.
 ;; (package! builtin-package :pin "1a2b3c4d5e")
 
-
 ;; Doom's packages are pinned to a specific commit and updated from release to
 ;; release. The `unpin!' macro allows you to unpin single packages...
 ;; (unpin! pinned-package)
@@ -48,15 +40,19 @@
 ;; ...Or *all* packages (NOT RECOMMENDED; will likely break things)
 ;; (unpin! t)
 
-(package! ultra-scroll
-  :recipe (:host github :repo "jdtsmith/ultra-scroll"))
-
 (package! catppuccin-theme)
 
 (package! org-super-agenda)
+
 (package! apheleia)
 
 (package! typst-preview
   :recipe (:host github :repo "havarddj/typst-preview.el"))
 
-(package! typst-ts-mode :recipe (:host codeberg :repo "meow_king/typst-ts-mode"))
+(package! typst-ts-mode
+  :recipe (:host codeberg :repo "meow_king/typst-ts-mode"))
+
+(package! ultra-scroll
+  :recipe (:host github :repo "jdtsmith/ultra-scroll"))
+
+(package! svelte-mode)
