@@ -1,4 +1,4 @@
-@import "themes/tokyo_night"
+@import "themes/catppuccin_mocha"
 
 * {
   border-color: @bg4;

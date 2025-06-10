@@ -28,7 +28,7 @@
 ;; There are two ways to load a theme. Both assume the theme is installed and
 ;; available. You can either set `doom-theme' or manually load a theme with the
 ;; `load-theme' function. This is the default:
-(setq doom-theme 'doom-tokyo-night)
+(setq doom-theme 'catppuccin)
 
 (setq doom-font (font-spec :family "CommitMono Nerd Font Mono" :size 16 :weight 'regular))
 
@@ -115,17 +115,21 @@
       :desc "Format buffer (Apheleia)"
       "c f" #'apheleia-format-buffer)
 
-(add-hook 'doom-load-theme-hook
-          (lambda ()
-            (when (eq doom-theme 'doom-tokyo-night)
-              (custom-set-faces!
-                `(default :foreground ,(doom-color 'fg-alt))
-                `(font-lock-type-face :foreground ,(doom-color 'teal))
-                `(font-lock-keyword-face :slant italic)
-                `(font-lock-constant-face :foreground ,(doom-color 'green))
-                `(font-lock-operator-face :foreground ,(doom-color 'dark-cyan))
-                `(tree-sitter-hl-face:number :foreground ,(doom-color 'orange))
-                `(tree-sitter-hl-face:property :slant normal)
-                `(tree-sitter-hl-face:property.definition :foreground ,(doom-color 'green))
-                `(tree-sitter-hl-face:variable.parameter :foreground ,(doom-color 'yellow))
-                `(tree-sitter-hl-face:function.call :foreground ,(doom-color 'blue))))))
+;; TREE-SITTER CUSTOM FACES
+(define-advice tree-sitter-langs--hl-query-path (:before-until (lang-symbol &rest _) override-default-patterns)
+  (pcase lang-symbol
+    ('typescript "/home/melinda/.config/emacs/tree-sitter/queries/typescript/highlights.scm")))
+
+(defface tree-sitter-hl-face:keyword.module
+  '((t :inherit tree-sitter-hl-face:keyword))
+  "Face for @keyword.module - inherits from @keyword by default.")
+
+(defface tree-sitter-hl-face:keyword.operator
+  '((t :inherit tree-sitter-hl-face:keyword))
+  "Face for @keyword.operator - inherits from @keyword by default.")
+
+(add-function :before-until tree-sitter-hl-face-mapping-function
+              (lambda (capture-name)
+                (pcase capture-name
+                  ("keyword.module" 'tree-sitter-hl-face:keyword.module)
+                  ("keyword.operator" 'tree-sitter-hl-face:keyword.operator))))
