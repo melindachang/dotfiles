@@ -17,5 +17,8 @@
 !/yazi
 !/zathura
 
+!/emacs/
+/emacs/*
 !/emacs/tree-sitter
+/emacs/tree-sitter/*
 !/emacs/tree-sitter/**
