@@ -1,5 +1,20 @@
 set VALID_THEMES gruvbox_material catppuccin_mocha tokyo_night
 
+function _switch_zellij_theme -a theme
+    set config_path ~/.config/zellij/config.kdl
+
+    switch $theme
+        case tokyo_night
+            set format tokyo-night-dark
+        case catppuccin_mocha
+            set format catppuccin-mocha
+        case gruvbox_material
+            set $format gruvbox-dark
+    end
+
+    sed -i -E "s/(theme \")[a-z-]+\"/\1$format\"/1" $config_path
+end
+
 function _switch_waybar_theme -a theme
     set config_path ~/.config/waybar/style.css
 
@@ -36,18 +51,19 @@ function _switch_neovim_theme -a theme
 end
 
 function _switch_emacs_theme -a theme
-    set config_path $DOOMDIR/config.el
-
-    switch $theme
-        case tokyo_night
-            set name doom-tokyo-night
-        case catppuccin_mocha
-            set name catppuccin
-        case gruvbox_material
-            set name doom-gruvbox
-    end
-
-    sed -i -E "s/(\(setq doom-theme ')[a-z_-]+\)/\1$name\)/g" $config_path
+    set config_path ~/.emacs.d/init.el
+    # set config_path $DOOMDIR/config.el
+    #
+    # switch $theme
+    #     case tokyo_night
+    #         set name doom-tokyo
+    #     case catppuccin_mocha
+    #         set name catppuccin
+    #     case gruvbox_material
+    #         set name doom-gruvbox
+    # end
+    #
+    # sed -i -E "s/(\(setq doom-theme ')[a-z_-]+\)/\1$name\)/g" $config_path
 end
 
 # function _switch_code_theme -a theme
@@ -121,6 +137,7 @@ function switch_system_theme -a theme
             _switch_yazi_theme $theme
             _switch_btop_theme $theme
             _switch_swaync_theme $theme
+            _switch_zellij_theme $theme
             switch_wallpaper $theme
         end &>/dev/null
     else

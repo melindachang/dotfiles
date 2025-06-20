@@ -1,11 +1,12 @@
 ## ENVIRONMENT VARIABLES ##
-set -x BAT_THEME gruvbox-dark
 set fzf_fd_opts -u
 
 source ~/.local/share/icons-in-terminal/icons.fish
 
 set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME
 set -gx PATH $HOME/.cabal/bin $PATH /home/melinda/.ghcup/bin # ghcup-env
+
+alias emacs "emacs -nw"
 
 ## RUN ON INIT SHELL ##
 

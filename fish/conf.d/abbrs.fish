@@ -13,4 +13,4 @@ abbr ls eza
 abbr ll eza -l
 abbr la eza -la
 
-abbr nmtui impala
+# abbr nmtui impala
