@@ -43,7 +43,7 @@
 /* @define-color bg2       #504945; */
 /**/
 
-@import "themes/catppuccin_mocha.css";
+@import "themes/gruvbox_material.css";
 
 * {
         font-family: CommitMono Nerd Font Mono;
