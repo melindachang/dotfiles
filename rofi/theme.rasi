@@ -1,4 +1,4 @@
-@import "themes/gruvbox_material"
+@import "themes/tokyo_night"
 
 * {
   border-color: @bg4;

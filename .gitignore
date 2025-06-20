@@ -22,4 +22,5 @@
 /emacs/*
 !/emacs/init.el
 
+!/screenshots
 !/wallpapers
