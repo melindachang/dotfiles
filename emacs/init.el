@@ -79,6 +79,7 @@
   (switch-to-buffer-obey-display-actions t)       ;; Make buffer switching respect display actions.
   (tab-always-indent 'complete)                   ;; Make the TAB key complete text instead of just indenting.
   (tab-width 2)                                   ;; Set the tab width to 4 spaces.
+	(indent-tabs-mode nil)
   (treesit-font-lock-level 4)                     ;; Use advanced font locking for Treesit mode.
   (truncate-lines t)                              ;; Enable line truncation to avoid wrapping long lines.
   (use-dialog-box nil)                            ;; Disable dialog boxes in favor of minibuffer prompts.
@@ -1239,7 +1240,13 @@
   :ensure t
 	:straight t
 	:config
-  (add-to-list 'apheleia-mode-alist '(svelte-ts-mode . prettier))
+
+	(dolist (mode '((svelte-ts-mode . prettier-svelte)
+									(markdown-mode . prettier-markdown)))
+		(add-to-list 'apheleia-mode-alist mode))
+	
+	(setq apheleia-log-only-errors nil)
+
   (apheleia-global-mode +1))
 
 ;; ULTRA SCROLL
