@@ -1,4 +1,4 @@
-set VALID_THEMES gruvbox_material catppuccin_mocha tokyo_night
+set VALID_THEMES gruvbox_material catppuccin_mocha tokyo_night kanagawa_paper
 
 # function _switch_zellij_theme -a theme
 #     set config_path ~/.config/zellij/config.kdl
@@ -66,21 +66,6 @@ function _switch_emacs_theme -a theme
     # sed -i -E "s/(\(setq doom-theme ')[a-z_-]+\)/\1$name\)/g" $config_path
 end
 
-# function _switch_code_theme -a theme
-#   set config_path ~/.config/Code/User/settings.json
-#
-#   switch $theme
-#     case tokyo_night
-#       set name "Tokyo Night"
-#     case catppuccin_mocha
-#       set name "Catppuccin Mocha"
-#     case gruvbox_material
-#       set name "Gruvbox Dark Medium"
-#   end
-#
-#   sed -i -E "s/(\"workbench.colorTheme\": \")[a-zA-Z\s_-]+\"/\1$name\"/g" $config_path
-# end
-
 function _switch_swaync_theme -a theme
     set config_path ~/.config/swaync/style.css
 
@@ -95,13 +80,17 @@ function _switch_zathura_theme -a theme
 end
 
 function _switch_spotify_theme -a theme
-    if test $theme = gruvbox_material
-        set format Gruvbox
-    else
-        for part in (string split _ $theme)
-            set -a format (string upper (string sub -l 1 $part))(string sub -s 2 $part)
-        end
+    switch $theme
+        case gruvbox_material
+            set format Gruvbox
+        case kanagawa_paper
+            set format Kanagawa
+        case '*'
+            for part in (string split _ $theme)
+                set -a format (string upper (string sub -l 1 $part))(string sub -s 2 $part)
+            end
     end
+
     command spicetify config color_scheme (string join "" $format)
     command spicetify apply
 end

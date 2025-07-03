@@ -18,6 +18,11 @@ local options = {
 		icon = "system-reboot",
 		command = "fish -c 'switch_system_theme tokyo_night'",
 	},
+	{
+		name = "Kanagawa Paper",
+		icon = "system-reboot",
+		command = "fish -c 'switch_system_theme kanagawa_paper'",
+	},
 }
 
 for i, opt in ipairs(options) do
