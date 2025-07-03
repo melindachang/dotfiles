@@ -157,6 +157,9 @@ require('lazy').setup({
     ---@type oil.SetupOpts
     opts = {
       delete_to_trash = true,
+      view_options = {
+        show_hidden = true,
+      },
     },
     -- Optional dependencies
     dependencies = { { 'echasnovski/mini.icons', opts = {} } },
@@ -453,6 +456,11 @@ require('lazy').setup({
     -- end,
   },
   {
+    'davidmh/mdx.nvim',
+    config = true,
+    dependencies = { 'nvim-treesitter/nvim-treesitter' },
+  },
+  {
     -- Main LSP Configuration
     'neovim/nvim-lspconfig',
     dependencies = {
@@ -726,8 +734,10 @@ require('lazy').setup({
         -- python = { "isort", "black" },
         --
         -- You can use 'stop_after_first' to run the first available formatter from the list
+        astro = { 'prettierd', 'prettier' },
         fish = { 'fish_indent' },
         javascript = { 'prettierd', 'prettier' },
+        typescript = { 'prettierd', 'prettier' },
         json = { 'prettierd', 'prettier' },
         jsonc = { 'prettierd', 'prettier' },
         sh = { 'prettierd', 'prettier' },
@@ -736,6 +746,8 @@ require('lazy').setup({
         typst = { 'typstyle' },
         cpp = { 'clang-format' },
         c = { 'clang-format' },
+        sass = { 'prettierd', 'prettier' },
+        scss = { 'prettierd', 'prettier' },
         svelte = { 'prettierd', 'prettier' },
       },
     },

@@ -16,11 +16,15 @@
 !/waybar
 !/yazi
 !/zathura
-!/zellij
+# !/zellij
 
 !/emacs/
 /emacs/*
 !/emacs/init.el
+
+!/tmux
+/tmux/*
+!/tmux/tmux.conf
 
 !/screenshots
 !/wallpapers

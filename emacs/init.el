@@ -382,7 +382,7 @@
 	:config
 	(setq denote-directory (expand-file-name "~/org/"))
 	(denote-rename-buffer-mode 1)
-	(setq denote-known-keywords '("journal", "research", "log"))
+	(setq denote-known-keywords '("journal" "research" "log" "reading" "fleet" "idea"))
 	(setq denote-infer-keywords nil)
 	(setq denote-sort-keywords t))
 
@@ -550,6 +550,7 @@
 ;; enabling features like syntax highlighting, previews, and more.
 ;; It’s particularly useful for README files, as it can be set
 ;; to use GitHub Flavored Markdown for enhanced compatibility.
+
 (use-package markdown-mode
   :defer t
   :straight t
@@ -557,6 +558,7 @@
   :mode ("README\\.md\\'" . gfm-mode)            ;; Use gfm-mode for README.md files.
   :init (setq markdown-command "multimarkdown")) ;; Set the Markdown processing command.
 
+(add-to-list 'auto-mode-alist '("\\.mdx\\'" . markdown-mode))
 
 ;;; COMPANY
 ;; Company Mode provides a text completion framework for Emacs.
