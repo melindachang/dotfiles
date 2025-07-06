@@ -62,5 +62,9 @@ At present, theme switching is supported for the following apps:
 
 NOTE: Used to support Doom Emacs, but I've since switched to a config based on [Emacs-Kick](https://github.com/LionyxML/emacs-kick) to use in the terminal. May re-implement something for GUI in the near future.
 
+## Roadmap
+- [ ] Implement Kanagawa-Paper flavors for yazi, tmux
+- [ ] Emacs-Kick theme-switching integration
+
 ## Credits
 Several modules (e.g., rofi, swaync) based off of [Axenide/Dotfiles](https://github.com/Axenide/Dotfiles/).

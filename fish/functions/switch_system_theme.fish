@@ -1,20 +1,5 @@
 set VALID_THEMES gruvbox_material catppuccin_mocha tokyo_night kanagawa_paper
 
-# function _switch_zellij_theme -a theme
-#     set config_path ~/.config/zellij/config.kdl
-#
-#     switch $theme
-#         case tokyo_night
-#             set format tokyo-night-dark
-#         case catppuccin_mocha
-#             set format catppuccin-mocha
-#         case gruvbox_material
-#             set $format gruvbox-dark
-#     end
-#
-#     sed -i -E "s/(theme \")[a-z-]+\"/\1$format\"/1" $config_path
-# end
-
 function _switch_waybar_theme -a theme
     set config_path ~/.config/waybar/style.css
 
