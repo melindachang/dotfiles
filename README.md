@@ -20,6 +20,10 @@ Hyprland dots for personal use, including theme switching.
     <td><img src="screenshots/gruvbox_screenshot_2.png"></td>
     <td><img src="screenshots/gruvbox_screenshot_3.png"></td>
   </tr>
+  <tr>
+    <td><img src="screenshots/kanagawa_paper_screenshot_2.png"></td>
+    <td><img src="screenshots/kanagawa_paper_screenshot_3.png"></td>
+  </tr>
 </table>
 
 ## Information
@@ -54,19 +58,18 @@ At present, theme switching is supported for the following apps:
 - yazi
 - zathura
 - zellij
-- tmux
 
 ...with the following color palettes:
 - Catppuccin Mocha
 - Gruvbox Material/Dark Medium
 - Tokyo Night
-- Kanagawa Paper Ink ()
+- Kanagawa Paper Ink
 
 NOTE: Used to support Doom Emacs, but I've since switched to a config based on [Emacs-Kick](https://github.com/LionyxML/emacs-kick) to use in the terminal. May re-implement something for GUI in the near future.
 
 ## Roadmap
 - [x] Implement Kanagawa-Paper flavors for yazi, tmux
-- [ ] Emacs theme-switching integration
+- [ ] Emacs-Kick theme-switching integration
 
 ## Credits
 Several modules (e.g., rofi, swaync) based off of [Axenide/Dotfiles](https://github.com/Axenide/Dotfiles/).
