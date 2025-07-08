@@ -54,6 +54,7 @@ At present, theme switching is supported for the following apps:
 - rofi
 - Spotify (via `spicetify-cli`)
 - swww
+- tmux
 - waybar
 - yazi
 - zathura
