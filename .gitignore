@@ -6,7 +6,6 @@
 !/btop
 !/cava
 # !/doom
-!/fish
 !/foot
 !/hypr
 !/nvim
@@ -21,6 +20,13 @@
 !/emacs/
 /emacs/*
 !/emacs/init.el
+
+!/fish/
+/fish/fish_variables
+/fish/completions/
+/fish/functions/_*
+/fish/conf.d/
+!/fish/conf.d/abbrs.fish
 
 !/tmux
 /tmux/*
