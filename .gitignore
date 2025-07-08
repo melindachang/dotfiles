@@ -3,6 +3,7 @@
 !.gitignore
 !README.md
 
+!/bat
 !/btop
 !/cava
 # !/doom
