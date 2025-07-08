@@ -549,7 +549,15 @@
 
 (use-package astro-ts-mode
   :ensure t
-  :straight t)
+  :straight t
+  :config
+  (let ((astro-recipe (make-treesit-auto-recipe
+                       :lang 'astro
+                       :ts-mode 'astro-ts-mode
+                       :url "https://github.com/virchau13/tree-sitter-astro"
+                       :revision "master"
+                       :source-dir "src")))
+    (add-to-list 'treesit-auto-recipe-list astro-recipe)))
 
 ;;; MARKDOWN-MODE
 ;; Markdown Mode provides support for editing Markdown files in Emacs,
@@ -1254,9 +1262,17 @@
   :ensure t
 	:straight t
 	:config
-
+  (add-to-list 'apheleia-formatters
+               '(prettier-astro "apheleia-npx" "prettier"
+                                "--stdin-filepath" filepath
+                                "--plugin=prettier-plugin-astro"
+                                "--parser=astro"
+                                (apheleia-formatters-js-indent "--use-tabs" "--tab-width"
+                                                               'astro-ts-mode-indent-offset)))
+  
 	(dolist (mode '((svelte-ts-mode . prettier-svelte)
-									(markdown-mode . prettier-markdown)))
+									(markdown-mode . prettier-markdown)
+                  (astro-ts-mode . prettier-astro)))
 		(add-to-list 'apheleia-mode-alist mode))
 	
 	(setq apheleia-log-only-errors nil)
