@@ -64,6 +64,11 @@ function _switch_zathura_theme -a theme
     sed -i -E "s/^(include themes\/)[a-z_]+\$/\1$theme/1" $config_path
 end
 
+function _switch_tmux_theme -a theme
+    set config_path ~/.config/tmux/tmux.conf
+    sed -i -E "s/^(source-file ~\/\\.config\/tmux\/themes\/)[a-z_]+(\\.conf)\$/\1$theme\2/1" $config_path
+end
+
 function _switch_spotify_theme -a theme
     switch $theme
         case gruvbox_material
@@ -111,6 +116,7 @@ function switch_system_theme -a theme
             _switch_yazi_theme $theme
             _switch_btop_theme $theme
             _switch_swaync_theme $theme
+            _switch_tmux_theme $theme
             # _switch_zellij_theme $theme
             switch_wallpaper $theme
         end &>/dev/null
