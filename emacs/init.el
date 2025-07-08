@@ -515,7 +515,9 @@
 	(setq treesit-language-source-alist
 				(append
 				 '((svelte . ("https://github.com/Himujjal/tree-sitter-svelte"))
-					 (typst . ("https://github.com/uben0/tree-sitter-typst")))
+					 (typst . ("https://github.com/uben0/tree-sitter-typst"))
+           (astro . ("https://github.com/virchau13/tree-sitter-astro"))
+           (scss . ("https://github.com/tree-sitter-grammars/tree-sitter-scss")))
 				 treesit-language-source-alist)))
 
 ;;; TREESITTER-AUTO
@@ -545,6 +547,10 @@
 	(typst-ts-watch-options '("--open"))
 	(typst-ts-enable-raw-blocks-highlight t))
 
+(use-package astro-ts-mode
+  :ensure t
+  :straight t)
+
 ;;; MARKDOWN-MODE
 ;; Markdown Mode provides support for editing Markdown files in Emacs,
 ;; enabling features like syntax highlighting, previews, and more.
@@ -555,10 +561,15 @@
   :defer t
   :straight t
   :ensure t
-  :mode ("README\\.md\\'" . gfm-mode)            ;; Use gfm-mode for README.md files.
-  :init (setq markdown-command "multimarkdown")) ;; Set the Markdown processing command.
-
-(add-to-list 'auto-mode-alist '("\\.mdx\\'" . markdown-mode))
+  :mode (("\\.md\\'" . gfm-mode)
+         ("\\.mdx\\'" . gfm-mode))
+  :init (setq markdown-command "multimarkdown"
+              markdown-fontify-code-blocks-natively t)
+  :config
+  (dolist (pair '(("ts" . typescript-ts-mode)
+                  ("js" . js-ts-mode)
+                  ("sh" . bash-ts-mode)))
+    (add-to-list 'markdown-code-lang-modes pair)))
 
 ;;; COMPANY
 ;; Company Mode provides a text completion framework for Emacs.
@@ -628,6 +639,7 @@
          (js-ts-mode . lsp)                             ;; Enable LSP for JavaScript (TS mode)
 				 (rust-ts-mode . lsp)
 				 (svelte-ts-mode . lsp)
+         (astro-ts-mode . lsp)
 				 (html-ts-mode . lsp)
 				 (yaml-ts-mode . lsp)
 				 (lua-ts-mode . lsp) 
