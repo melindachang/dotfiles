@@ -148,7 +148,9 @@
 ;;    Packages     : %s
 "
                          (emacs-init-time)
-                         (number-to-string (length package-activated-list))))))))
+                         (number-to-string (length package-activated-list)))))))
+  ;; (add-hook 'emacs-startup-hook #'my/load-current-theme)
+  )
 
 
 ;;; WINDOW
@@ -336,24 +338,28 @@
 ;; it's explicitly needed, which can help speed up Emacs startup time.
 (use-package org
   :ensure nil     ;; This is built-in, no need to fetch it.
-  :defer t)       ;; Defer loading Org-mode until it's needed.
+  :defer t        ;; Defer loading Org-mode until it's needed.
+  :hook ((org-mode . org-indent-mode)
+         (org-mode . visual-line-mode))
+  :init
+  (setq org-agenda-files '("~/org")
+        org-log-done 'time
+        org-return-follows-link t
+        org-startup-numerated t
+        org-startup-folded 'content
+        org-startup-indented t
+        org-pretty-entities t
+        org-ellipsis "…")
+  :config
+  (setq org-default-notes-file "~/org/inbox.org")
+  (add-to-list 'auto-mode-alist '("\\.org\\'" . org-mode))
+  (setq org-capture-templates
+			  '(("t" "Todo Entry"
+				   entry (file+headline "~/org/todos.org" "General Tasks")
+				   "* TODO [#B] %?\n:Created: %T\n "
+				   :empty-lines 0)))
+  (setq org-todo-keywords '((sequence "TODO" "DOIN" "|" "DONE" "CNCL"))))
 
-(setq org-agenda-files '("~/org"))
-(setq org-log-done 'time)
-(setq org-return-follows-link t)
-
-(add-to-list 'auto-mode-alist '("\\.org\\'" . org-mode))
-(add-hook 'org-mode-hook 'org-indent-mode)
-(add-hook 'org-mode-hook 'visual-line-mode)
-
-(setq org-capture-templates
-			'(
-				("t" "Todo Entry"
-				 entry (file+headline "~/org/todos.org" "General Tasks")
-				 "* TODO [#B] %?\n:Created: %T\n "
-				 :empty-lines 0)))
-
-(setq org-todo-keywords '((sequence "TODO" "DOIN" "|" "DONE" "CNCL")))
 
 (use-package org-super-agenda
 	:ensure t
@@ -516,6 +522,7 @@
 				(append
 				 '((svelte . ("https://github.com/Himujjal/tree-sitter-svelte"))
 					 (typst . ("https://github.com/uben0/tree-sitter-typst"))
+           (fish . ("https://github.com/ram02z/tree-sitter-fish"))
            (astro . ("https://github.com/virchau13/tree-sitter-astro"))
            (scss . ("https://github.com/tree-sitter-grammars/tree-sitter-scss")))
 				 treesit-language-source-alist)))
@@ -558,6 +565,10 @@
                        :revision "master"
                        :source-dir "src")))
     (add-to-list 'treesit-auto-recipe-list astro-recipe)))
+
+(use-package fish-mode
+  :ensure t
+  :straight t)
 
 ;;; MARKDOWN-MODE
 ;; Markdown Mode provides support for editing Markdown files in Emacs,
@@ -696,6 +707,13 @@
   ;; Semantic settings
   (lsp-semantic-tokens-enable nil)                     ;; Disable semantic tokens.
 	:config
+  (add-to-list 'lsp-language-id-configuration '(fish-mode . "fish"))
+  (lsp-register-client
+   (make-lsp-client
+    :new-connection (lsp-stdio-connection '("fish-lsp" "start"))
+    :activation-fn (lsp-activate-on "fish")
+    :server-id 'fish-lsp))
+
 	(add-to-list 'lsp-language-id-configuration '(typst-ts-mode . "typst"))
 	(lsp-register-client
 	 (make-lsp-client
@@ -891,6 +909,9 @@
   (evil-set-leader 'normal (kbd "SPC"))
   (evil-set-leader 'visual (kbd "SPC"))
 
+  ;; theme switching
+  (evil-define-key 'normal 'global (kbd "<leader> t t") 'mc/toggle-theme)
+  
   ;; denote
   (evil-define-key 'normal 'global (kbd "<leader> d n") 'denote)
 
@@ -1233,31 +1254,6 @@
   (nerd-icons-completion-mode)            ;; Activate nerd icons for completion interfaces.
   (add-hook 'marginalia-mode-hook #'nerd-icons-completion-marginalia-setup)) ;; Setup icons in the marginalia mode for enhanced completion display.
 
-
-;;; CATPPUCCIN THEME
-;; The `catppuccin-theme' package provides a visually pleasing color theme
-;; for Emacs that is inspired by the popular Catppuccin color palette.
-;; This theme aims to create a comfortable and aesthetic coding environment
-;; with soft colors that are easy on the eyes.
-(use-package catppuccin-theme
-  :ensure t
-  :straight t
-  :config
-  (custom-set-faces
-   ;; Set the color for changes in the diff highlighting to blue.
-   `(diff-hl-change ((t (:background unspecified :foreground ,(catppuccin-get-color 'blue))))))
-
-  (custom-set-faces
-   ;; Set the color for deletions in the diff highlighting to red.
-   `(diff-hl-delete ((t (:background unspecified :foreground ,(catppuccin-get-color 'red))))))
-
-  (custom-set-faces
-   ;; Set the color for insertions in the diff highlighting to green.
-   `(diff-hl-insert ((t (:background unspecified :foreground ,(catppuccin-get-color 'green))))))
-
-  ;; Load the Catppuccin theme without prompting for confirmation.
-  (load-theme 'catppuccin :no-confirm))
-
 (use-package apheleia
   :ensure t
 	:straight t
@@ -1289,6 +1285,50 @@
         scroll-margin 0)        ; important: scroll-margin>0 not yet supported
   :config
   (ultra-scroll-mode 1))
+
+(use-package catppuccin-theme
+  :ensure t
+  :straight t
+  :config
+  (custom-set-faces
+   `(diff-hl-change ((t (:background unspecified :foreground ,(catppuccin-get-color 'blue)))))
+   `(diff-hl-delete ((t (:background unspecified :foreground ,(catppuccin-get-color 'red)))))
+   `(diff-hl-insert ((t (:background unspecified :foreground ,(catppuccin-get-color 'green)))))))
+
+(use-package kanagawa-paper-theme
+	:ensure t
+	:straight '(:host codeberg :repo "melindachang/emacs-kanagawa-paper")
+  :custom
+  (kanagawa-paper-theme-org-height nil))
+
+(use-package doom-themes
+  :ensure t
+  :straight t)
+
+(defvar *gruvbox-material* 'doom-gruvbox)
+(defvar *tokyo-night* 'doom-tokyo-night)
+(defvar *kanagawa-paper* 'kanagawa-paper)
+(defvar *catppuccin-mocha* 'catppuccin)
+(defvar *mc-current-theme* *kanagawa-paper*)
+
+(defadvice load-theme (before theme-dont-propagate activate)
+  "Disable theme before loading new one."
+  (mapc #'disable-theme custom-enabled-themes))
+
+(defun mc/next-theme (theme)
+  (if (eq theme 'default)
+      (disable-theme *mc-current-theme*)
+    (progn
+      (load-theme theme t)))
+  (setq *mc-current-theme* theme))
+
+(defun mc/toggle-theme()
+  (interactive)
+  (cond ((eq *mc-current-theme* *catppuccin-mocha*) (mc/next-theme *gruvbox-material*))
+        ((eq *mc-current-theme* *gruvbox-material*) (mc/next-theme *tokyo-night*))
+        ((eq *mc-current-theme* *tokyo-night*) (mc/next-theme 'default))
+        ((eq *mc-current-theme* 'default) (mc/next-theme *kanagawa-paper*))
+        ((eq *mc-current-theme* *kanagawa-paper*) (mc/next-theme *catppuccin-mocha*))))
 
 ;;; UTILITARY FUNCTION TO INSTALL EMACS-KICK
 (defun ek/first-install ()

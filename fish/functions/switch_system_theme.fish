@@ -35,21 +35,22 @@ function _switch_neovim_theme -a theme
     sed -i -E "s/(vim\\.cmd\\.colorscheme\\s+)'[a-zA-Z0-9_-]+'/\\1'$formatted'/g" $config_path
 end
 
-function _switch_emacs_theme -a theme
-    set config_path ~/.emacs.d/init.el
-    # set config_path $DOOMDIR/config.el
-    #
-    # switch $theme
-    #     case tokyo_night
-    #         set name doom-tokyo
-    #     case catppuccin_mocha
-    #         set name catppuccin
-    #     case gruvbox_material
-    #         set name doom-gruvbox
-    # end
-    #
-    # sed -i -E "s/(\(setq doom-theme ')[a-z_-]+\)/\1$name\)/g" $config_path
-end
+# function _switch_emacs_theme -a theme
+#     set config_path ~/.emacs.d/init.el
+#
+#     switch $theme
+#         case catppuccin_mocha
+#             set name catppuccin
+#         case gruvbox_material
+#             set name doom-gruvbox
+#         case tokyo_night
+#             set name doom-tokyo-night
+#         case kanagawa_paper
+#             set name kanagawa-paper
+#     end
+#
+#     sed -i -E "s/(\(load-theme ')[a-z_-]+\)/\1$name\)/g" $config_path
+# end
 
 function _switch_swaync_theme -a theme
     set config_path ~/.config/swaync/style.css
@@ -67,6 +68,7 @@ end
 function _switch_tmux_theme -a theme
     set config_path ~/.config/tmux/tmux.conf
     sed -i -E "s/^(source-file ~\/\\.config\/tmux\/themes\/)[a-z_]+(\\.conf)\$/\1$theme\2/1" $config_path
+    tmux source $config_path
 end
 
 function _switch_spotify_theme -a theme
@@ -109,15 +111,13 @@ function switch_system_theme -a theme
             _switch_rofi_theme $theme
             _switch_foot_theme $theme
             _switch_neovim_theme $theme
-            _switch_emacs_theme $theme
-            # _switch_code_theme $theme
+            # _switch_emacs_theme $theme
             _switch_zathura_theme $theme
             _switch_spotify_theme $theme
             _switch_yazi_theme $theme
             _switch_btop_theme $theme
             _switch_swaync_theme $theme
             _switch_tmux_theme $theme
-            # _switch_zellij_theme $theme
             switch_wallpaper $theme
         end &>/dev/null
     else

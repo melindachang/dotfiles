@@ -750,6 +750,7 @@ require('lazy').setup({
         scss = { 'prettierd', 'prettier' },
         svelte = { 'prettierd', 'prettier' },
         mdx = { 'prettierd', 'prettier' },
+        yaml = { 'prettierd', 'prettier' },
       },
     },
   },
@@ -1023,7 +1024,7 @@ require('lazy').setup({
   },
 })
 
-vim.cmd.colorscheme 'catppuccin-mocha'
+vim.cmd.colorscheme 'kanagawa-paper'
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
