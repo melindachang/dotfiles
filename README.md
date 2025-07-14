@@ -58,19 +58,16 @@ At present, theme switching is supported for the following apps:
 - waybar
 - yazi
 - zathura
-- zellij
 
 ...with the following color palettes:
 - Catppuccin Mocha
-- Gruvbox Material/Dark Medium
+- Gruvbox Material
 - Tokyo Night
-- Kanagawa Paper Ink
+- Kanagawa Paper
 
-NOTE: Used to support Doom Emacs, but I've since switched to a config based on [Emacs-Kick](https://github.com/LionyxML/emacs-kick) to use in the terminal. May re-implement something for GUI in the near future.
-
-## Roadmap
-- [x] Implement Kanagawa-Paper flavors for yazi, tmux
-- [ ] Emacs-Kick theme-switching integration
+**NOTE:** Switched from a Doom-based config to Emacs-Kick, and now theme
+switching for Emacs is a little unstable. I do this manually for now.
 
 ## Credits
-Several modules (e.g., rofi, swaync) based off of [Axenide/Dotfiles](https://github.com/Axenide/Dotfiles/).
+Several modules (e.g., rofi, swaync) based off of
+[Axenide/Dotfiles](https://github.com/Axenide/Dotfiles/).
