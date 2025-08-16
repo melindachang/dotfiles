@@ -70,7 +70,6 @@
   (history-length 25)                             ;; Set the length of the command history.
   (inhibit-startup-message t)                     ;; Disable the startup message when Emacs launches.
   (initial-scratch-message "")                    ;; Clear the initial message in the *scratch* buffer.
-  (ispell-dictionary "en_US")                     ;; Set the default dictionary for spell checking.
   (make-backup-files nil)                         ;; Disable creation of backup files.
   ;; (pixel-scroll-precision-mode t)                 ;; Enable precise pixel scrolling.
   ;; (pixel-scroll-precision-use-momentum nil)       ;; Disable momentum scrolling for pixel precision.
@@ -148,9 +147,7 @@
 ;;    Packages     : %s
 "
                          (emacs-init-time)
-                         (number-to-string (length package-activated-list)))))))
-  ;; (add-hook 'emacs-startup-hook #'my/load-current-theme)
-  )
+                         (number-to-string (length package-activated-list))))))))
 
 
 ;;; WINDOW
@@ -1275,6 +1272,15 @@
 
   (apheleia-global-mode +1))
 
+;; JINX
+(use-package jinx
+  :ensure t
+  :straight t
+  :hook (emacs-startup . global-jinx-mode)
+  :bind ("M-$" . jinx-correct)
+  :custom
+  (jinx-languages "en_US"))
+
 ;; ULTRA SCROLL
 (use-package ultra-scroll
   ;; :vc (:url "https://github.com/jdtsmith/ultra-scroll") ; For Emacs>=30
@@ -1299,36 +1305,13 @@
 	:ensure t
 	:straight '(:host codeberg :repo "melindachang/emacs-kanagawa-paper")
   :custom
-  (kanagawa-paper-theme-org-height nil))
+  (kanagawa-paper-theme-org-height nil)
+  :config
+  (load-theme 'kanagawa-paper t))
 
 (use-package doom-themes
   :ensure t
   :straight t)
-
-(defvar *gruvbox-material* 'doom-gruvbox)
-(defvar *tokyo-night* 'doom-tokyo-night)
-(defvar *kanagawa-paper* 'kanagawa-paper)
-(defvar *catppuccin-mocha* 'catppuccin)
-(defvar *mc-current-theme* *kanagawa-paper*)
-
-(defadvice load-theme (before theme-dont-propagate activate)
-  "Disable theme before loading new one."
-  (mapc #'disable-theme custom-enabled-themes))
-
-(defun mc/next-theme (theme)
-  (if (eq theme 'default)
-      (disable-theme *mc-current-theme*)
-    (progn
-      (load-theme theme t)))
-  (setq *mc-current-theme* theme))
-
-(defun mc/toggle-theme()
-  (interactive)
-  (cond ((eq *mc-current-theme* *catppuccin-mocha*) (mc/next-theme *gruvbox-material*))
-        ((eq *mc-current-theme* *gruvbox-material*) (mc/next-theme *tokyo-night*))
-        ((eq *mc-current-theme* *tokyo-night*) (mc/next-theme 'default))
-        ((eq *mc-current-theme* 'default) (mc/next-theme *kanagawa-paper*))
-        ((eq *mc-current-theme* *kanagawa-paper*) (mc/next-theme *catppuccin-mocha*))))
 
 ;;; UTILITARY FUNCTION TO INSTALL EMACS-KICK
 (defun ek/first-install ()
