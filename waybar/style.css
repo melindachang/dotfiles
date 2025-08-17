@@ -23,7 +23,7 @@ window#waybar {
 
 #workspaces {
   background: @bg;
-  border-radius: 8px;
+  border-radius: 6px;
   padding: 5px 8px;
   margin: 10px;
   border: 1px solid @bg4;
@@ -56,7 +56,7 @@ window#waybar {
   color: @red;
   font-size: 20px;
   background: @bg;
-  border-radius: 8px;
+  border-radius: 6px;
   padding: 8px 11px 8px 11px;
   margin: 10px 0px 10px 10px;
   border: 1px solid @bg4;
@@ -69,14 +69,14 @@ window#waybar {
   padding: 5px 10px;
   margin: 10px 5px;
   background: @bg;
-  border-radius: 8px;
+  border-radius: 6px;
   border: 1px solid @bg4;
 }
 
 #clock {
   color: @green;
   background: @bg;
-  border-radius: 8px;
+  border-radius: 6px;
   padding: 5px 14px;
   font-weight: bold;
   margin: 10px 10px 10px 0;
@@ -89,7 +89,7 @@ window#waybar {
   color: @fg;
   padding: 5px 14px;
   margin: 10px 5px;
-  border-radius: 8px;
+  border-radius: 6px;
   border: 1px solid @bg4;
 }
 
@@ -128,7 +128,7 @@ window#waybar {
 
 #group-applets {
   background: @bg;
-  border-radius: 8px;
+  border-radius: 6px;
   padding: 5px 8px;
   margin: 10px 10px 10px 5px;
   border: 1px solid @bg4;
@@ -152,7 +152,7 @@ window#waybar.empty {
 
 #workspaces {
   background: @bg;
-  border-radius: 8px;
+  border-radius: 6px;
   padding: 5px 8px;
 
 }
