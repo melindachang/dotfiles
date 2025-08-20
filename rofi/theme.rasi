@@ -1,4 +1,4 @@
-@import "themes/kanagawa_paper"
+@import "themes/catppuccin_mocha"
 
 * {
   border-color: @bg4;
