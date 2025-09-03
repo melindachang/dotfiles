@@ -1,4 +1,16 @@
+
 [plugin]
 prepend_previewers = [
-    { mime = "audio/*",   run = "exifaudio"}
+    { mime = "audio/*", run = "exifaudio" }
 ]
+
+[opener]
+imvd = [
+    { run = '~/.local/bin/imvd.fish "$@"', orphan = true, desc = "IMV (dir mode)", for = "unix" }
+]
+
+[open]
+prepend_rules = [
+    { mime = "image/*", use = "imvd" },
+]
+

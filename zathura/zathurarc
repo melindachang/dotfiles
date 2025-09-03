@@ -2,4 +2,4 @@ set selection-clipboard clipboard
 
 set font "CommitMono Nerd Font Mono 10"
 
-include themes/catppuccin_mocha
+include themes/kanagawa_paper
