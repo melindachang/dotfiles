@@ -1281,6 +1281,20 @@
   :custom
   (jinx-languages "en_US"))
 
+;; SLIME
+(use-package slime
+  :ensure t
+  :straight t
+  :config
+  (setq inferior-lisp-program "sbcl"))
+
+;; PAREDIT
+(use-package paredit
+  :ensure t
+  :straight t
+  :config
+  (paredit-mode 1))
+
 ;; ULTRA SCROLL
 (use-package ultra-scroll
   ;; :vc (:url "https://github.com/jdtsmith/ultra-scroll") ; For Emacs>=30

@@ -161,6 +161,16 @@ require('lazy').setup({
         show_hidden = true,
       },
     },
+    keys = {
+      {
+        '<leader>-',
+        function()
+          vim.cmd 'vsplit | wincmd l'
+          require('oil').open()
+        end,
+        desc = 'Open Oil.nvim in vertical window',
+      },
+    },
     -- Optional dependencies
     dependencies = { { 'echasnovski/mini.icons', opts = {} } },
     -- dependencies = { "nvim-tree/nvim-web-devicons" }, -- use if you prefer nvim-web-devicons
@@ -186,12 +196,12 @@ require('lazy').setup({
     },
     keys = {
       -- 👇 in this section, choose your own keymappings!
-      {
-        '<leader>-',
-        mode = { 'n', 'v' },
-        '<cmd>Yazi<cr>',
-        desc = 'Open yazi at the current file',
-      },
+      -- {
+      --   '<leader>-',
+      --   mode = { 'n', 'v' },
+      --   '<cmd>Yazi<cr>',
+      --   desc = 'Open yazi at the current file',
+      -- },
       {
         -- Open in the current working directory
         '<leader>cw',
@@ -456,6 +466,11 @@ require('lazy').setup({
   {
     'pmizio/typescript-tools.nvim',
     dependencies = { 'nvim-lua/plenary.nvim', 'neovim/nvim-lspconfig' },
+    opts = {},
+  },
+  {
+    'dundalek/parpar.nvim',
+    dependencies = { 'gpanders/nvim-parinfer', 'julienvincent/nvim-paredit' },
     opts = {},
   },
   {
