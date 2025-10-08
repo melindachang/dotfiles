@@ -883,7 +883,69 @@ require('lazy').setup({
       signature = { enabled = true },
     },
   },
+  {
+    'MeanderingProgrammer/render-markdown.nvim',
+    dependencies = { 'nvim-treesitter/nvim-treesitter', 'nvim-mini/mini.nvim' }, -- if you use the mini.nvim suite
+    -- dependencies = { 'nvim-treesitter/nvim-treesitter', 'nvim-mini/mini.icons' }, -- if you use standalone mini plugins
+    -- dependencies = { 'nvim-treesitter/nvim-treesitter', 'nvim-tree/nvim-web-devicons' }, -- if you prefer nvim-web-devicons
+    ---@module 'render-markdown'
+    ---@type render.md.UserConfig
+    opts = {
+      bullet = {
+        ordered_icons = function(ctx)
+          local function to_alpha(n)
+            local s = ''
+            while n > 0 do
+              local rem = (n - 1) % 26
+              s = string.char(97 + rem) .. s
+              n = math.floor((n - 1) / 26)
+            end
+            return s .. '.'
+          end
 
+          local function to_roman(n)
+            local roman_numerals = {
+              { 1000, 'm' },
+              { 900, 'cm' },
+              { 500, 'd' },
+              { 400, 'cd' },
+              { 100, 'c' },
+              { 90, 'xc' },
+              { 50, 'l' },
+              { 40, 'xl' },
+              { 10, 'x' },
+              { 9, 'ix' },
+              { 5, 'v' },
+              { 4, 'iv' },
+              { 1, 'i' },
+            }
+
+            local result = ''
+            for _, pair in ipairs(roman_numerals) do
+              local value, numeral = pair[1], pair[2]
+              while n >= value do
+                result = result .. numeral
+                n = n - value
+              end
+            end
+
+            return result .. '.'
+          end
+
+          local value = vim.trim(ctx.value)
+          local index = tonumber(value:match '^(%d+)') or ctx.index
+
+          if ctx.level == 2 then
+            return to_alpha(index)
+          elseif ctx.level == 3 then
+            return to_roman(index)
+          else
+            return string.format('%d.', index)
+          end
+        end,
+      },
+    },
+  },
   {
     'sainnhe/gruvbox-material',
     lazy = false,
