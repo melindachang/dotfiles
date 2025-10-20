@@ -653,6 +653,7 @@ require('lazy').setup({
         -- clangd = {},
         -- gopls = {},
         -- pyright = {},
+        basedpyright = {},
         cssls = {
           cmd = { 'bun', 'run', '--bun', 'vscode-css-languageserver', '--stdio' },
         },
@@ -676,6 +677,7 @@ require('lazy').setup({
             },
           },
         },
+        marksman = {},
         rust_analyzer = {},
         svelte = {
           cmd = { 'bun', 'run', '--bun', 'svelteserver', '--stdio' },
@@ -724,7 +726,7 @@ require('lazy').setup({
 
   { -- Code evaluation
     'Olical/conjure',
-    ft = { 'racket', 'scheme' },
+    ft = { 'common', 'racket', 'scheme' },
     lazy = true,
     init = function() end,
   },
