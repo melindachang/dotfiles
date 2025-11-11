@@ -1,6 +1,6 @@
 ## ENVIRONMENT VARIABLES ##
 # set fzf_fd_opts -u
-eval (dircolors -c | sed 's/^setenv/set/')
+eval (dircolors -c | sed 's/^setenv/set -x/')
 
 ## RUN ON INIT SHELL ##
 if status --is-login
