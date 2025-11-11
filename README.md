@@ -52,7 +52,6 @@ At present, theme switching is supported for the following apps:
 - foot
 - Neovim
 - rofi
-- Spotify (via `spicetify-cli`)
 - awww 
 - tmux
 - waybar
@@ -64,9 +63,6 @@ At present, theme switching is supported for the following apps:
 - Gruvbox Material
 - Tokyo Night
 - Kanagawa Paper
-
-**NOTE:** Switched from a Doom-based config to Emacs-Kick, and now theme
-switching for Emacs is a little unstable. I do this manually for now.
 
 ## Credits
 Several modules (e.g., rofi, swaync) based off of
