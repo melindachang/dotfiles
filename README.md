@@ -41,7 +41,7 @@ Hyprland dots for personal use, including theme switching.
 - File Manager: [yazi](https://github.com/sxyazi/yazi)
 - Notifications: [swaync](https://github.com/ErikReider/SwayNotificationCenter)
 - Lock: [swaylock](https://github.com/swaywm/swaylock)
-- Wallpaper: [swww](https://github.com/LGFae/swww)
+- Wallpaper: [awww](https://codeberg.org/LGFae/awww)
 - Editor: [emacs-wayland](https://wiki.archlinux.org/title/Emacs), [neovim](https://wiki.archlinux.org/title/Neovim), [code](https://wiki.archlinux.org/title/Visual_Studio_Code)
 
 ### Theming
@@ -53,7 +53,7 @@ At present, theme switching is supported for the following apps:
 - Neovim
 - rofi
 - Spotify (via `spicetify-cli`)
-- swww
+- awww 
 - tmux
 - waybar
 - yazi
