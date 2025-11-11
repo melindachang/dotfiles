@@ -464,6 +464,10 @@ require('lazy').setup({
     },
   },
   {
+    'benlubas/neorg-interim-ls',
+    opts = {},
+  },
+  {
     'pmizio/typescript-tools.nvim',
     dependencies = { 'nvim-lua/plenary.nvim', 'neovim/nvim-lspconfig' },
     opts = {},
@@ -657,6 +661,7 @@ require('lazy').setup({
         cssls = {
           cmd = { 'bun', 'run', '--bun', 'vscode-css-languageserver', '--stdio' },
         },
+        fish_lsp = {},
         html = {
           cmd = { 'bun', 'run', '--bun', 'vscode-html-languageserver', '--stdio' },
         },
@@ -797,9 +802,6 @@ require('lazy').setup({
         'L3MON4D3/LuaSnip',
         version = '2.*',
         build = (function()
-          -- Build Step is needed for regex support in snippets.
-          -- This step is not supported in many windows environments.
-          -- Remove the below condition to re-enable on windows.
           if vim.fn.has 'win32' == 1 or vim.fn.executable 'make' == 0 then
             return
           end
@@ -819,6 +821,7 @@ require('lazy').setup({
         opts = {},
       },
       'folke/lazydev.nvim',
+      'disrupted/blink-cmp-conventional-commits',
     },
     --- @module 'blink.cmp'
     --- @type blink.cmp.Config
@@ -832,11 +835,6 @@ require('lazy').setup({
         -- 'enter' for enter to accept
         -- 'none' for no mappings
         --
-        -- For an understanding of why the 'default' preset is recommended,
-        -- you will need to read `:help ins-completion`
-        --
-        -- No, but seriously. Please read `:help ins-completion`, it is really good!
-        --
         -- All presets have the following mappings:
         -- <tab>/<s-tab>: move to right/left of your snippet expansion
         -- <c-space>: Open menu or open docs if already open
@@ -846,14 +844,9 @@ require('lazy').setup({
         --
         -- See :h blink-cmp-config-keymap for defining your own keymap
         preset = 'default',
-
-        -- For more advanced Luasnip keymaps (e.g. selecting choice nodes, expansion) see:
-        --    https://github.com/L3MON4D3/LuaSnip?tab=readme-ov-file#keymaps
       },
 
       appearance = {
-        -- 'mono' (default) for 'Nerd Font Mono' or 'normal' for 'Nerd Font'
-        -- Adjusts spacing to ensure icons are aligned
         nerd_font_variant = 'mono',
       },
 
@@ -864,9 +857,19 @@ require('lazy').setup({
       },
 
       sources = {
-        default = { 'lsp', 'path', 'snippets', 'lazydev' },
+        default = { 'lsp', 'path', 'snippets', 'lazydev', 'conventional_commits' },
         providers = {
           lazydev = { module = 'lazydev.integrations.blink', score_offset = 100 },
+          conventional_commits = {
+            name = 'Conventional Commits',
+            module = 'blink-cmp-conventional-commits',
+            enabled = function()
+              return vim.bo.filetype == 'gitcommit'
+            end,
+            ---@module 'blink-cmp-conventional-commits'
+            ---@type blink-cmp-conventional-commits.Options
+            opts = {}, -- none so far
+          },
         },
       },
 
@@ -888,8 +891,6 @@ require('lazy').setup({
   {
     'MeanderingProgrammer/render-markdown.nvim',
     dependencies = { 'nvim-treesitter/nvim-treesitter', 'nvim-mini/mini.nvim' }, -- if you use the mini.nvim suite
-    -- dependencies = { 'nvim-treesitter/nvim-treesitter', 'nvim-mini/mini.icons' }, -- if you use standalone mini plugins
-    -- dependencies = { 'nvim-treesitter/nvim-treesitter', 'nvim-tree/nvim-web-devicons' }, -- if you prefer nvim-web-devicons
     ---@module 'render-markdown'
     ---@type render.md.UserConfig
     opts = {
@@ -1059,16 +1060,6 @@ require('lazy').setup({
     --    - Show your current context: https://github.com/nvim-treesitter/nvim-treesitter-context
     --    - Treesitter + textobjects: https://github.com/nvim-treesitter/nvim-treesitter-textobjects
   },
-  -- {
-  --   'OXY2DEV/markview.nvim',
-  --   lazy = false,
-  --
-  --   -- For blink.cmp's completion
-  --   -- source
-  --   dependencies = {
-  --     'saghen/blink.cmp',
-  --   },
-  -- },
 
   -- The following comments only work if you have downloaded the kickstart repo, not just copy pasted the
   -- init.lua. If you want these files, they are in the repository, so you can just download them and
@@ -1090,7 +1081,7 @@ require('lazy').setup({
   --    This is the easiest way to modularize your config.
   --
   --  Uncomment the following line and add your plugins to `lua/custom/plugins/*.lua` to get going.
-  -- { import = 'custom.plugins' },
+  { import = 'custom.plugins' },
   --
   -- For additional information with loading, sourcing and examples see `:help lazy.nvim-🔌-plugin-spec`
   -- Or use telescope!
