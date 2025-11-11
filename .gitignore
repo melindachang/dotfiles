@@ -6,7 +6,6 @@
 !/bat
 !/btop
 !/cava
-# !/doom
 !/foot
 !/hypr
 !/nvim
@@ -16,18 +15,24 @@
 !/waybar
 !/yazi
 !/zathura
-# !/zellij
 
-!/emacs/
-/emacs/*
-!/emacs/init.el
+# !/emacs/
+# /emacs/*
+# !/emacs/init.el
 
 !/fish/
-/fish/fish_variables
-/fish/completions/
-/fish/functions/_*
-/fish/conf.d/
-!/fish/conf.d/abbrs.fish
+/fish/*
+!/fish/config.fish
+!/fish/fish_plugins
+!/fish/functions
+/fish/functions/*
+!/fish/functions/fish_replace_path.fish
+!/fish/functions/handle_floating_window.fish
+!/fish/functions/low_battery_alert.fish
+!/fish/functions/playpause.fish
+!/fish/functions/switch_system_theme.fish
+!/fish/functions/switch_wallpaper.fish
+
 
 !/tmux
 /tmux/*
