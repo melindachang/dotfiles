@@ -668,6 +668,7 @@ require('lazy').setup({
         jsonls = {
           cmd = { 'bun', 'run', '--bun', 'vscode-json-languageserver', '--stdio' },
         },
+        taplo = {},
         lua_ls = {
           -- cmd = { ... },
           -- filetypes = { ... },
@@ -769,7 +770,6 @@ require('lazy').setup({
         lua = { 'stylua' },
         -- Conform can also run multiple formatters sequentially
         python = { 'isort', 'black' },
-        --
         -- You can use 'stop_after_first' to run the first available formatter from the list
         astro = { 'prettierd', 'prettier' },
         fish = { 'fish_indent' },
@@ -787,6 +787,7 @@ require('lazy').setup({
         scss = { 'prettierd', 'prettier' },
         svelte = { 'prettierd', 'prettier' },
         mdx = { 'prettierd', 'prettier' },
+        xml = { 'xmllint' },
         yaml = { 'prettierd', 'prettier' },
       },
     },

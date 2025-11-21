@@ -126,7 +126,7 @@
     "escape": true
   },
   "mpris": {
-    "player": "firefox",
+    "player": "chromium",
     "format": "{player_icon} :: {title} - {artist}",
     "format-paused": "{status_icon} :: <i>{title} - {artist}</i>",
     "max-length": 55,

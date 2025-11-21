@@ -1,4 +1,11 @@
 return {
+  -- related plugins
+  -- {
+  --   'benlubas/neorg-conceal-wrap',
+  -- },
+  {
+    dir = '~/src/codeberg.org/melindachang/neorg-conceal-wrap/',
+  },
   {
     'nvim-neorg/neorg',
     lazy = false,
@@ -50,6 +57,7 @@ return {
               },
             },
           },
+          ['external.conceal-wrap'] = {},
         },
       }
 

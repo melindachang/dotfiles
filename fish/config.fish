@@ -15,3 +15,5 @@ if status is-interactive
     starship init fish | source
     mise activate fish | source
 end
+
+alias wget="wget --hsts-file=$XDG_DATA_HOME/wget-hsts"
