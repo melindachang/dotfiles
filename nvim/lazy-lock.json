@@ -21,7 +21,6 @@
   "mini.icons": { "branch": "main", "commit": "ff2e4f1d29f659cc2bad0f9256f2f6195c6b2428" },
   "mini.nvim": { "branch": "main", "commit": "f43357be022565d969795cde29b8988d082cc913" },
   "neorg": { "branch": "main", "commit": "e206c9642f4a115cd836e76c98ef785623d335bc" },
-  "neorg-conceal-wrap": { "branch": "main", "commit": "447a76e4abf07ccc5eeb8cc3ee5fae241b434f5a" },
   "neorg-interim-ls": { "branch": "main", "commit": "e2f86982ba5857ed5581ff5814edd57b5c2c67e0" },
   "neoscroll.nvim": { "branch": "master", "commit": "f957373912e88579e26fdaea4735450ff2ef5c9c" },
   "nui.nvim": { "branch": "main", "commit": "de740991c12411b663994b2860f1a4fd0937c130" },

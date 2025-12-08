@@ -12,37 +12,6 @@
 
 /* https://github.com/Axenide/Dotfiles */
 
-/* @define-color cc-bg #000000; */
-/* @define-color noti-border-color #47423E; */
-/* @define-color noti-bg #000000; */
-/* @define-color noti-bg-darker #0A0B0C; */
-/* @define-color noti-bg-hover #0A0B0C; */
-/* @define-color noti-bg-focus #0A0B0C; */
-/* @define-color noti-close-bg #1B1D1D; */
-/* @define-color noti-close-bg-hover #2E3030; */
-/* @define-color text-color #E0CDA5; */
-/* @define-color text-color-disabled #928374; */
-/* @define-color bg-selected #1B1D1D; */
-/**/
-/* @define-color black     #47423E; */
-/* @define-color red       #DB4740; */
-/* @define-color green     #A1A740; */
-/* @define-color yellow    #DF9238; */
-/* @define-color blue      #619A96; */
-/* @define-color purple    #C27491; */
-/* @define-color aqua      #79A976; */
-/* @define-color gray      #BEAC8E; */
-/* @define-color brgray    #928374; */
-/* @define-color brred     #F3594B; */
-/* @define-color brgreen   #B1B946; */
-/* @define-color bryellow  #E9B243; */
-/* @define-color brblue    #80AA9E; */
-/* @define-color brpurple  #D3869B; */
-/* @define-color braqua    #8CBA7F; */
-/* @define-color white     #E0CDA5; */
-/* @define-color bg2       #504945; */
-/**/
-
 @import "themes/kanagawa_paper.css";
 
 * {

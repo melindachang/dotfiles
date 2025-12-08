@@ -120,6 +120,14 @@ vim.api.nvim_create_autocmd('TextYankPost', {
   end,
 })
 
+vim.api.nvim_create_user_command('LspLogClear', function()
+  local lsplogpath = vim.fn.stdpath 'state' .. '/lsp.log'
+  print(lsplogpath)
+  if io.close(io.open(lsplogpath, 'w+b')) == false then
+    vim.notify('Clearning LSP Log failed.', vim.log.levels.WARN)
+  end
+end, { nargs = 0 })
+
 -- [[ Install lazy.nvim ]]
 local lazypath = vim.fn.stdpath 'data' .. '/lazy/lazy.nvim'
 if not (vim.uv or vim.loop).fs_stat(lazypath) then
@@ -487,9 +495,7 @@ require('lazy').setup({
     'neovim/nvim-lspconfig',
     opts = {
       servers = {
-        racket_langserver = {
-          mason = false,
-        },
+        racket_langserver = {},
       },
     },
     dependencies = {
@@ -761,34 +767,32 @@ require('lazy').setup({
           return nil
         else
           return {
-            timeout_ms = 500,
+            timeout_ms = 2000,
             lsp_format = 'fallback',
           }
         end
       end,
       formatters_by_ft = {
         lua = { 'stylua' },
-        -- Conform can also run multiple formatters sequentially
         python = { 'isort', 'black' },
-        -- You can use 'stop_after_first' to run the first available formatter from the list
-        astro = { 'prettierd', 'prettier' },
+        astro = { 'prettierd', 'prettier', stop_after_first = true },
         fish = { 'fish_indent' },
-        javascript = { 'prettierd', 'prettier' },
-        typescript = { 'prettierd', 'prettier' },
-        json = { 'prettierd', 'prettier' },
-        jsonc = { 'prettierd', 'prettier' },
-        sh = { 'prettierd', 'prettier' },
+        javascript = { 'prettierd', 'prettier', stop_after_first = true },
+        typescript = { 'prettierd', 'prettier', stop_after_first = true },
+        json = { 'prettierd', 'prettier', stop_after_first = true },
+        jsonc = { 'prettierd', 'prettier', stop_after_first = true },
+        sh = { 'prettierd', 'prettier', stop_after_first = true },
         rust = { 'rustfmt' },
         tex = { 'tex-fmt' },
         typst = { 'typstyle' },
         cpp = { 'clang-format' },
         c = { 'clang-format' },
-        sass = { 'prettierd', 'prettier' },
-        scss = { 'prettierd', 'prettier' },
-        svelte = { 'prettierd', 'prettier' },
-        mdx = { 'prettierd', 'prettier' },
+        sass = { 'prettierd', 'prettier', stop_after_first = true },
+        scss = { 'prettierd', 'prettier', stop_after_first = true },
+        svelte = { 'prettierd', 'prettier', stop_after_first = true },
+        mdx = { 'prettierd', 'prettier', stop_after_first = true },
         xml = { 'xmllint' },
-        yaml = { 'prettierd', 'prettier' },
+        yaml = { 'prettierd', 'prettier', stop_after_first = true },
       },
     },
   },

@@ -1,0 +1,245 @@
+# Kanagawa Paper (Ink)
+# Author: Melinda Chang
+#
+# Adaptation of https://github.com/thesimonho/kanagawa-paper.nvim
+
+"ui.selection" = { bg = "sumi_ink_5" }
+"ui.selection.primary" = { bg = "sumi_ink_5" }
+"ui.background" = { bg = "sumi_ink_3" }
+"ui.text" = { fg = "fuji_white" }
+
+"ui.cursor" = { fg = "sumi_ink_3", bg = "fuji_white" }
+"ui.cursorline" = { bg = "sumi_ink_4" }
+
+"ui.linenr" = { fg = "sumi_ink_6" }
+"ui.linenr.selected" = { fg = "dragon_yellow" }
+
+"ui.menu" = { fg = "fuji_white", bg = "sumi_ink_4" }
+"ui.menu.selected" = { fg = "none", bg = "sumi_ink_5" }
+"ui.menu.scroll" = { fg = "sumi_ink_6", bg = "sumi_ink_4" }
+
+"ui.popup" = { fg = "old_white", bg = "sumi_ink_4" }
+
+"ui.statusline" = { fg = "dragon_gray_2", bg = "sumi_ink_4" }
+"ui.statusline.inactive" = { fg = "sumi_ink_6", bg = "sumi_ink_4" }
+"ui.statusline.normal" = { fg = "sumi_ink_4", bg = "dragon_yellow", modifiers = [
+  "bold",
+] }
+"ui.statusline.insert" = { fg = "sumi_ink_4", bg = "dragon_red", modifiers = [
+  "bold",
+] }
+"ui.statusline.select" = { fg = "sumi_ink_4", bg = "spring_violet_1", modifiers = [
+  "bold",
+] }
+
+"ui.window" = { fg = "dragon_violet" }
+
+# Syntax highlighting
+
+comment = "fuji_gray"
+constructor = "dragon_aqua"
+attribute = "dragon_yellow"
+type = "dragon_aqua"
+"type.enum.variant" = "dragon_orange"
+
+constant = "dragon_orange"
+"constant.builtin.boolean" = { fg = "dragon_orange", modifiers = ["bold"] }
+"constant.character" = { fg = "dragon_green_2" }
+"constant.numeric" = "dragon_pink"
+
+"punctuation.delimiter" = "dragon_gray_2"
+"punctuation.bracket" = "dragon_gray_2"
+"punctuation.special" = "dragon_red"
+
+namespace = "dragon_pink"
+
+operator = "dragon_red"
+function = "dragon_blue_2"
+"function.macro" = "dragon_red"
+
+keyword = "dragon_pink"
+"keyword.operator" = { fg = "dragon_red", modifiers = ["bold"] }
+"keyword.control.import" = "dragon_red"
+
+string = "dragon_green_2"
+"string.regexp" = "dragon_red"
+"string.special.symbol" = "dragon_red"
+"string.special.url" = { fg = "spring_violet_1", underline = { color = "spring_violet_1" } }
+
+variable = "none"
+"variable.builtin" = { fg = "dragon_orange", modifiers = ["italic"] }
+"variable.parameter" = "dragon_gray"
+"variable.other.member" = "dragon_red"
+
+"markup.heading.1" = "dragon_red"
+"markup.heading.2" = "dragon_pink"
+"markup.heading.3" = "dragon_blue"
+"markup.heading.4" = "dragon_orange_2"
+"markup.heading.5" = "dragon_green"
+"markup.heading.6" = "dragon_ash"
+
+"markup.quote" = "dragon_gray_2"
+"markup.raw" = "dragon_green_2"
+"markup.link" = { underline = { color = "fuji_white" } }
+"markup.link.url" = { underline = { color = "fuji_white" } }
+"markup.link.label" = "spring_violet_1"
+
+special = "dragon_yellow"
+
+# Diagnostics
+
+error = "dragon_red"
+warning = "dragon_yellow"
+info = "dragon_blue"
+hint = "dragon_aqua"
+
+diagnostic.error = "dragon_red"
+diagnostic.warning = "dragon_yellow"
+diagnostic.info = "dragon_blue"
+diagnostic.hint = "dragon_aqua"
+diagnostic.deprecated = "katana_gray"
+
+# Diff
+
+"diff.plus" = "dragon_green"
+"diff.minus" = "dragon_red"
+"diff.delta" = "dragon_yellow"
+
+[palette]
+sumi_ink_0 = "#16161D"
+sumi_ink_1 = "#181820"
+sumi_ink_2 = "#1a1a22"
+sumi_ink_3 = "#1F1F28"
+sumi_ink_4 = "#2A2A37"
+sumi_ink_5 = "#363646"
+sumi_ink_6 = "#54546D"
+wave_blue_1 = "#223249"
+wave_blue_2 = "#2D4F67"
+winter_green = "#2B3328"
+winter_yellow = "#49443C"
+winter_red = "#43242B"
+winter_blue = "#252535"
+autumn_green = "#76946A"
+autumn_red = "#C34043"
+autumn_yellow = "#DCA561"
+samurai_red = "#E82424"
+ronin_yellow = "#FF9E3B"
+wave_aqua_1 = "#6A9589"
+dragon_blue = "#658594"
+old_white = "#C8C093"
+fuji_white = "#DCD7BA"
+fuji_gray = "#727169"
+oni_violet = "#957FB8"
+oni_violet_2 = "#b8b4d0"
+spring_violet_1 = "#938AA9"
+spring_violet_2 = "#9CABCA"
+spring_blue = "#7FB4CA"
+crystal_blue = "#7E9CD8"
+light_blue = "#A3D4D5"
+wave_aqua_2 = "#7AA89F"
+spring_green = "#98BB6C"
+boat_yellow_1 = "#938056"
+boat_yellow_2 = "#C0A36E"
+carp_yellow = "#E6C384"
+sakura_pink = "#D27E99"
+wave_red = "#E46876"
+peach_red = "#FF5D62"
+surimi_orange = "#FFA066"
+katana_gray = "#717C7C"
+dragon_aqua = "#8ea49e"
+dragon_ash = "#737c73"
+dragon_black_0 = "#0d0c0c"
+dragon_black_1 = "#12120f"
+dragon_black_2 = "#1D1C19"
+dragon_black_3 = "#181616"
+dragon_black_4 = "#282727"
+dragon_black_5 = "#393836"
+dragon_black_6 = "#625e5a"
+dragon_blue_2 = "#859fac"
+dragon_blue_3 = "#708e9e"
+dragon_blue_4 = "#5d7a88"
+dragon_blue_5 = "#435965"
+dragon_gray = "#a6a69c"
+dragon_gray_2 = "#9e9b93"
+dragon_gray_3 = "#7a8382"
+dragon_green = "#699469"
+dragon_green_2 = "#8a9a7b"
+dragon_orange = "#b6927b"
+dragon_orange_2 = "#b98d7b"
+dragon_pink = "#a292a3"
+dragon_red = "#c4746e"
+dragon_teal = "#949fb5"
+dragon_violet = "#8992a7"
+dragon_white = "#c5c9c5"
+dragon_yellow = "#c4b28a"
+canvas_aqua_1 = "#7b958e"
+canvas_ash_1 = "#637263"
+canvas_blue_1 = "#809ba7"
+canvas_blue_2 = "#6b8998"
+canvas_blue_3 = "#577888"
+canvas_blue_4 = "#516e7d"
+canvas_blue_5 = "#3a515e"
+canvas_cyan_1 = "#4a905d"
+canvas_gray_1 = "#b4b4ac"
+canvas_gray_2 = "#8e8a80"
+canvas_gray_3 = "#73787d"
+canvas_green_1 = "#7e9579"
+canvas_green_2 = "#7a8c6a"
+canvas_orange_1 = "#b28d77"
+canvas_orange_2 = "#a8826a"
+canvas_pink_1 = "#9e7e98"
+canvas_pink_2 = "#c1b4c1"
+canvas_pink_3 = "#d4cdd4"
+canvas_red_1 = "#c27672"
+canvas_teal_1 = "#7e8faf"
+canvas_violet_1 = "#7880a5"
+canvas_violet_2 = "#9ba1bf"
+canvas_yellow_1 = "#a7956a"
+canvas_yellow_2 = "#b4a88a"
+canvas_white_1 = "#cbc8bc"
+canvas_white_2 = "#d1cfc5"
+canvas_white_3 = "#d8d8d2"
+canvas_white_4 = "#e1e1de"
+canvas_white_5 = "#e6e6e3"
+canvas_white_6 = "#ecece8"
+lotus_ink_0 = "#3d3d5e"
+lotus_ink_1 = "#545464"
+lotus_ink_2 = "#43436c"
+lotus_gray = "#dcd7ba"
+lotus_gray_2 = "#716e61"
+lotus_gray_3 = "#8a8980"
+lotus_white_0 = "#d5cea3"
+lotus_white_1 = "#dcd5ac"
+lotus_white_2 = "#e5ddb0"
+lotus_white_3 = "#f2ecbc"
+lotus_white_4 = "#e7dba0"
+lotus_white_5 = "#e4d794"
+lotus_violet_1 = "#a09cac"
+lotus_violet_2 = "#766b90"
+lotus_violet_3 = "#c9cbd1"
+lotus_violet_4 = "#624c83"
+lotus_blue_1 = "#c7d7e0"
+lotus_blue_2 = "#b5cbd2"
+lotus_blue_3 = "#9fb5c9"
+lotus_blue_4 = "#4d699b"
+lotus_blue_5 = "#5d57a3"
+lotus_green = "#6f894e"
+lotus_green_2 = "#6e915f"
+lotus_green_3 = "#b7d0ae"
+lotus_pink = "#b35b79"
+lotus_orange = "#cc6d00"
+lotus_orange_2 = "#e98a00"
+lotus_yellow = "#77713f"
+lotus_yellow_2 = "#836f4a"
+lotus_yellow_3 = "#de9800"
+lotus_yellow_4 = "#f9d791"
+lotus_red = "#c84053"
+lotus_red_2 = "#d7474b"
+lotus_red_3 = "#e82424"
+lotus_red_4 = "#d9a594"
+lotus_aqua = "#597b75"
+lotus_aqua_2 = "#5e857a"
+lotus_teal_1 = "#4e8ca2"
+lotus_teal_2 = "#6693bf"
+lotus_teal_3 = "#5a7785"
+lotus_cyan = "#d7e3d8"

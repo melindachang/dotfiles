@@ -1,0 +1,17 @@
+[[language]]
+name = "toml"
+auto-format = true
+roots = ["."]
+language-servers = ["taplo"]
+formatter = { command = "taplo", args = ["format", "-"] }
+
+[[language]]
+name = "rust"
+auto-format = true
+
+[[language]]
+name = "markdown"
+language-servers = ["marksman"]
+
+[language-server.rust-analyzer.config.check]
+command = "clippy"

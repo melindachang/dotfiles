@@ -7,6 +7,7 @@
 !/btop
 !/cava
 !/foot
+!/helix
 !/hypr
 !/nvim
 !/rofi
@@ -15,10 +16,6 @@
 !/waybar
 !/yazi
 !/zathura
-
-# !/emacs/
-# /emacs/*
-# !/emacs/init.el
 
 !/fish/
 /fish/*

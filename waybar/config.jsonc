@@ -6,9 +6,18 @@
   "margin-bottom": -10,
   "margin-left": 0,
   "margin-right": 0,
-  "modules-left": ["custom/launcher", "hyprland/workspaces"],
-  "modules-center": ["mpris"],
-  "modules-right": ["tray", "group/group-applets", "clock"],
+  "modules-left": [
+    "custom/launcher",
+    "hyprland/workspaces"
+  ],
+  "modules-center": [
+    "mpris"
+  ],
+  "modules-right": [
+    "tray",
+    "group/group-applets",
+    "clock"
+  ],
   "hyprland/workspaces": {
     "disable-scroll": false,
     "on-scroll-up": "hyprctl dispatch workspace -1",
@@ -39,8 +48,28 @@
       //		"default": "󰧞"
     },
     "persistent-workspaces": {
-      "*": [1, 2, 3, 4, 5, 6, 7, 8, 9],
-      "HDMI-A-1": [11, 12, 13, 14, 15, 16, 17, 18, 19]
+      "*": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "HDMI-A-1": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
     }
   },
   "custom/launcher": {
@@ -48,31 +77,64 @@
     "on-click": "rofi -i -modi powermenu:~/.config/rofi/powermenu.lua -show powermenu",
     "tooltip": false
   },
-  "tray": { "icon-size": 16, "spacing": 5 },
+  "tray": {
+    "icon-size": 16,
+    "spacing": 5
+  },
   "clock": {
     "format": "{:%H:%M}",
     "format-alt": "{:%A, %B %d}",
     "tooltip": false
   },
-  "cpu": { "format": "{usage}  ", "on-click": "foot ytop", "tooltip": false },
-  "memory": { "format": "{}  " },
+  "cpu": {
+    "format": "{usage}  ",
+    "on-click": "foot ytop",
+    "tooltip": false
+  },
+  "memory": {
+    "format": "{}  "
+  },
   "backlight": {
     "format": "{icon}",
-    "format-icons": ["󰃚", "󰃛", "󰃜", "󰃝", "󰃞", "󰃟", "󰃠"],
+    "format-icons": [
+      "󰃚",
+      "󰃛",
+      "󰃜",
+      "󰃝",
+      "󰃞",
+      "󰃟",
+      "󰃠"
+    ],
     "tooltip-format": "{percent}%"
   },
   "battery": {
     "bat": "BAT0",
-    "states": { "warning": 30, "critical": 15 },
+    "states": {
+      "warning": 30,
+      "critical": 15
+    },
     "format": "{icon}",
     "format-charging": "󰂄",
     "format-plugged": "󱐋",
     "format-alt": "{icon} {capacity}% | {time}",
     "tooltip-format": "{capacity}% - {time}",
-    "format-icons": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+    "format-icons": [
+      "󰁺",
+      "󰁻",
+      "󰁼",
+      "󰁽",
+      "󰁾",
+      "󰁿",
+      "󰂀",
+      "󰂁",
+      "󰂂",
+      "󰁹"
+    ],
     "interval": 3
   },
-  "battery#bat0": { "bat": "BAT0" },
+  "battery#bat0": {
+    "bat": "BAT0"
+  },
   "network": {
     "format-wifi": "󰤨",
     "format-ethernet": " {ifname}",
@@ -86,7 +148,14 @@
     "format-bluetooth": "{icon}",
     "format-bluetooth-muted": " {icon}",
     "format-muted": "",
-    "format-icons": { "headphone": "󰋋", "default": ["󰕿", "󰖀", "󰕾"] },
+    "format-icons": {
+      "headphone": "󰋋",
+      "default": [
+        "󰕿",
+        "󰖀",
+        "󰕾"
+      ]
+    },
     "tooltip-format": "{volume}%"
   },
   "custom/weather": {
@@ -126,7 +195,7 @@
     "escape": true
   },
   "mpris": {
-    "player": "chromium",
+    // "player": "chromium",
     "format": "{player_icon} :: {title} - {artist}",
     "format-paused": "{status_icon} :: <i>{title} - {artist}</i>",
     "max-length": 55,
@@ -134,7 +203,9 @@
       "default": "<span foreground='#B1B946'>󰎇</span>",
       "spotify": "<span foreground='#B1B946'>󰓇</span>"
     },
-    "status-icons": { "paused": "" }
+    "status-icons": {
+      "paused": ""
+    }
   },
   "custom/pacman": {
     "format": "󰏖",
@@ -145,7 +216,11 @@
     "on-click": "foot paru; pkill -SIGRTMIN+8 waybar", // update system
     "signal": 8
   },
-  "disk": { "interval": 30, "format": "{free}", "path": "/run/media/bryan/" },
+  "disk": {
+    "interval": 30,
+    "format": "{free}",
+    "path": "/run/media/bryan/"
+  },
   "custom/power": {
     "format": "⏻",
     "on-click": "rofi -i -modi powermenu:~/.config/rofi/powermenu.lua -show powermenu",
