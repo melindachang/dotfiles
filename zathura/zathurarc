@@ -1,0 +1,5 @@
+set selection-clipboard clipboard
+
+set font "monospace 10"
+
+include themes/kanagawa_paper

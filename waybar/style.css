@@ -1,0 +1,117 @@
+@import "themes/kanagawa_paper.css";
+
+* {
+  border: none;
+  border-radius: 0px;
+  font-size: 11pt;
+  min-height: 0;
+  font-family:
+    "CommitMono Nerd Font Propo",
+    Liberation Sans,
+    Arial,
+    Helvetica,
+    sans-serif;
+  box-shadow: inherit;
+  text-shadow: inherit;
+}
+
+window#waybar {
+  background: @bg;
+}
+
+/********** WORKSPACES *********/
+
+#workspaces {
+  /* background: @bg; */
+  /* border-radius: 6px; */
+  /* padding: 5px 8px; */
+  /* margin: 10px; */
+  /* border: 1px solid @bg4; */
+}
+
+#workspaces button {
+  color: @fg;
+  border-radius: 0;
+}
+
+#workspaces button.empty {
+  color: @fg-dim;
+}
+
+#workspaces button.active {
+  color: @green;
+}
+
+#workspaces button.urgent {
+  color: @magenta;
+}
+
+#workspaces button:hover {
+  background: transparent;
+  color: @green;
+}
+
+#custom-launcher {
+  color: @magenta;
+  font-size: 20px;
+  background: @bg4;
+  border-radius: 6px;
+  padding: 8px;
+  margin: 4px;
+}
+
+/********** TRAY *********/
+
+
+#tray {
+  background: @bg;
+}
+
+#clocks {
+  margin: 6px 0;
+}
+
+#clock {
+  color: @fg;
+  font-weight: bold;
+}
+
+#bluetooth,
+#wireplumber,
+#network,
+#battery,
+#custom-notifications,
+#backlight {
+  color: @fg;
+  font-size: 10pt;
+  margin-bottom: 10px;
+}
+
+#bluetooth.connected {
+  color: @green;
+}
+
+#bluetooth.off {
+  color: @bg4;
+}
+
+#wireplumber.muted {
+  color: @bg4;
+}
+
+#battery.charging {
+  color: @green;
+}
+
+#battery.warning:not(.charging) {
+  color: @red;
+}
+
+#group-applets {
+  margin-top: 10px;
+  /* background: @bg; */
+  /* border-radius: 6px; */
+  /* padding: 5px 8px; */
+  /* margin: 10px 10px 10px 5px; */
+  /* border: 1px solid @bg4; */
+}

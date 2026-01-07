@@ -1,0 +1,215 @@
+{
+  "position": "left",
+  "layer": "top",
+  "width": 16,
+  "modules-left": [
+    "group/group-applets"
+  ],
+  "modules-center": [
+    "hyprland/workspaces"
+  ],
+  "modules-right": [
+    "tray",
+    "group/clocks",
+    "custom/launcher",
+  ],
+  "hyprland/workspaces": {
+    "disable-scroll": false,
+    "on-scroll-up": "hyprctl dispatch split:workspace -1",
+    "on-scroll-down": "hyprctl dispatch split:workspace +1",
+    "persistent-workspaces": {
+      "*": 9,
+    }
+  },
+  "custom/launcher": {
+    "format": "",
+    "on-click": "rofi -i -modi powermenu:~/.config/rofi/powermenu.lua -show powermenu",
+    "tooltip": false
+  },
+  "tray": {
+    "icon-size": 16,
+    "spacing": 6
+  },
+  "clock#year": {
+    "format": "{:%y}",
+    "tooltip": false
+  },
+  "clock#month": {
+    "format": "{:%m}",
+    "tooltip": false
+  },
+  "clock#day": {
+    "format": "{:%d}",
+    "tooltip": false
+  },
+  "clock#hour": {
+    "format": "{:%I}",
+    "tooltip": false
+  },
+  "clock#min": {
+    "format": "{:%M}",
+    "tooltip": false
+  },
+  "clock#sec": {
+    "format": "{:%S}",
+    "interval": 1,
+    "tooltip": false
+  },
+  "clock#ampm": {
+    "format": "{:%p}",
+    "tooltip": false
+  },
+  "cpu": {
+    "format": "{usage}  ",
+    "on-click": "foot ytop",
+    "tooltip": false
+  },
+  "memory": {
+    "format": "{}  "
+  },
+  "backlight": {
+    "format": "{icon}",
+    "format-icons": [
+      "󰃚",
+      "󰃛",
+      "󰃜",
+      "󰃝",
+      "󰃞",
+      "󰃟",
+      "󰃠"
+    ],
+    "tooltip-format": "{percent}%"
+  },
+  "battery": {
+    "bat": "BAT0",
+    "states": {
+      "warning": 30,
+      "critical": 15
+    },
+    "format": "{icon}",
+    "format-charging": "󰂄",
+    "format-plugged": "󱐋",
+    "tooltip-format": "{capacity}% - {time}",
+    "format-icons": [
+      "󰁺",
+      "󰁻",
+      "󰁼",
+      "󰁽",
+      "󰁾",
+      "󰁿",
+      "󰂀",
+      "󰂁",
+      "󰂂",
+      "󰁹"
+    ],
+    "interval": 3
+  },
+  "battery#bat0": {
+    "bat": "BAT0"
+  },
+  "network": {
+    "format-wifi": "󰤨",
+    "format-ethernet": " {ifname}",
+    "format-linked": " {ifname} (No IP)",
+    "format-disconnected": "󰤭",
+    "tooltip-format": "{essid}"
+  },
+  "wireplumber": {
+    "format": "{icon}",
+    "format-bluetooth": "{icon}",
+    "format-bluetooth-muted": " {icon}",
+    "format-muted": "",
+    "format-icons": {
+      "headphone": "󰋋",
+      "default": [
+        "󰕿",
+        "󰖀",
+        "󰕾"
+      ]
+    },
+    "tooltip-format": "{volume}%"
+  },
+  "custom/weather": {
+    "exec": "~/.config/waybar/scripts/weather.sh Evanston",
+    "format": "{}",
+    "return-type": "json",
+    "interval": 600
+  },
+  "bluetooth": {
+    "format-on": "󰂯",
+    "format-off": "󰂲",
+    "format-connected": "󰂱",
+    "format-disabled": "󰂲",
+    "tooltip-format": "{controller_alias}\t{controller_address}\n\n{num_connections} connected",
+    "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{num_connections} connected\n\n{device_enumerate}",
+    "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
+    "tooltip-format-enumerate-connected-battery": "{device_alias}\t{device_address}\t{device_battery_percentage}%"
+  },
+  "custom/notifications": {
+    "tooltip": false,
+    "format": "{icon}",
+    "format-icons": {
+      "notification": "<span foreground='#c4746e'>󱅫</span>",
+      "none": "󰂚",
+      "dnd-notification": "<span foreground='#c4746e'>󰂛</span>",
+      "dnd-none": "󰂛",
+    },
+    "return-type": "json",
+    "exec-if": "which swaync-client",
+    "exec": "swaync-client -swb",
+    "on-click": "swaync-client -t -sw",
+    "on-click-right": "swaync-client -d -sw",
+    "escape": true
+  },
+  "mpris": {
+    // "player": "chromium",
+    "format": "{player_icon} :: {title} - {artist}",
+    "format-paused": "{status_icon} :: <i>{title} - {artist}</i>",
+    "max-length": 55,
+    "player-icons": {
+      "default": "<span foreground='#B1B946'>󰎇</span>",
+      "spotify": "<span foreground='#B1B946'>󰓇</span>"
+    },
+    "status-icons": {
+      "paused": ""
+    }
+  },
+  "custom/pacman": {
+    "format": "󰏖",
+    "tooltip-format": "{text}",
+    "interval": 3600, // every hour
+    "exec": "checkupdates | wc -l", // # of updates
+    "exec-if": "exit 0", // always run; consider advanced run conditions
+    "on-click": "foot paru; pkill -SIGRTMIN+8 waybar", // update system
+    "signal": 8
+  },
+  "custom/separator": {
+    "format": "--",
+    "interval": "once",
+    "tooltip": false
+  },
+  "group/clocks": {
+    "orientation": "inherit",
+    "modules": [
+      "clock#month",
+      "clock#day",
+      "clock#year",
+      "custom/separator",
+      "clock#hour",
+      "clock#min",
+      "clock#sec",
+      "clock#ampm"
+    ]
+  },
+  "group/group-applets": {
+    "orientation": "inherit",
+    "modules": [
+      "custom/notifications",
+      "battery",
+      "backlight",
+      "wireplumber",
+      "network",
+      "bluetooth",
+    ]
+  }
+}
