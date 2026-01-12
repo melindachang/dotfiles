@@ -65,6 +65,7 @@ window#waybar {
 
 #tray {
   background: @bg;
+  margin-bottom: 6px;
 }
 
 #clocks {
@@ -104,6 +105,10 @@ window#waybar {
 }
 
 #battery.warning:not(.charging) {
+  color: @yellow;
+}
+
+#battery.critical:not(.charging) {
   color: @red;
 }
 

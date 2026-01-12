@@ -23,7 +23,7 @@
   },
   "custom/launcher": {
     "format": "",
-    "on-click": "rofi -i -modi powermenu:~/.config/rofi/powermenu.lua -show powermenu",
+    // "on-click": "rofi -i -modi powermenu:~/.config/rofi/powermenu.lua -show powermenu",
     "tooltip": false
   },
   "tray": {
