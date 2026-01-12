@@ -7,11 +7,17 @@ formatter = { command = "taplo", args = ["format", "-"] }
 
 [[language]]
 name = "rust"
+formatter = { command = "rustfmt" }
 auto-format = true
 
 [[language]]
 name = "markdown"
 language-servers = ["marksman"]
+
+[[language]]
+name = "javascript"
+auto-format = true
+formatter = { command = "prettierd" }
 
 [language-server.rust-analyzer.config.check]
 command = "clippy"

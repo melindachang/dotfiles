@@ -15,7 +15,7 @@
 "ui.linenr.selected" = { fg = "dragon_yellow" }
 
 "ui.menu" = { fg = "fuji_white", bg = "sumi_ink_4" }
-"ui.menu.selected" = { fg = "none", bg = "sumi_ink_5" }
+"ui.menu.selected" = { bg = "sumi_ink_5" }
 "ui.menu.scroll" = { fg = "sumi_ink_6", bg = "sumi_ink_4" }
 
 "ui.popup" = { fg = "old_white", bg = "sumi_ink_4" }
@@ -66,7 +66,7 @@ string = "dragon_green_2"
 "string.special.symbol" = "dragon_red"
 "string.special.url" = { fg = "spring_violet_1", underline = { color = "spring_violet_1" } }
 
-variable = "none"
+# variable = "none"
 "variable.builtin" = { fg = "dragon_orange", modifiers = ["italic"] }
 "variable.parameter" = "dragon_gray"
 "variable.other.member" = "dragon_red"
@@ -93,11 +93,11 @@ warning = "dragon_yellow"
 info = "dragon_blue"
 hint = "dragon_aqua"
 
-diagnostic.error = "dragon_red"
-diagnostic.warning = "dragon_yellow"
-diagnostic.info = "dragon_blue"
-diagnostic.hint = "dragon_aqua"
-diagnostic.deprecated = "katana_gray"
+"diagnostic.error" = "dragon_red"
+"diagnostic.warning" = "dragon_yellow"
+"diagnostic.info" = "dragon_blue"
+"diagnostic.hint" = "dragon_aqua"
+"diagnostic.deprecated" = "katana_gray"
 
 # Diff
 
