@@ -9,7 +9,6 @@
 !/foot
 !/helix
 !/hypr
-# !/nvim
 !/rofi
 !/starship.toml
 !/swaync
@@ -21,12 +20,6 @@
 /fish/*
 !/fish/config.fish
 !/fish/fish_plugins
-!/fish/functions
-/fish/functions/*
-!/fish/functions/fish_replace_path.fish
-!/fish/functions/low_battery_alert.fish
-!/fish/functions/playpause.fish
-!/fish/functions/switch_wallpaper.fish
 
 
 !/tmux
