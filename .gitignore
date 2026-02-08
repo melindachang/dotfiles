@@ -9,13 +9,14 @@
 !/foot
 !/helix
 !/hypr
-!/rofi
 !/starship.toml
-!/swaync
 !/waybar
-!/widgets
 !/yazi
 !/zathura
+
+!/emacs
+/emacs/*
+!/emacs/init.el
 
 !/fish/
 /fish/*
@@ -29,3 +30,4 @@
 
 !/screenshots
 !/wallpapers
+!/scripts

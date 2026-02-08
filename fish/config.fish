@@ -1,13 +1,6 @@
 ## ENVIRONMENT VARIABLES ##
 eval (dircolors -c | sed 's/^setenv/set -x/')
 
-## RUN ON INIT SHELL ##
-if status --is-login
-    if test (tty) = /dev/tty1
-        start-hyprland
-    end
-end
-
 if status is-interactive
     # Commands to run in interactive sessions can go here
     zoxide init fish | source

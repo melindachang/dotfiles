@@ -1,5 +1,5 @@
 set selection-clipboard clipboard
 
-set font "monospace 10"
+set font "monospace 11"
 
 include themes/kanagawa_paper

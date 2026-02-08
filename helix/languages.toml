@@ -1,3 +1,77 @@
+# ==========================================
+# LANGUAGE SETUP
+# ==========================================
+
+[[language]]
+name = "bash"
+auto-format = true
+
+[[language]]
+name = "c"
+auto-format = true
+formatter = { command = "clang-format", args = ["--style", "Mozilla"] }
+
+[[language]]
+name = "css"
+auto-format = true
+formatter = { command = "dprint", args = ["fmt", "--stdin", "css"] }
+
+[[language]]
+name = "dart"
+auto-format = true
+formatter = { command = "dart", args = ["format"] }
+
+[[language]]
+name = "glsl"
+auto-format = true
+formatter = { command = "clang-format" }
+
+[[language]]
+name = "javascript"
+auto-format = true
+formatter = { command = "dprint", args = ["fmt", "--stdin", "js"] }
+
+[[language]]
+name = "json"
+auto-format = true
+formatter = { command = "dprint", args = ["fmt", "--stdin", "json"] }
+
+[[language]]
+name = "jsonc"
+auto-format = true
+formatter = { command = "dprint", args = ["fmt", "--stdin", "jsonc"] }
+
+[[language]]
+name = "kak"
+scope = "source.kak"
+file-types = ["kak"]
+language-servers = ["kakoune-lsp"]
+
+[[language]]
+name = "markdown"
+language-servers = ["marksman"]
+
+[[language]]
+name = "python"
+language-servers = ["basedpyright", "ruff"]
+auto-format = true
+formatter = { command = "ruff", args = ["format", "-"] }
+
+[[language]]
+name = "rust"
+auto-format = true
+formatter = { command = "rustfmt" }
+
+[[language]]
+name = "scss"
+auto-format = true
+formatter = { command = "dprint", args = ["fmt", "--stdin", "scss"] }
+
+[[language]]
+name = "svelte"
+auto-format = true
+formatter = { command = "dprint", args = ["fmt", "--stdin", "svelte"] }
+
 [[language]]
 name = "toml"
 auto-format = true
@@ -6,23 +80,42 @@ language-servers = ["taplo"]
 formatter = { command = "taplo", args = ["format", "-"] }
 
 [[language]]
-name = "rust"
-formatter = { command = "rustfmt" }
+name = "tsx"
 auto-format = true
+formatter = { command = "dprint", args = ["fmt", "--stdin", "tsx"] }
 
 [[language]]
-name = "markdown"
-language-servers = ["marksman"]
+name = "typescript"
+auto-format = true
+formatter = { command = "dprint", args = ["fmt", "--stdin", "ts"] }
 
 [[language]]
-name = "javascript"
+name = "typst"
 auto-format = true
-formatter = { command = "prettierd" }
+formatter = { command = "typstyle" }
+
+[[language]]
+name = "yaml"
+auto-format = true
+formatter = { command = "dprint", args = ["fmt", "--stdin", "yaml"] }
+
+# ==========================================
+# LSP CONFIG
+# ==========================================
+
+[language-server.kakoune-lsp]
+command = "kak-lsp"
+
+[language-server.ruff]
+command = "ruff"
+args = ["server"]
+environment = { "RUFF_TRACE" = "messages" }
 
 [language-server.rust-analyzer.config.check]
 command = "clippy"
+formatter = { command = "dprint", args = ["fmt", "--stdin", ""] }
 
 [language-server.harper-ls]
-args = ["--stdio"]
 command = "harper-ls"
+args = ["--stdio"]
 config = { harper-ls = { diagnosticSeverity = "error", linters = { long_sentences = false } } }

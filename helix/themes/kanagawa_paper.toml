@@ -47,11 +47,11 @@ constant = "dragon_orange"
 "constant.character" = { fg = "dragon_green_2" }
 "constant.numeric" = "dragon_pink"
 
+namespace = "dragon_pink"
+
 "punctuation.delimiter" = "dragon_gray_2"
 "punctuation.bracket" = "dragon_gray_2"
 "punctuation.special" = "dragon_red"
-
-namespace = "dragon_pink"
 
 operator = "dragon_red"
 function = "dragon_blue_2"
@@ -71,6 +71,8 @@ string = "dragon_green_2"
 "variable.parameter" = "dragon_gray"
 "variable.other.member" = "dragon_red"
 
+tag = "dragon_yellow"
+
 "markup.heading.1" = "dragon_red"
 "markup.heading.2" = "dragon_pink"
 "markup.heading.3" = "dragon_blue"
@@ -88,16 +90,20 @@ special = "dragon_yellow"
 
 # Diagnostics
 
-error = "dragon_red"
+# gutter indicators
+# error = "dragon_red"
+error = { fg = "dragon_red", bg = "winter_red" }
 warning = "dragon_yellow"
 info = "dragon_blue"
 hint = "dragon_aqua"
 
-"diagnostic.error" = "dragon_red"
-"diagnostic.warning" = "dragon_yellow"
-"diagnostic.info" = "dragon_blue"
-"diagnostic.hint" = "dragon_aqua"
-"diagnostic.deprecated" = "katana_gray"
+diagnostic = {}
+
+# "diagnostic.error" = "dragon_red"
+# "diagnostic.warning" = "dragon_yellow"
+# "diagnostic.info" = "dragon_blue"
+# "diagnostic.hint" = "dragon_aqua"
+# "diagnostic.deprecated" = "katana_gray"
 
 # Diff
 

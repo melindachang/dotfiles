@@ -43,7 +43,7 @@ window#waybar {
 }
 
 #workspaces button.urgent {
-  color: @magenta;
+  color: @red;
 }
 
 #workspaces button:hover {

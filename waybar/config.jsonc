@@ -7,23 +7,59 @@
   ],
   "modules-center": [
     "hyprland/workspaces"
+    // "sway/workspaces"
   ],
   "modules-right": [
     "tray",
     "group/clocks",
-    "custom/launcher",
+    "custom/launcher"
   ],
+  // "sway/workspaces": {
+  //   "disable-scroll": true,
+  //   "all-outputs": true,
+  //   "persistent-workspaces": {
+  //     "1": [],
+  //     "2": [],
+  //     "3": [],
+  //     "4": [],
+  //     "5": [],
+  //     "6": [],
+  //     "7": [],
+  //     "8": [],
+  //     "9": []
+  //   }
+  // },
   "hyprland/workspaces": {
-    "disable-scroll": false,
+    "disable-scroll": true,
     "on-scroll-up": "hyprctl dispatch split:workspace -1",
     "on-scroll-down": "hyprctl dispatch split:workspace +1",
     "persistent-workspaces": {
-      "*": 9,
+      "*": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "HDMI-A-1": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
     }
   },
   "custom/launcher": {
     "format": "",
-    // "on-click": "rofi -i -modi powermenu:~/.config/rofi/powermenu.lua -show powermenu",
     "tooltip": false
   },
   "tray": {
@@ -152,7 +188,7 @@
       "notification": "<span foreground='#c4746e'>󱅫</span>",
       "none": "󰂚",
       "dnd-notification": "<span foreground='#c4746e'>󰂛</span>",
-      "dnd-none": "󰂛",
+      "dnd-none": "󰂛"
     },
     "return-type": "json",
     "exec-if": "which swaync-client",
@@ -209,7 +245,7 @@
       "backlight",
       "wireplumber",
       "network",
-      "bluetooth",
+      "bluetooth"
     ]
   }
 }
