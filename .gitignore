@@ -14,9 +14,9 @@
 !/yazi
 !/zathura
 
-!/emacs
-/emacs/*
-!/emacs/init.el
+# !/emacs
+# /emacs/*
+# !/emacs/init.el
 
 !/fish/
 /fish/*
