@@ -2,8 +2,8 @@ add_newline = false
 scan_timeout = 100
 
 [character]
-error_symbol = "[  ✗](bold red)"
-success_symbol = "[  λ](bold red)"
+error_symbol = "[λ](bold red)"
+success_symbol = "[λ](bold red)"
 
 [package]
 disabled = false
@@ -25,8 +25,19 @@ read_only_style = "bold white"
 [hostname]
 ssh_only = false
 trim_at = ".companyname.com"
-disabled = false
-style = "bold italic green"
+disabled = true
+format = '[@hostname]($style)'
+style = "dimmed cyan"
+
+[git_branch]
+format = '[](dimmed cyan) [$symbol$branch(:$remote_branch)]($style) '
+symbol = ' '
+style = ''
+
+[git_status]
+modified = ''
+untracked = '🞈'
+style = 'red'
 
 [git_commit]
 commit_hash_length = 8
@@ -43,14 +54,3 @@ style = "bg:transparent"
 symbol = "💥 "
 format = '[\[$symbol$status\]]($style) '
 disabled = false
-
-[php]
-format = "via [🐘 $version](147 bold) "
-
-[docker_context]
-format = "via [🐋 $context](blue bold)"
-
-[dotnet]
-symbol = "🥅 "
-style = "green"
-heuristic = false
