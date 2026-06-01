@@ -15,5 +15,5 @@ hash = "635b0feb9215772d22020eb0abf0bb34"
 
 [[flavor.deps]]
 use = "melindachang/kanagawa-paper"
-rev = "e7f4d03"
-hash = "3f84eceb475a9d1c1ea911d93a1d1898"
+rev = "d81d84b"
+hash = "785a318dd87925743e26b2de0b6f3afc"

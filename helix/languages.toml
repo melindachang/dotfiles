@@ -14,13 +14,7 @@ formatter = { command = "clang-format", args = ["--style", "Chromium"] }
 [[language]]
 name = "css"
 auto-format = true
-formatter = { command = "dprint", args = ["fmt", "--stdin", "css"] }
-language-servers = ["vscode-css-languageserver", "tailwindcss-ls"]
-
-[[language]]
-name = "dart"
-auto-format = true
-formatter = { command = "dart", args = ["format"] }
+language-servers = ["vscode-css-languageserver", "tailwindcss-ls", "oxfmt"]
 
 [[language]]
 name = "glsl"
@@ -28,25 +22,24 @@ auto-format = true
 formatter = { command = "clang-format" }
 
 [[language]]
+name = "html"
+auto-format = true
+language-servers = ["vscode-html-languageserver", "oxfmt"]
+
+[[language]]
 name = "javascript"
 auto-format = true
-formatter = { command = "dprint", args = ["fmt", "--stdin", "js"] }
+language-servers = ["typescript-language-server", "oxfmt", "oxlint"]
 
 [[language]]
 name = "json"
 auto-format = true
-formatter = { command = "dprint", args = ["fmt", "--stdin", "json"] }
+language-servers = ["vscode-json-languageserver", "oxfmt"]
 
 [[language]]
-name = "jsonc"
+name = "latex"
 auto-format = true
-formatter = { command = "dprint", args = ["fmt", "--stdin", "jsonc"] }
-
-[[language]]
-name = "kak"
-scope = "source.kak"
-file-types = ["kak"]
-language-servers = ["kakoune-lsp"]
+formatter = { command = "tex-fmt", args = ["--stdin"] }
 
 [[language]]
 name = "markdown"
@@ -65,38 +58,35 @@ auto-format = true
 formatter = { command = "rustfmt" }
 
 [[language]]
-name = "scss"
+name = "scheme"
+language-servers = ["steel-language-server"]
 auto-format = true
-formatter = { command = "dprint", args = ["fmt", "--stdin", "scss"] }
+formatter = { command = "raco", args = ["fmt", "--width", "80"] }
 
 [[language]]
-name = "scheme"
-# auto-format = true
-# formatter = { command = "raco", args = ["fmt", "--width", "80"] }
-language-servers = ["steel-language-server"]
+name = "scss"
+auto-format = true
+language-servers = ["vscode-css-languageserver", "tailwindcss-ls", "oxfmt"]
 
 [[language]]
 name = "svelte"
 auto-format = true
-formatter = { command = "dprint", args = ["fmt", "--stdin", "svelte"] }
-language-servers = ["svelteserver", "tailwindcss-ls"]
+language-servers = ["svelteserver", "tailwindcss-ls", "oxfmt", "oxlint"]
 
 [[language]]
 name = "toml"
 auto-format = true
-roots = ["."]
 language-servers = ["taplo"]
-formatter = { command = "taplo", args = ["format", "-"] }
 
 [[language]]
 name = "tsx"
 auto-format = true
-formatter = { command = "dprint", args = ["fmt", "--stdin", "tsx"] }
+language-servers = ["typescript-language-server", "oxfmt", "oxlint"]
 
 [[language]]
 name = "typescript"
 auto-format = true
-formatter = { command = "dprint", args = ["fmt", "--stdin", "ts"] }
+language-servers = ["typescript-language-server", "oxfmt", "oxlint"]
 
 [[language]]
 name = "typst"
@@ -104,9 +94,13 @@ auto-format = true
 formatter = { command = "typstyle" }
 
 [[language]]
+name = "vue"
+auto-format = true
+language-servers = ["vue-language-server", "oxfmt", "oxlint", "tailwindcss-ls"]
+
+[[language]]
 name = "yaml"
 auto-format = true
-formatter = { command = "dprint", args = ["fmt", "--stdin", "yaml"] }
 
 # ==========================================
 # LSP CONFIG
@@ -117,14 +111,41 @@ command = "harper-ls"
 args = ["--stdio"]
 config = { harper-ls = { diagnosticSeverity = "error", linters = { long_sentences = false } } }
 
+[language-server.texlab.config.texlab.build]
+onSave = true
+forwardSearchAfter = true
+executable = "latexmk"
+args = [
+  "-lualatex",
+  "-interaction=nonstopmode",
+  "-synctex=1",
+  "-shell-escape",
+  "%f",
+]
+
+[language-server.texlab.config.texlab.forwardSearch]
+executable = "zathura"
+args = ["--synctex-forward", "%l:%c:%f", "%p"]
+
+[language-server.texlab.config.texlab.chktex]
+onOpenAndSave = true
+onEdit = true
+
+[language-server.oxfmt]
+command = "oxfmt"
+args = ["--lsp"]
+
+[language-server.oxlint]
+command = "oxlint"
+args = ["--lsp"]
+
 [language-server.ruff]
 command = "ruff"
 args = ["server"]
 environment = { "RUFF_TRACE" = "messages" }
 
-[language-server.rust-analyzer.config.check]
-command = "clippy"
-formatter = { command = "dprint", args = ["fmt", "--stdin", ""] }
+[language-server.rust-analyzer.config]
+check.command = "clippy"
 
 [language-server.steel-language-server]
 command = "steel-language-server"
